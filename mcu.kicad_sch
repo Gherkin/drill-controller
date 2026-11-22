@@ -2528,6 +2528,7 @@
 		)
 		(uuid "ff04db94-f0aa-4cb8-8e80-31bacdaf49ad")
 	)
+	(text "Layout: each cap goes at its own U2 supply pin pair (D63 p68 Fig. 16).\nSmallest value closest to the pin. Own GND via at each cap.\nC1 100n: VDD 24 / VSS 23\nC2 100n: VDD 36 / VSS 35\nC3 100n: VDD 48 / VSS 47 (also covers VBAT 1)\nC4 4u7: bulk, next to C3 at VDD 48 / VBAT 1\nC5 10n + C6 1u: VDDA 21 / VSSA 19\nC7 100n + C8 1u: VREF+ 20 / VSSA 19" (exclude_from_sim no) (at 190.5 50.8 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "043d1d16-fbc8-4227-abbe-a48e8c185185"))
 	(symbol
 		(lib_id "Device:C")
 		(at 210.82 60.96 0)
