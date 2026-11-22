@@ -93,8 +93,8 @@ LQFP-48 pin numbers come from the C529355 symbol. Alternate functions are from D
 | 13 | PA5 | SPI1_SCK | AF5 | AS5047P CLK |
 | 14 | PA6 | SPI1_MISO | AF5 | AS5047P MISO |
 | 15 | PA7 | SPI1_MOSI | AF5 | AS5047P MOSI |
-| 16 | PB0 | ADC1_IN15 | analog | MOT_V1 (OUT1 divider, optional, for back-EMF/Kₑ) |
-| 17 | PB1 | ADC1_IN12 | analog | MOT_V2 (OUT2 divider, optional) |
+| 16 | PB0 | ADC1_IN15 | analog | MOT_V1 (OUT1 divider R6 120 k/R7 10 k, optional, for back-EMF/Kₑ). Sized like VBUS_SENSE: 38.9 V clamp → 2.99 V, under VDDA. PB0 is TT_a: 4.0 V abs max (D63 p69), no positive injection allowed (D63 p110). At −0.7 V on OUT1 the pin sees −54 mV, well inside the V_SS − 0.3 V minimum (D63 p69), so the D63 p124 Schottky advice for pins that inject negative current is not needed here |
+| 17 | PB1 | ADC1_IN12 | analog | MOT_V2 (OUT2 divider R8 120 k/R9 10 k, optional). Same as MOT_V1; PB1 is TT_a (D63 p53) |
 | 18 | PB2 | GPIO out | — | DRV_nSLEEP via R28 1 k (pull-down in DRV8874; Q4 forces low at stop) |
 | 22 | PB10 | TIM2_CH3 | AF1 | SPINDLE_I (index) |
 | 25 | PB11 | GPIO out | — | AS5047P CSn |
