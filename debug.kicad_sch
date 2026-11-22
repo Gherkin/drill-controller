@@ -1411,7 +1411,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TLV770:TLV77012PDBVR"
+		(symbol "TLV770:TLV77033PDBVR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1475,7 +1475,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "TLV77012PDBVR"
+			(property "ki_keywords" "TLV77033PDBVR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1497,7 +1497,7 @@
 					)
 				)
 			)
-			(symbol "TLV77012PDBVR_0_1"
+			(symbol "TLV77033PDBVR_0_1"
 				(pin power_in line
 					(at -12.7 2.54 0)
 					(length 7.62)
@@ -1571,7 +1571,7 @@
 					)
 				)
 			)
-			(symbol "TLV77012PDBVR_1_1"
+			(symbol "TLV77033PDBVR_1_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -3.81)
@@ -6568,7 +6568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TLV770:TLV77012PDBVR")
+		(lib_id "TLV770:TLV77033PDBVR")
 		(at 156.21 45.72 0)
 		(mirror y)
 		(unit 1)
