@@ -5,6 +5,129 @@
 	(uuid "1ee08e93-0afb-4a40-9cd1-84cb4238b2f2")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "C1855818:DRV8874PWPR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4213,4 +4336,17 @@
 	(text "C42, C43, C11 carry the PWM ripple current on VM (#34).\nLayout: put C42, C43, C11 right at U5 pin 11 (VM),\nshortest loop to U5 pin 9 (PGND). C21 can take only ~0.17 A rms." (exclude_from_sim no) (at 68.58 147.32 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4f5c4441-c572-4f31-b691-171e164e8b62"))
 	(text "D9 clamps IPROPI to +3V3 (#33).\nLayout: put D9 next to U2 pin 9 (PA1).\nShort traces to PA1 and to +3V3." (exclude_from_sim no) (at 238.76 158.75 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3f0c9a7e-5b2d-4e61-9c84-1d7a6e2b8f53"))
 	(label "IPROPI" (at 243.84 137.16 270) (effects (font (size 1.27 1.27)) (justify right)) (uuid "a6ed26a9-c67d-4b1e-9c72-f5618b0f6786"))
+	(symbol (lib_id "Connector:TestPoint") (at 88.9 170.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board yes) (in_pos_files no) (dnp no) (uuid "f3c43d35-3db7-4258-956c-7fe67138d4ee") (property "Reference" "TP13" (at 91.44 166.37 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "TestPoint" (at 91.44 168.91 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" (at 93.98 170.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 93.98 170.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "IPROPI test pad (#36)" (at 88.9 170.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "739773d9-f979-4cce-b1ea-b6becca3e30a")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e4f217f6-7008-4bdb-bd93-0c29a1b47c23" (reference "TP13") (unit 1)))))
+	(wire (pts (xy 88.9 170.18) (xy 88.9 175.26)) (stroke (width 0) (type default)) (uuid "361406d5-9cb6-46d8-ac46-ea0767313ae8"))
+	(label "IPROPI" (at 88.9 175.26 270) (effects (font (size 1.27 1.27)) (justify right)) (uuid "b650e2bc-ee1b-4e6b-9ac7-4b18b1f1d072"))
+	(symbol (lib_id "Connector:TestPoint") (at 101.6 170.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board yes) (in_pos_files no) (dnp no) (uuid "3efa6d42-a7c3-4310-b04c-7c0789f3608f") (property "Reference" "TP14" (at 104.14 166.37 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "TestPoint" (at 104.14 168.91 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" (at 106.68 170.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 106.68 170.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "DRV_VREF test pad (#36)" (at 101.6 170.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e43c9bbc-35d0-4f1f-a79d-8aa9d8aa6374")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e4f217f6-7008-4bdb-bd93-0c29a1b47c23" (reference "TP14") (unit 1)))))
+	(wire (pts (xy 101.6 170.18) (xy 101.6 175.26)) (stroke (width 0) (type default)) (uuid "e9ae1b3b-efa5-423d-9907-92a4346c85e7"))
+	(label "DRV_VREF" (at 101.6 175.26 270) (effects (font (size 1.27 1.27)) (justify right)) (uuid "4c129385-2d75-444a-83dd-0a4b1ec81ab6"))
+	(symbol (lib_id "Connector:TestPoint") (at 114.3 170.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board yes) (in_pos_files no) (dnp no) (uuid "841c5140-4b1b-48ae-9837-4b65d5e46925") (property "Reference" "TP15" (at 116.84 166.37 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "TestPoint" (at 116.84 168.91 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" (at 119.38 170.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 119.38 170.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Motor OUT1 test pad (#36)" (at 114.3 170.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6b7c3520-c9d7-4317-91f9-b861e4022968")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e4f217f6-7008-4bdb-bd93-0c29a1b47c23" (reference "TP15") (unit 1)))))
+	(wire (pts (xy 114.3 170.18) (xy 114.3 175.26)) (stroke (width 0) (type default)) (uuid "04980eef-1399-487d-95df-6d502c322a64"))
+	(label "MOTOR_A" (at 114.3 175.26 270) (effects (font (size 1.27 1.27)) (justify right)) (uuid "5309605b-e7f9-486c-89ee-ebe98ca748d2"))
+	(symbol (lib_id "Connector:TestPoint") (at 127 170.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board yes) (in_pos_files no) (dnp no) (uuid "2c8efdcd-40cd-4d37-984f-b99266a64e4e") (property "Reference" "TP16" (at 129.54 166.37 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "TestPoint" (at 129.54 168.91 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" (at 132.08 170.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 132.08 170.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Motor OUT2 test pad (#36)" (at 127 170.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "34ddeef5-d149-438b-b2fe-a7223aad0906")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e4f217f6-7008-4bdb-bd93-0c29a1b47c23" (reference "TP16") (unit 1)))))
+	(wire (pts (xy 127 170.18) (xy 127 175.26)) (stroke (width 0) (type default)) (uuid "fb49ea5b-b8e7-4acd-bb02-d48869df5fff"))
+	(label "MOTOR_B" (at 127 175.26 270) (effects (font (size 1.27 1.27)) (justify right)) (uuid "f3b3fd22-7d20-49b9-a627-6312245ddd32"))
+	(text "Layout: TP13-TP16 are bring-up test pads, not fitted (#36).\nTP13 (IPROPI) next to R5. TP15/TP16 on the OUT1/OUT2 copper, not on a thin stub." (exclude_from_sim no) (at 81.28 186.69 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "982d8760-ee25-4870-ae6c-ac2c48444845"))
 )
