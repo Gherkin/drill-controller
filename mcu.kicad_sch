@@ -965,6 +965,7 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "C20917:AO3400A" (in_bom yes) (on_board yes) (property "Reference" "Q" (id 0) (at 0 10.16 0) (effects (font (size 1.27 1.27) ) ) ) (property "Value" "AO3400A" (id 1) (at 0 -10.16 0) (effects (font (size 1.27 1.27) ) ) ) (property "Footprint" "C20917:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR" (id 2) (at 0 -12.70 0) (effects (font (size 1.27 1.27) ) hide) ) (property "Datasheet" "https://lcsc.com/product-detail/MOSFET_AOS_AO3400A_AO3400A_C20917.html" (id 3) (at 0 -15.24 0) (effects (font (size 1.27 1.27) ) hide) ) (property "LCSC Part" "C20917" (id 5) (at 0 -17.78 0) (effects (font (size 1.27 1.27) ) hide) ) (symbol "AO3400A_0_1" (polyline (pts (xy 0.00 1.78) (xy 2.54 1.78) (xy 2.54 2.54) (xy 5.08 2.54) (xy 5.08 0.51) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 0.00 -0.00) (xy 2.54 -0.00) (xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -0.76) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 2.54 -1.78) (xy 0.00 -1.78) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy -0.51 2.29) (xy -0.51 -2.29) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 0.00 2.29) (xy 0.00 1.27) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 0.00 -0.51) (xy 0.00 0.51) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 0.00 -2.29) (xy 0.00 -1.27) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy -2.54 -0.00) (xy -0.51 -0.00) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 6.10 0.51) (xy 5.59 0.51) (xy 4.57 0.51) (xy 4.06 0.51) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 0.00 -0.00) (xy 1.52 -0.51) (xy 1.52 0.51) (xy 0.00 -0.00) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type background)) ) (polyline (pts (xy 5.08 0.51) (xy 4.32 -0.76) (xy 5.84 -0.76) (xy 5.08 0.51) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type background)) ) (pin unspecified line (at 2.54 5.08 270) (length 2.54) (name "D" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))) ) (pin unspecified line (at -5.08 -0.00 0) (length 2.54) (name "G" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))) ) (pin unspecified line (at 2.54 -5.08 90) (length 2.54) (name "S" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))) ) ) )
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2023,16 +2024,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 83.82) (xy 167.64 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9d7a20e-87e2-4c0f-9696-2f3d97f5afcd")
-	)
-	(wire
-		(pts
 			(xy 162.56 93.98) (xy 167.64 93.98)
 		)
 		(stroke
@@ -2288,7 +2279,7 @@
 	)
 	(hierarchical_label "DRV_nSLEEP"
 		(shape output)
-		(at 167.64 83.82 0)
+		(at 175.26 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5185,4 +5176,12 @@
 			)
 		)
 	)
+	(symbol (lib_id "Device:R") (at 166.37 83.82 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "b894e14f-76fd-4c04-8390-170005515734") (property "Reference" "R28" (at 166.37 81.28 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "1k" (at 166.37 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Resistor" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C11702" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "20c3edf8-1914-497e-b874-e7e41d5fe319")) (pin "2" (uuid "f67a0ec0-6cec-42ce-8473-33b12b71c813")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "R28") (unit 1)))))
+	(wire (pts (xy 170.18 83.82) (xy 175.26 83.82)) (stroke (width 0) (type default)) (uuid "1db8e5b4-ff67-4f1b-b4af-9679c3d8606e"))
+	(symbol (lib_id "C20917:AO3400A") (at 195.58 83.82 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "65576532-c272-4fab-a276-a70ebf9fa9b3") (property "Reference" "Q4" (at 200.66 82.55 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "AO3400A" (at 200.66 85.09 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "C20917:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR" (at 195.58 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "https://lcsc.com/product-detail/MOSFET_AOS_AO3400A_AO3400A_C20917.html" (at 195.58 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Pulls DRV_nSLEEP low when ENABLE_IN is high (stop)" (at 195.58 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C20917" (at 195.58 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "3" (uuid "7758004c-acbc-4bf9-8c7b-7e42a522a700")) (pin "1" (uuid "aa360922-8f40-4922-bba8-00c8430de3bc")) (pin "2" (uuid "9128bb40-79a2-43aa-aa14-47fb18be4276")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "Q4") (unit 1)))))
+	(wire (pts (xy 190.5 83.82) (xy 185.42 83.82)) (stroke (width 0) (type default)) (uuid "1378f6d6-6d7b-44f4-874c-24f260a2d07e"))
+	(label "ENABLE_IN" (at 185.42 83.82 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "3f7afa9f-cf37-45b6-839c-f68522e33e6c"))
+	(wire (pts (xy 198.12 78.74) (xy 198.12 76.2)) (stroke (width 0) (type default)) (uuid "4f30044a-38dd-4487-9549-2b0d94025df1"))
+	(label "DRV_nSLEEP" (at 198.12 76.2 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left)) (uuid "51e005bf-9e6c-414c-970f-d15acb89fcc7"))
+	(symbol (lib_id "power:GND") (at 198.12 88.9 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "c8786a32-b428-4931-bfcc-36d0ce1a61f9") (property "Reference" "#PWR120" (at 198.12 95.25 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 198.12 93.98 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 198.12 88.9 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 198.12 88.9 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 198.12 88.9 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "75e070d3-4039-424e-bc25-3ea8b2d9de39")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "#PWR120") (unit 1)))))
 )

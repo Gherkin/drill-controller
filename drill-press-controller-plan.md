@@ -94,7 +94,7 @@ LQFP-48 pin numbers come from the C529355 symbol. Alternate functions are from D
 | 15 | PA7 | SPI1_MOSI | AF5 | AS5047P MOSI |
 | 16 | PB0 | ADC1_IN15 | analog | MOT_V1 (OUT1 divider, optional, for back-EMF/Kₑ) |
 | 17 | PB1 | ADC1_IN12 | analog | MOT_V2 (OUT2 divider, optional) |
-| 18 | PB2 | GPIO out | — | DRV_nSLEEP (pull-down) |
+| 18 | PB2 | GPIO out | — | DRV_nSLEEP via R28 1 k (pull-down in DRV8874; Q4 forces low at stop) |
 | 22 | PB10 | TIM2_CH3 | AF1 | SPINDLE_I (index) |
 | 25 | PB11 | GPIO out | — | AS5047P CSn |
 | 26 | PB12 | GPIO out | — | AS5311 CSn |
@@ -138,7 +138,8 @@ LQFP-48 pin numbers come from the C529355 symbol. Alternate functions are from D
 - At reset the DAC is off and R4 (100 k) holds VREF at 0 V. The bridge then cannot drive current until firmware sets the limit, so it fails safe.
 - IMODE = 20 kΩ to GND (R2): cycle-by-cycle chopping, automatic retry after overcurrent, and nFAULT also reports chopping (D56 Table 6, p13). The 20 kΩ band is 18.6–21.4 kΩ (D56 p5), so use 1 %.
 - C14 (10 nF on IPROPI) is DNP. D56 p13 suggests it only if transients trigger the chopping early.
-- nSLEEP has an internal 100 kΩ pull-down (D56 p5), so it gets no external resistor.
+- nSLEEP has an internal 100 kΩ pull-down (D56 p5), so it gets no external pull-down.
+- Hardware stop (issue #11), on the MCU sheet: Q4 AO3400A (C20917, Basic) pulls DRV_nSLEEP to GND when ENABLE_IN is high (SW2 at stop), whatever the MCU does. Gate on ENABLE_IN, drain on DRV_nSLEEP, source on GND. PB2 drives DRV_nSLEEP through R28 1 kΩ 0402 (C11702, Basic), so PB2 high against Q4 on draws 3.3 mA instead of a short. Numbers: Q4 V_GS(th) ≤ 1.45 V and R_DS(on) ≤ 48 mΩ at V_GS 2.5 V (D82 p2), so 3.3 V on the gate turns it fully on; nSLEEP is then ≈ 0 V, under V_IL max 0.8 V (D56 p5). With Q4 off and PB2 high, nSLEEP sits at 3.3 V minus at most 75 µA × 1 kΩ = 75 mV, over V_IH min 1.5 V (D56 p5). The driver enters sleep within t_SLEEP 1 ms (D56 p5), and the motor coasts. R22/C31 (10 k, 100 nF) slow the gate by about 1 ms on the way to stop. Firmware still reads ENABLE_IN on PC14 and must also drop PB2.
 - MOTOR_A and MOTOR_B leave the sheet as hierarchical labels. The motor connector is not chosen yet.
 
 ### 4.5 USB power path (issue #1)
