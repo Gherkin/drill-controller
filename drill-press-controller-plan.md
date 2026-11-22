@@ -114,7 +114,7 @@ LQFP-48 pin numbers come from the C529355 symbol. Alternate functions are from D
 | 42 | PB5 | TIM3_CH2 | AF2 | UI encoder B |
 | 43 | PB6 | TIM4_CH1 | AF2 | HEIGHT_A |
 | 44 | PB7 | TIM4_CH2 | AF2 | HEIGHT_B |
-| 45 | PB8-BOOT0 | BOOT0 | — | Pull-down, test pad |
+| 45 | PB8-BOOT0 | BOOT0 | — | Pull-down R1 10 k, test pad TP8 (not fitted by JLC, #25) |
 | 46 | PB9 | TIM4_CH4 | AF2 | HEIGHT_I (index) |
 | 2 | PC13 | TIM1_BKIN | AF2 | DRV_nFAULT (pull-up). Hardware PWM stop on fault |
 | 3 | PC14 | GPIO in | — | ENABLE_IN (SW2 run/stop, low = run) |
