@@ -18,4 +18,5 @@
 	(lib (name "C20617921") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C20617921/C20617921.pretty") (options "") (descr "H5VUD5U ESD SOD-523"))
 	(lib (name "C5446") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C5446/C5446.pretty") (options "") (descr "XC6206P332MR-G LDO 3.3V"))
 	(lib (name "C2480") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C2480/C2480.pretty") (options "") (descr "SS14 Schottky SMA"))
+	(lib (name "C94599") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C94599/C94599.pretty") (options "") (descr "MLT-8530 magnetic buzzer SMD 8.5x8.5"))
 )
