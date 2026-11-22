@@ -8840,6 +8840,14 @@
 		(path "/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e4f217f6-7008-4bdb-bd93-0c29a1b47c23/f59e9e35-3b59-4882-8893-586ce4a58372")
 		(sheetname "/Main Board/Motor Driver/")
 		(sheetfile "motor_driver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "17" "16" "15" "14" "13" "12" "11"
+					"10" "9"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9087,6 +9095,9 @@
 			(drill 0.3)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "EP_17")
+			(pintype "unspecified")
 			(uuid "35150f8d-909f-4413-ba23-9b32690b5318")
 		)
 		(pad "17" thru_hole circle
@@ -9095,6 +9106,9 @@
 			(drill 0.3)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "EP_17")
+			(pintype "unspecified")
 			(uuid "2f7fe19b-8714-48a2-9767-a28674128fea")
 		)
 		(pad "17" smd rect
@@ -9112,6 +9126,9 @@
 			(drill 0.3)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "EP_17")
+			(pintype "unspecified")
 			(uuid "dfd74d8e-c14b-4e5c-a0f8-874792cda0ea")
 		)
 		(pad "17" thru_hole circle
@@ -9120,6 +9137,9 @@
 			(drill 0.3)
 			(layers "*.Cu")
 			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "EP_17")
+			(pintype "unspecified")
 			(uuid "9f7110e5-3dad-4813-a776-d338d4fbd349")
 		)
 		(embedded_fonts no)
