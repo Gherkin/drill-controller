@@ -47,7 +47,7 @@ Closed-loop spindle controller for a 20k rpm micro-drilling press. RPM is the co
 | USB | J10 HYCW498-USBC16-735B USB-C 16P (C42400252, Extended; same part as netdaq, no Basic/Preferred USB-C exists). USB FS device on PA11/PA12, D+ pull-up is internal (DPPU, D64 p2017, p2039). R23/R24 5.1 k 1 % on CC1/CC2 (C25905, Basic). D5/D6/D7 H5VUD5U ESD on DP, DM, VBUS (C20617921, Preferred; V_RWM 5 V, V_BR 6–9 V, 0.8 pF max, D68 p1–2). VBUS_USB → D8 SS14 (C2480, Basic) → U8 XC6206P332MR-G (C5446, Basic) → +3V3, C32/C33/C34 1 µF 50 V 0603 (C15849, Basic, same as netdaq; 1 µF in/out per D69 p1) | See 4.5 |
 | Display | HS20HS072RX 2.0" 320×240 TFT, ST7789, on J8 (LCSC C5329582; D67) | RPM, depth, chip-load bar, torque bar, status. See 4.3 |
 | Input | Rotary encoder with push button | Later option: BLDC haptic knob (MT6701 + gimbal motor) |
-| Misc | Buzzer, run/stop switch (SW2), SWD header, UART/USB for logging | |
+| Misc | Buzzer, run/stop switch (SW2), debug connectors (sheet "Debug", copied from netdaq's debug sheet, #24), UART/USB for logging | Same debug cables as netdaq. J9 HX JN1.27-2x5P ZZ H4.9 (C42372547, Extended, JLC-fitted): 2×5 1.27 mm ARM Cortex 10-pin layout, used for SWD only. Pin 2 SWDIO (R30 10 k pull-up), 4 SWCLK (R29 10 k pull-down), 10 NRST. Pins 6 (TDO) and 8 (TDI) are not connected, because PB3/PA15 are SPINDLE_B/SPINDLE_A. J12 1×6 2.54 mm header (C37208), hand-soldered (excluded from BOM and position files), FTDI TTL-232R-3V3 pinout: 1 GND, 2 CTS# NC, 3 VCC from the cable, 4 cable TX, 5 cable RX, 6 RTS# NC. U10 TLV77033PDBVR (C36996065, Extended; 1.4–5.5 V in, D8 p1; 1 µF in and ≥0.47 µF out, D8 p13) makes 3.3 V from the cable's VCC for U9 TXU0202DCUR (C5186957, Extended) VCCB. VCCA = +3V3, OE tied to +3V3 (D24 p4). With no cable, VCCB is off and the cable-side outputs are high-impedance (D24 p21). 200 Ω series R32/R33, R31 10 k pull-up on UART_RX, test pads TP1–TP7 (not fitted by JLC). Adds 3 Extended parts. J9 datasheet (datasheets/HX_JN1.27-2x5P_ZZ_H4.9.pdf) is a scan, not in the RAG; it gives no pin numbers, so the numbering follows netdaq's footprint |
 
 Passives (issue #7): every R and C has an `LCSC Part`. Where netdaq has a Basic part with the same value, the same part and package are used (for example 100 nF 16 V 0402 C1525, 4.7 µF 25 V 0805 C1779, 1 µF 50 V 0603 C15849, 10 µF 50 V 1206 C13585, 100 nF 100 V 0805 C28233, 10 k C25744, 100 k C25741). netdaq's 10 nF (C527014) is Extended, so 10 nF uses Basic C15195 instead. Values with no Basic part are made from two Basic parts (R5+R25, R16∥R26). TPS5430 output filter and compensation (#20): see the Power row.
 
@@ -86,8 +86,8 @@ LQFP-48 pin numbers come from the C529355 symbol. Alternate functions are from D
 |---|---|---|---|---|
 | 8 | PA0 | ADC12_IN1 | analog | VBUS_SENSE (24 V divider) |
 | 9 | PA1 | ADC12_IN2, COMP1_INP, OPAMP1_VINP | analog | IPROPI. The comparator can drive the TIM1 break internally for a fast trip |
-| 10 | PA2 | USART2_TX | AF7 | Debug UART TX (header) |
-| 11 | PA3 | USART2_RX | AF7 | Debug UART RX (header) |
+| 10 | PA2 | USART2_TX | AF7 | Debug UART TX (J12 pin 5 via U9 level shifter) |
+| 11 | PA3 | USART2_RX | AF7 | Debug UART RX (J12 pin 4 via U9 level shifter) |
 | 12 | PA4 | DAC1_OUT1 | analog | DRV_VREF (current limit from software). Add a pull-down |
 | 13 | PA5 | SPI1_SCK | AF5 | AS5047P CLK |
 | 14 | PA6 | SPI1_MISO | AF5 | AS5047P MISO |
@@ -106,8 +106,8 @@ LQFP-48 pin numbers come from the C529355 symbol. Alternate functions are from D
 | 32 | PA10 | TIM1_CH3 | AF6 | DRV_IN2 |
 | 33 | PA11 | USB_DM | — | USB |
 | 34 | PA12 | USB_DP | — | USB |
-| 37 | PA13 | SWDIO | AF0 | SWD |
-| 38 | PA14 | SWCLK | AF0 | SWD |
+| 37 | PA13 | SWDIO | AF0 | SWD (J9 pin 2) |
+| 38 | PA14 | SWCLK | AF0 | SWD (J9 pin 4) |
 | 39 | PA15 | TIM2_CH1 | AF1 | SPINDLE_A |
 | 40 | PB3 | TIM2_CH2 | AF1 | SPINDLE_B (gives up SWO) |
 | 41 | PB4 | TIM3_CH1 | AF2 | UI encoder A |
@@ -121,7 +121,7 @@ LQFP-48 pin numbers come from the C529355 symbol. Alternate functions are from D
 | 4 | PC15 | GPIO in | — | UI encoder button |
 | 5 | PF0 | GPIO out | — | LCD_CS |
 | 6 | PF1 | GPIO out | — | LCD_DC |
-| 7 | PG10-NRST | NRST | — | Reset, 100 nF, SWD header |
+| 7 | PG10-NRST | NRST | — | Reset, 100 nF, J9 pin 10 |
 
 - Display: HS20HS072RX 2.0" 320×240 TFT, ST7789, 4-wire SPI, 12-pin 0.5 mm FPC tail (LCSC C5329582; D67). It shares SPI1 SCK/MOSI (PA5/PA7) with the AS5047P, which is only read over SPI for diagnostics; speed comes from A/B/I. Display RESET is tied to the MCU NRST. The status LED is dropped; the display shows status. IOVCC 1.65–3.3 V, VCI 2.4–3.3 V (D67 p6), so both go to +3V3. Backlight: 4 LEDs in parallel, 80 mA typ and abs max, V_f 2.8–3.2 V (D67 p5–6), driven by a low-side N-FET from PA9.
 - No HSE crystal. USB runs from HSI48 trimmed by the CRS from USB SOF (D63 p26, p43). This frees PF0/PF1.

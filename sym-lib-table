@@ -21,4 +21,7 @@
 	(lib (name "C94599") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C94599/C94599.kicad_sym") (options "") (descr "MLT-8530 magnetic buzzer SMD 8.5x8.5"))
 	(lib (name "C381115") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C381115/C381115.kicad_sym") (options "") (descr "DC-005-5A-2.5 DC jack 2.5mm pin"))
 	(lib (name "C557665") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C557665/C557665.kicad_sym") (options "") (descr "XY128V-A-5.08-2P screw terminal"))
+	(lib (name "C42372547") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C42372547/C42372547.kicad_sym") (options "") (descr "HX JN1.27-2x5P ZZ H4.9 debug 2x5 1.27mm"))
+	(lib (name "C5186957") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C5186957/C5186957.kicad_sym") (options "") (descr "TXU0202DCUR level shifter"))
+	(lib (name "TLV770") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/TLV770/TLV770.kicad_sym") (options "") (descr "TLV77033PDBVR LDO 3.3V"))
 )
