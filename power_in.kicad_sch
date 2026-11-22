@@ -3274,7 +3274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 16V"
 			(at 139.7 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4051,7 +4051,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 78.74 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)

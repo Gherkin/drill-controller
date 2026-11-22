@@ -1607,7 +1607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 16V"
 			(at 179.07 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2665,7 +2665,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 16V"
 			(at 213.36 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2745,7 +2745,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 193.04 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3757,7 +3757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 16V"
 			(at 203.2 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3838,7 +3838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 16V"
 			(at 254 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4150,7 +4150,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 16V"
 			(at 193.04 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4855,7 +4855,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100n 16V"
 			(at 109.22 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5299,7 +5299,7 @@
 			)
 		)
 	)
-	(symbol (lib_id "Device:R") (at 166.37 83.82 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "b894e14f-76fd-4c04-8390-170005515734") (property "Reference" "R28" (at 166.37 81.28 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "1k" (at 166.37 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Resistor" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C11702" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "20c3edf8-1914-497e-b874-e7e41d5fe319")) (pin "2" (uuid "f67a0ec0-6cec-42ce-8473-33b12b71c813")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "R28") (unit 1)))))
+	(symbol (lib_id "Device:R") (at 166.37 83.82 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "b894e14f-76fd-4c04-8390-170005515734") (property "Reference" "R28" (at 166.37 81.28 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "1k 1%" (at 166.37 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Resistor" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C11702" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "20c3edf8-1914-497e-b874-e7e41d5fe319")) (pin "2" (uuid "f67a0ec0-6cec-42ce-8473-33b12b71c813")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "R28") (unit 1)))))
 	(wire (pts (xy 170.18 83.82) (xy 175.26 83.82)) (stroke (width 0) (type default)) (uuid "1db8e5b4-ff67-4f1b-b4af-9679c3d8606e"))
 	(symbol (lib_id "Device:R") (at 85.09 111.76 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "8e6e6841-81e5-4320-bfd3-58ee1212b40c") (property "Reference" "R36" (at 85.09 109.22 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "33" (at 85.09 114.3 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 85.09 111.76 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 85.09 111.76 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "SPI1_SCK source series resistor (#42)" (at 85.09 111.76 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C25105" (at 85.09 111.76 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a3762f7f-6e5c-471f-99e5-ac0e1e75acf8")) (pin "2" (uuid "29457801-d064-466a-b3aa-defc4b7b2684")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "R36") (unit 1)))))
 	(symbol (lib_id "Device:R") (at 85.09 116.84 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "dc0e62a8-5a38-49cb-9537-743b5d7f7e2b") (property "Reference" "R37" (at 85.09 119.38 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "33" (at 85.09 121.92 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 85.09 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 85.09 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "SPI1_MOSI source series resistor (#42)" (at 85.09 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C25105" (at 85.09 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "fd230903-7afc-41be-aaa0-d2baca2e19c7")) (pin "2" (uuid "cd1e3ae5-3567-43ea-b6e4-977a4b91f1a9")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "R37") (unit 1)))))

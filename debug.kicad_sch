@@ -5496,7 +5496,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 168.91 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6299,7 +6299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 161.29 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6758,7 +6758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 1%"
 			(at 60.96 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
