@@ -154,6 +154,7 @@ LQFP-48 pin numbers come from the C529355 symbol. Alternate functions are from D
 - U8 limits: I_OUT ≥ 200 mA, dropout 250 mV typ / 680 mV max at 100 mA (D69 p5), 250 mW in SOT-23 (D69 p3), V_IN max 6.0 V (D69 p4).
 - USB-only load budget: MCU 24.5 mA typ at 170 MHz, peripherals off (D63 p81), AS5047P 15 mA max (D60 p6), AS5311 21 mA max (D61 p7), backlight up to 61 mA (D67 p5, see 4.2), display logic not specified (D67 p6). About 150 mA worst case → ~0.24 W in U8 at 5 V in, right at the 250 mW limit.
 - **Firmware rule: when VBUS_SENSE shows no PSU, cap the backlight.** Without the backlight the load is about 90 mA, ~0.15 W in U8.
+- **Firmware rule: when VBUS_SENSE shows no PSU, keep BUZZER (PB15) low; the buzzer is muted** (issue #39). BZ1 is rated max 95 mA at 2700 Hz, 50 % duty, 5 V0-p (D75 p2). At 3.3 V that scales to roughly 63 mA (general knowledge, linear estimate). On top of the 150 mA budget that is over U8's 200 mA. The motor cannot run on USB only, so the buzzer has nothing to signal there. Not chosen: a series resistor (would also make it quieter on PSU power) and local bulk at BZ1 (+3V3 already has C17/C35/C36, 141 µF nominal).
 - Shell pads of the EasyEDA C42400252 footprint were renumbered to pad 1 (SHELL) so all four connect to GND.
 
 ### 4.6 Braking energy (issue #3)
