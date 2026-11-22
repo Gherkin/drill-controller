@@ -1793,7 +1793,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k 1%"
+		(property "Value" "0R"
 			(at 200.66 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1836,7 +1836,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C25765" (at 198.12 130.81 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		) (property "LCSC Part" "C17168" (at 198.12 130.81 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "b30e9032-f9fa-4d1a-972c-64ef5372fd21")
 		)
