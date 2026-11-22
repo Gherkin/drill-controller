@@ -19,4 +19,6 @@
 	(lib (name "C5446") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C5446/C5446.kicad_sym") (options "") (descr "XC6206P332MR-G LDO 3.3V"))
 	(lib (name "C2480") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C2480/C2480.kicad_sym") (options "") (descr "SS14 Schottky SMA"))
 	(lib (name "C94599") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C94599/C94599.kicad_sym") (options "") (descr "MLT-8530 magnetic buzzer SMD 8.5x8.5"))
+	(lib (name "C381115") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C381115/C381115.kicad_sym") (options "") (descr "DC-005-5A-2.5 DC jack 2.5mm pin"))
+	(lib (name "C557665") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C557665/C557665.kicad_sym") (options "") (descr "XY128V-A-5.08-2P screw terminal"))
 )
