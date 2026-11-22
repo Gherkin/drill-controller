@@ -2205,6 +2205,10 @@
 		)
 		(uuid "1b5ff6c0-c2e9-46c7-bdbd-dea1ae63c167")
 	)
+	(wire (pts (xy 205.74 115.57) (xy 200.66 115.57)) (stroke (width 0) (type default)) (uuid "b1f3c2d4-5e6a-4b7c-8d9e-0f1a2b3c4d53"))
+	(wire (pts (xy 205.74 118.11) (xy 200.66 118.11)) (stroke (width 0) (type default)) (uuid "b1f3c2d4-5e6a-4b7c-8d9e-0f1a2b3c4d54"))
+	(label "USB_DP" (at 200.66 115.57 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "b1f3c2d4-5e6a-4b7c-8d9e-0f1a2b3c4d55"))
+	(label "USB_DM" (at 200.66 118.11 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "b1f3c2d4-5e6a-4b7c-8d9e-0f1a2b3c4d56"))
 	(label "USB_DM"
 		(at 53.34 113.03 180)
 		(effects
@@ -3710,6 +3714,8 @@
 				(justify left top)
 			)
 		)
+		(pin "USB_DP" bidirectional (at 205.74 115.57 180) (uuid "b1f3c2d4-5e6a-4b7c-8d9e-0f1a2b3c4d51") (effects (font (size 1.27 1.27)) (justify left)))
+		(pin "USB_DM" bidirectional (at 205.74 118.11 180) (uuid "b1f3c2d4-5e6a-4b7c-8d9e-0f1a2b3c4d52") (effects (font (size 1.27 1.27)) (justify left)))
 		(instances
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89"

@@ -14,4 +14,8 @@
 	(lib (name "C19270548") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C19270548/C19270548.kicad_sym") (options "") (descr "HC-FPC-05-20-12RLTAG FPC 12P 0.5mm"))
 	(lib (name "C157973") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C157973/C157973.kicad_sym") (options "") (descr "B8B-XH-2 JST-XH 8P"))
 	(lib (name "C20917") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C20917/C20917.kicad_sym") (options "") (descr "AO3400A"))
+	(lib (name "C42400252") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C42400252/C42400252.kicad_sym") (options "") (descr "HYCW498-USBC16-735B USB-C 16P"))
+	(lib (name "C20617921") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C20617921/C20617921.kicad_sym") (options "") (descr "H5VUD5U ESD SOD-523"))
+	(lib (name "C5446") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C5446/C5446.kicad_sym") (options "") (descr "XC6206P332MR-G LDO 3.3V"))
+	(lib (name "C2480") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C2480/C2480.kicad_sym") (options "") (descr "SS14 Schottky SMA"))
 )
