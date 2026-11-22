@@ -1720,7 +1720,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 123.19 0)
+		(at 195.58 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1730,7 +1730,7 @@
 		(dnp no)
 		(uuid "02599214-2ace-4678-80a6-3f6deee0eb96")
 		(property "Reference" "#PWR47"
-			(at 195.58 123.19 0)
+			(at 195.58 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1741,7 +1741,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 128.27 0)
+			(at 195.58 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1751,7 +1751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 123.19 0)
+			(at 195.58 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1762,7 +1762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 123.19 0)
+			(at 195.58 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1773,7 +1773,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 123.19 0)
+			(at 195.58 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1817,7 +1817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1500p"
+		(property "Value" "1n"
 			(at 185.42 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1860,7 +1860,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C1523" (at 182.88 119.38 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "1b27e505-6f2d-420a-8085-c05c56540039")
 		)
@@ -1898,7 +1898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u 10V"
+		(property "Value" "47u 10V"
 			(at 160.02 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1909,7 +1909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 157.48 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -1941,7 +1941,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C96123" (at 157.48 119.38 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "01bdf9ca-ee28-47f2-8a9a-d663146af5aa")
 		)
@@ -2137,7 +2137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "549 1%"
+		(property "Value" "510 1%"
 			(at 223.52 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2180,7 +2180,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C25123" (at 220.98 127 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "e793915b-b42c-4f21-8d9e-af3fae1bf0da")
 		)
@@ -2607,7 +2607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.9k 1%"
+		(property "Value" "4.7k 1%"
 			(at 198.12 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2650,7 +2650,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C25900" (at 195.58 119.38 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "bda45812-4c1f-40d7-831d-eb4bc69cabd1")
 		)
@@ -3799,4 +3799,15 @@
 			)
 		)
 	)
+	(symbol (lib_id "Device:R") (at 195.58 127 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "6f89c70e-f5e1-4cb7-be18-c3dd0544b47e") (property "Reference" "R27" (at 193.04 125.73 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify right))) (property "Value" "1.2k 1%" (at 193.04 128.27 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify right))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 195.58 127 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 195.58 127 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Resistor" (at 195.58 127 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C25862" (at 195.58 127 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "ce4d023f-15b8-473e-8a47-a86463339f02")) (pin "2" (uuid "e4553280-5038-4ae7-8a83-ba99638a3cae")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e01fa7d2-b03e-4946-8232-18ccf04dc93b" (reference "R27") (unit 1)))))
+	(symbol (lib_id "Device:C") (at 157.48 144.78 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "d1f75957-4d13-457e-a049-db40434c2f35") (property "Reference" "C35" (at 160.02 143.51 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "47u 10V" (at 160.02 146.05 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 157.48 144.78 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 157.48 144.78 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Unpolarized capacitor" (at 157.48 144.78 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C96123" (at 157.48 144.78 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b767a9ac-2246-4c83-b4b5-141a66470885")) (pin "2" (uuid "3549f627-1898-46b6-a818-be0ee5a415bc")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e01fa7d2-b03e-4946-8232-18ccf04dc93b" (reference "C35") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 157.48 140.97 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "9c8fc934-13fc-4dd3-88a7-6ad724c4c5c1") (property "Reference" "#PWR114" (at 157.48 140.97 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "+3V3" (at 157.48 137.41 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 157.48 140.97 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 157.48 140.97 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 157.48 140.97 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f0cea835-8dfe-4864-bf25-af70ae2c2ae9")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e01fa7d2-b03e-4946-8232-18ccf04dc93b" (reference "#PWR114") (unit 1)))))
+	(symbol (lib_id "power:GND") (at 157.48 148.59 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "c2a87b9d-a32f-4204-82a9-ef13fa8e8bfd") (property "Reference" "#PWR115" (at 157.48 148.59 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 157.48 152.40 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 157.48 148.59 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 157.48 148.59 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 157.48 148.59 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f93b7987-7fdb-4e0b-982a-1971e6795ded")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e01fa7d2-b03e-4946-8232-18ccf04dc93b" (reference "#PWR115") (unit 1)))))
+	(symbol (lib_id "Device:C") (at 165.1 144.78 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "d206588b-e5e8-466c-ac5f-761064969c11") (property "Reference" "C36" (at 167.64 143.51 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "47u 10V" (at 167.64 146.05 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 165.1 144.78 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 165.1 144.78 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Unpolarized capacitor" (at 165.1 144.78 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C96123" (at 165.1 144.78 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "50a5d684-30e7-4cac-80aa-336d0e973507")) (pin "2" (uuid "82a1a02b-5818-48b9-9422-930a5f19ee89")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e01fa7d2-b03e-4946-8232-18ccf04dc93b" (reference "C36") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 165.1 140.97 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "1d034b2d-c592-4efd-85f9-facb146706dd") (property "Reference" "#PWR116" (at 165.1 140.97 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "+3V3" (at 165.1 137.41 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 165.1 140.97 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 165.1 140.97 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 165.1 140.97 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b4facf02-c8a8-466f-880c-c299080c5be7")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e01fa7d2-b03e-4946-8232-18ccf04dc93b" (reference "#PWR116") (unit 1)))))
+	(symbol (lib_id "power:GND") (at 165.1 148.59 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "bc716536-cdd1-47cd-96db-e6325fb6ce27") (property "Reference" "#PWR117" (at 165.1 148.59 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 165.1 152.40 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 165.1 148.59 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 165.1 148.59 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 165.1 148.59 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "790327fb-e70c-40eb-8eff-7e98b2dc205a")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e01fa7d2-b03e-4946-8232-18ccf04dc93b" (reference "#PWR117") (unit 1)))))
+	(symbol (lib_id "Device:C") (at 182.88 144.78 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "fed0f66e-ee73-4913-930d-f99e609ddfe0") (property "Reference" "C37" (at 185.42 143.51 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "470p" (at 185.42 146.05 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 182.88 144.78 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 182.88 144.78 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Unpolarized capacitor" (at 182.88 144.78 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C1537" (at 182.88 144.78 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "0868700d-c067-4812-8526-383e7fae9735")) (pin "2" (uuid "68c23aa3-9785-4fa0-99ac-1b62873355e5")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e01fa7d2-b03e-4946-8232-18ccf04dc93b" (reference "C37") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 182.88 140.97 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "8495cf95-218d-47e6-a60f-044a46d5311d") (property "Reference" "#PWR118" (at 182.88 140.97 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "+3V3" (at 182.88 137.41 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 182.88 140.97 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 182.88 140.97 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 182.88 140.97 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6ecda777-8ffa-4cfa-a901-1d81936419a7")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e01fa7d2-b03e-4946-8232-18ccf04dc93b" (reference "#PWR118") (unit 1)))))
+	(wire (pts (xy 182.88 148.59) (xy 182.88 151.13)) (stroke (width 0) (type default)) (uuid "6b7fee45-80e2-4e4f-b541-6e05b52cbcc0"))
+	(label "VSNS" (at 182.88 151.13 270) (effects (font (size 1.27 1.27)) (justify right)) (uuid "782e3c55-0b6c-4f08-b36c-fd31286fc321"))
 )
