@@ -199,6 +199,14 @@ Parameter ID at startup: lock rotor briefly to get R and L, spin up to get Kₑ,
 
 Run control in ISRs triggered by the PWM timer; run UI and process logic in the main loop or a low-priority task.
 
+### 7.1 UCPD dead-battery pull-downs (issue #19)
+
+- After reset the STM32G431 can put Rd = 5.1 kΩ to GND on PB6 and PB4. A high level on PA9 turns it on for PB6, and a high level on PA10 turns it on for PB4 (D63 p60). The feature is on after reset; `PWR_CR3.UCPD1_DBDIS` (bit 14) = 1 turns it off, and RM0440 recommends turning it off in all cases (D64 p255).
+- On this board PA9 = LCD_BL PWM, PA10 = DRV_IN2 PWM, PB6 = HEIGHT_A, PB4 = ENC_A. Without the fix, each high PWM period puts 5.1 kΩ on HEIGHT_A and ENC_A. ENC_A (10 k pull-up R18) would then read ≈ 3.3 V × 5.1 / 15.1 ≈ 1.1 V.
+- **Firmware rule: set `PWR_CR3.UCPD1_DBDIS = 1` first thing at startup, before PA9 or PA10 is set up as an output or AF.** UCPD1 is not used, so nothing needs to be set up before it.
+- Before firmware runs, PA9 and PA10 are in analog mode (GPIOA_MODER reset value 0xABFF FFFF, D64 p355), and each net is held low: LCD_BL by R17 100 kΩ to GND, DRV_IN2 by the DRV8874 internal 100 kΩ pull-down on PH/IN2 (D56 p3, p18 fig. 16). So the pull-downs stay off during reset and boot. No hardware change.
+- Not checked: the ST system bootloader (BOOT0 high, or empty flash) may use PA9/PA10 as USART1 (general knowledge, not in D63/D64 as searched). That only matters while the bootloader runs; the motor driver stays asleep then, because nSLEEP is pulled low.
+
 ## 8. Phases
 
 1. **Characterise the motor**: measure R, L, Kₑ, J and the no-load current on the bench, and log current while drilling real holes.
