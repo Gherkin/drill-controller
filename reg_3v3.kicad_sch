@@ -1947,6 +1947,7 @@
 			)
 		)
 	)
+	(text "Layout: C15 10u X5R as close as possible to U1 VIN (pin 7).\nSmall loop C15 - VIN - GND (pin 6 / PowerPAD): extend the top GND\narea from under U1 next to the VIN trace (D59 p23, #35)." (exclude_from_sim no) (at 76.2 138.43 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "631107fc-714c-497a-8957-bcb3292ca9ee"))
 	(symbol
 		(lib_id "Device:C")
 		(at 99.06 119.38 0)
@@ -1969,7 +1970,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7 50V"
+		(property "Value" "10u 50V"
 			(at 101.6 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2012,7 +2013,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C29823" (at 99.06 119.38 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		) (property "LCSC Part" "C13585" (at 99.06 119.38 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "85bc0235-30bf-4f95-98df-d0ae65919157")
 		)
