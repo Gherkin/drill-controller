@@ -6,6 +6,13 @@
       "args": [
         "/home/niyohn/git/drill-controller/drill-controller.net"
       ]
+    },
+    "netlist-netdaq": {
+      "type": "stdio",
+      "command": "/home/niyohn/git/netlist-mcp/target/debug/kicad-netlist-parser",
+      "args": [
+        "/home/niyohn/git/netdaq/netdaq.net"
+      ]
     }
   }
 }
