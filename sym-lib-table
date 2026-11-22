@@ -5,7 +5,6 @@
 	(lib (name "C22459687") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C22459687/C22459687.kicad_sym") (options "") (descr "AS5311-ATST"))
 	(lib (name "C9864") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C9864/C9864.kicad_sym") (options "") (descr "TPS5430DDAR"))
 	(lib (name "C1855818") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C1855818/C1855818.kicad_sym") (options "") (descr "DRV8874PWPR"))
-	(lib (name "C575551") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C575551/C575551.kicad_sym") (options "") (descr "DRV8876PWPR"))
 	(lib (name "C2150662") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C2150662/C2150662.kicad_sym") (options "") (descr "DRV8873SPWPR"))
 	(lib (name "C36220") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C36220/C36220.kicad_sym") (options "") (descr "AOD409"))
 	(lib (name "C353373") (type "KiCad") (uri "${KIPRJMOD}/symbols - footprints/C353373/C353373.kicad_sym") (options "") (descr "SMBJ24A"))
