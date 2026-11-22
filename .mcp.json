@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "netlist": {
+      "type": "stdio",
+      "command": "/home/niyohn/git/netlist-mcp/target/debug/kicad-netlist-parser",
+      "args": [
+        "/home/niyohn/git/drill-controller/drill-controller.net"
+      ]
+    }
+  }
+}

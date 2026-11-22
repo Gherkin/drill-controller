@@ -12,7 +12,7 @@ Agents may edit the KiCad files (`*.kicad_sch`, `sym-lib-table`, `fp-lib-table`)
    `fd -H -g '*.lck' --max-depth 1 /home/niyohn/git/drill-controller`
    If anything is listed, KiCad is open. Stop and ask the user to close it. Do not edit while it is open, because KiCad will overwrite the change, or the change will be lost.
 2. **Edit, then verify with kicad-cli.** Both commands must run after every change:
-   - `kicad-cli sch export netlist --format kicadsexpr -o <scratchpad>/drill.net drill-controller.kicad_sch`, then check the affected nets.
+   - `kicad-cli sch export netlist --format kicadsexpr -o drill-controller.net drill-controller.kicad_sch`, then check the affected nets with the `netlist` MCP tools. The project `.mcp.json` points the `netlist` server at `drill-controller.net`. The file is transient and gitignored; do not commit it. The server reads the file at startup, so restart Claude Code (or reconnect via `/mcp`) to see a new export.
    - `kicad-cli sch erc --format json -o <scratchpad>/erc.json drill-controller.kicad_sch`, then report errors and new warnings.
    Do not claim a change is correct before both have run.
 3. **Tell the user what changed**, so they can check it visually in KiCad.
@@ -66,4 +66,4 @@ If no datasheet can be found, say so and label the answer as general knowledge.
 
 ## Scratch work
 
-Put generator scripts, netlists and ERC reports in the session scratchpad, not in the repo.
+Put generator scripts, extra netlists and ERC reports in the session scratchpad, not in the repo. The one exception is `drill-controller.net` in the repo root (gitignored), which the netlist MCP server reads.
