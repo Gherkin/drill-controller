@@ -3663,7 +3663,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MRBS340 / SS34 class, 40V 3A"
+		(property "Value" "SS34 40V 3A"
 			(at 127 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3674,7 +3674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 124.46 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3697,6 +3697,17 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 124.46 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C8678"
 			(at 124.46 119.38 0)
 			(hide yes)
 			(show_name no)
