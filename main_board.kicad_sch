@@ -3551,7 +3551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "C557665:CONN-TH_XY128V-A-5.08-2P"
 			(at 254 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3562,7 +3562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_XY128V-A-5-08-2P_C557665.html"
 			(at 254 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3573,7 +3573,18 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Motor out, XY128V-A-5.08-2P (same part as J11): 1 = MOTOR_A, 2 = MOTOR_B. 300 V 15 A (D76 p1)"
+			(at 254 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C557665"
 			(at 254 101.6 0)
 			(hide yes)
 			(show_name no)
