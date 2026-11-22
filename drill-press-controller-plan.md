@@ -63,6 +63,7 @@ Three PCBs in one KiCad project, panelised with mouse bites:
 
 - Inter-board cables are drawn as a "cable" symbol that is excluded from the board, so each board keeps its own connector footprints and nets.
 - Locate the sensor boards by mounting holes, not by board edges. Breaking off the tabs leaves nubs on the edges.
+- Mounting holes (#26): M3, footprint MountingHole_3.2mm_M3_ISO14580 (3.2 mm NPTH, no pad, no net), the same as netdaq. Main board H1–H4, spindle sensor board H5–H6, table sensor board H7–H8. Two holes are enough to fix position and rotation of a sensor board. Not plated and not grounded, so the metal press frame does not join GND and GND_SNS to each other or to the frame. Excluded from BOM and position files.
 - To check: JLC's fee for several designs in one panel.
 
 ### 4.2 Sensor supply
