@@ -99,7 +99,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 7.62 0)
 					(length 2.54)
 					(name "CSn"
@@ -117,7 +117,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 5.08 0)
 					(length 2.54)
 					(name "CLK"
@@ -135,7 +135,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "MISO"
@@ -153,7 +153,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "MOSI"
@@ -171,7 +171,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "Test"
@@ -189,7 +189,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -12.7 -5.08 0)
 					(length 2.54)
 					(name "B"
@@ -207,7 +207,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -12.7 -7.62 0)
 					(length 2.54)
 					(name "A"
@@ -225,7 +225,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 12.7 -7.62 180)
 					(length 2.54)
 					(name "W/PWM"
@@ -243,7 +243,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name "V"
@@ -261,7 +261,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "U"
@@ -279,7 +279,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name "VDD"
@@ -297,7 +297,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "VDD3V3"
@@ -315,7 +315,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 12.7 5.08 180)
 					(length 2.54)
 					(name "GND"
@@ -333,7 +333,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 12.7 7.62 180)
 					(length 2.54)
 					(name "I"

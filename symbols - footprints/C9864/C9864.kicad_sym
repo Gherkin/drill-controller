@@ -47,55 +47,55 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
       )
-      (pin unspecified line
+      (pin passive line
         (at -15.24 3.81 0)
         (length 5.08)
         (name "BOOT" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin no_connect line
         (at -15.24 1.27 0)
         (length 5.08)
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin no_connect line
         (at -15.24 -1.27 0)
         (length 5.08)
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin input line
         (at -15.24 -3.81 0)
         (length 5.08)
         (name "VSENSE" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin input line
         (at 15.24 -6.35 180)
         (length 5.08)
         (name "ENA" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin power_in line
         (at 15.24 -3.81 180)
         (length 5.08)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin power_in line
         (at 15.24 -1.27 180)
         (length 5.08)
         (name "VIN" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin output line
         (at 15.24 1.27 180)
         (length 5.08)
         (name "PH" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at 15.24 6.35 180)
         (length 5.08)
         (name "PowerPAD" (effects (font (size 1.27 1.27))))

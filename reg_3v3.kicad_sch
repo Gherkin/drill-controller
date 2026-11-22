@@ -87,7 +87,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 3.81 0)
 					(length 5.08)
 					(name "BOOT"
@@ -105,7 +105,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -15.24 1.27 0)
 					(length 5.08)
 					(name "NC"
@@ -123,7 +123,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -15.24 -1.27 0)
 					(length 5.08)
 					(name "NC"
@@ -141,7 +141,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -3.81 0)
 					(length 5.08)
 					(name "VSENSE"
@@ -159,7 +159,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 15.24 -6.35 180)
 					(length 5.08)
 					(name "ENA"
@@ -177,7 +177,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 15.24 -3.81 180)
 					(length 5.08)
 					(name "GND"
@@ -195,7 +195,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 15.24 -1.27 180)
 					(length 5.08)
 					(name "VIN"
@@ -213,7 +213,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 1.27 180)
 					(length 5.08)
 					(name "PH"
@@ -231,7 +231,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 6.35 180)
 					(length 5.08)
 					(name "PowerPAD"
@@ -1467,16 +1467,6 @@
 			(type default)
 		)
 		(uuid "487fcd16-0629-4a23-8ab8-4c234304e6a5")
-	)
-	(wire
-		(pts
-			(xy 157.48 115.57) (xy 163.83 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b7e2d10-93a1-4c6f-8e5d-2a0f6c1b7d93")
 	)
 	(wire
 		(pts
@@ -2815,83 +2805,6 @@
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e01fa7d2-b03e-4946-8232-18ccf04dc93b"
 					(reference "#PWR37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 163.83 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9e2c4a61-7b3d-4f08-a1c5-5d8e0f2b6a47")
-		(property "Reference" "#FLG03"
-			(at 163.83 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 163.83 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d6f3b82-4e9a-4c57-b0e3-7a2c9d5f1e08")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e01fa7d2-b03e-4946-8232-18ccf04dc93b"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)

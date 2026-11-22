@@ -168,79 +168,79 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-      (pin unspecified line
+      (pin passive line
         (at -11.43 6.35 0)
         (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "A1B12" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at -11.43 3.81 0)
         (length 2.54)
         (name "VBUS" (effects (font (size 1.27 1.27))))
         (number "A4B9" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at -11.43 1.27 0)
         (length 2.54)
         (name "SBU2" (effects (font (size 1.27 1.27))))
         (number "B8" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at -11.43 -1.27 0)
         (length 2.54)
         (name "CC1" (effects (font (size 1.27 1.27))))
         (number "A5" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at -11.43 -3.81 0)
         (length 2.54)
         (name "DN2" (effects (font (size 1.27 1.27))))
         (number "B7" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at -11.43 -6.35 0)
         (length 2.54)
         (name "DP1" (effects (font (size 1.27 1.27))))
         (number "A6" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at 11.43 -6.35 180)
         (length 2.54)
         (name "DN1" (effects (font (size 1.27 1.27))))
         (number "A7" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at 11.43 -3.81 180)
         (length 2.54)
         (name "DP2" (effects (font (size 1.27 1.27))))
         (number "B6" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at 11.43 -1.27 180)
         (length 2.54)
         (name "SBU1" (effects (font (size 1.27 1.27))))
         (number "A8" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at 11.43 1.27 180)
         (length 2.54)
         (name "CC2" (effects (font (size 1.27 1.27))))
         (number "B5" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at 11.43 3.81 180)
         (length 2.54)
         (name "VBUS" (effects (font (size 1.27 1.27))))
         (number "B4A9" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at 11.43 6.35 180)
         (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "B1A12" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at 0.00 -11.43 90)
         (length 2.54)
         (name "SHELL" (effects (font (size 1.27 1.27))))
@@ -294,13 +294,13 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-      (pin unspecified line
+      (pin passive line
         (at -5.08 -0.00 0)
         (length 3.81)
         (name "C" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at 5.08 -0.00 180)
         (length 3.81)
         (name "A" (effects (font (size 1.27 1.27))))
@@ -353,19 +353,19 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
       )
-      (pin unspecified line
+      (pin power_in line
         (at -7.62 0 0)
         (length 2.54)
         (name "VIN" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin power_out line
         (at 7.62 0 180)
         (length 2.54)
         (name "VOUT" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin power_in line
         (at 0 -5.08 90)
         (length 2.54)
         (name "VSS" (effects (font (size 1.27 1.27))))
@@ -426,13 +426,13 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-      (pin unspecified line
+      (pin passive line
         (at 5.08 -0.00 180)
         (length 3.81)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line
+      (pin passive line
         (at -5.08 -0.00 0)
         (length 3.81)
         (name "K" (effects (font (size 1.27 1.27))))
@@ -505,6 +505,7 @@
 	(symbol (lib_id "Device:C") (at 167.64 76.2 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "c29a9591-ed7b-4687-a8b6-6b05191c28c4") (property "Reference" "C33" (at 167.64 66.04 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "1u 50V" (at 167.64 68.58 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 167.64 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 167.64 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 167.64 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C15849" (at 167.64 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "58690906-f787-4dbd-ba5f-5d56d3b615eb")) (pin "2" (uuid "60b17616-2569-434e-b3e8-6c85ac862bf2")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "C33") (unit 1)))))
 	(wire (pts (xy 167.64 72.39) (xy 167.64 69.85)) (stroke (width 0) (type default)) (uuid "63665f5f-9871-408c-94e0-4a4c2f666477"))
 	(label "LDO_IN" (at 167.64 69.85 90) (effects (font (size 1.27 1.27)) (justify left)) (uuid "0415d933-2897-4b34-afb1-75e1997db8ac"))
+	(symbol (lib_id "power:PWR_FLAG") (at 167.64 69.85 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "e686127a-9a52-43d2-8820-bd85812e57aa") (property "Reference" "#FLG09" (at 167.64 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "PWR_FLAG" (at 167.64 66.04 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 167.64 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 167.64 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 167.64 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e08b3288-f4bd-4e79-a4b8-72dc736b4df4")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#FLG09") (unit 1)))))
 	(wire (pts (xy 167.64 80.01) (xy 167.64 82.55)) (stroke (width 0) (type default)) (uuid "6c03d78e-baee-46aa-8f16-36de9461a4ce"))
 	(symbol (lib_id "power:GND") (at 167.64 82.55 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "8108383f-94dc-41b7-bb31-f8050a5526f0") (property "Reference" "#PWR109" (at 167.64 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 167.64 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 167.64 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 167.64 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 167.64 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "84d7bc14-1bdf-4762-9e7f-5cf35b7484ea")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR109") (unit 1)))))
 	(symbol (lib_id "C5446:XC6206P332MR-G") (at 190.5 60.96 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "2e4579c0-f28b-4556-8ff5-13637f6836bb") (property "Reference" "U8" (at 190.5 50.8 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "XC6206P332MR-G" (at 190.5 53.34 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "C5446:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR" (at 190.5 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 190.5 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 190.5 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C5446" (at 190.5 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "3" (uuid "9d4011af-fc7a-4d99-9be6-05b156fdda18")) (pin "2" (uuid "379aa8ca-25e8-4dd6-8bc6-fb0d2ef4febe")) (pin "1" (uuid "4c33b2d2-25d9-456d-83b3-7c8f6e7f945b")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "U8") (unit 1)))))

@@ -34,7 +34,7 @@ Agents may edit the KiCad files (`*.kicad_sch`, `sym-lib-table`, `fp-lib-table`)
   --project-dir "/home/niyohn/git/drill-controller/symbols - footprints"
 ```
 
-Then add the library to `sym-lib-table` and `fp-lib-table`. The 3D model step sometimes crashes; the symbol and footprint are still written. Check EasyEDA footprints before layout (see issue #15).
+Then add the library to `sym-lib-table` and `fp-lib-table`. easyeda2kicad types every pin "unspecified"; set real pin types from the datasheet pin table (discretes and connectors: passive), in the library file and the embedded copy, or ERC hides real errors (issue #13). The 3D model step sometimes crashes; the symbol and footprint are still written. Check EasyEDA footprints before layout (see issue #15).
 
 ## Datasheets
 
