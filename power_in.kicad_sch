@@ -2230,7 +2230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100n 100V"
 			(at 121.92 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2241,7 +2241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 119.38 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2273,7 +2273,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C28233" (at 119.38 64.77 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "a5ff23c0-eec6-41cb-a36f-27f4573f11bd")
 		)
@@ -2354,7 +2354,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C25744" (at 129.54 72.39 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "8bd1ccc0-3ec1-437a-be4d-1d7f747844e9")
 		)
@@ -3158,7 +3158,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C1525" (at 137.16 72.39 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "bfb0c237-1862-4e88-ad57-c0f07ce6cdb6")
 		)
@@ -3565,7 +3565,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C25750" (at 129.54 64.77 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "2551bca4-b309-48e8-9b88-ea967c2ddf3f")
 		)
@@ -3723,7 +3723,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C25744" (at 76.2 74.93 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "c6777b70-0c7a-4a42-a3a4-aec071e73d1e")
 		)

@@ -1755,7 +1755,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C25741" (at 160.02 130.81 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "79de5247-9bfe-46a7-bf95-de0e967dc06e")
 		)
@@ -1836,7 +1836,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C25765" (at 198.12 130.81 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "b30e9032-f9fa-4d1a-972c-64ef5372fd21")
 		)
@@ -2028,7 +2028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n 50V"
+		(property "Value" "100n 100V"
 			(at 99.06 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2039,7 +2039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 96.52 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2071,7 +2071,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C28233" (at 96.52 130.81 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "a80e0aa1-2adc-4a98-900e-6586799c79e8")
 		)
@@ -2460,7 +2460,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C25741" (at 231.14 130.81 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "2ed29979-ab24-427c-9319-f9028735e8ee")
 		)
@@ -2478,7 +2478,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 134.62 0)
+		(at 172.72 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2488,7 +2488,7 @@
 		(dnp no)
 		(uuid "4e349825-eaf6-4239-8b9a-01d92b582f97")
 		(property "Reference" "#PWR32"
-			(at 172.72 134.62 0)
+			(at 172.72 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2499,7 +2499,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 139.7 0)
+			(at 172.72 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2509,7 +2509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 134.62 0)
+			(at 172.72 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2520,7 +2520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 134.62 0)
+			(at 172.72 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2531,7 +2531,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 134.62 0)
+			(at 172.72 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2663,7 +2663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 109.22 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2695,7 +2695,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C13585" (at 109.22 130.81 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "af92ec5e-f584-48f2-ab20-24906acf0c93")
 		)
@@ -3161,7 +3161,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C21122" (at 134.62 130.81 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "a48ef4a1-49f0-4536-862d-3be00c8a8055")
 		)
@@ -3242,7 +3242,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C15195" (at 185.42 130.81 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "c33e3c60-1a75-4c5f-809a-94de526df193")
 		)
@@ -3400,7 +3400,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C25741" (at 210.82 130.81 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "3a34966c-b990-4b4e-8ebf-e775de2b21a9")
 		)
@@ -3481,7 +3481,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C25744" (at 147.32 130.81 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "84196733-be47-45fd-94ac-9298b5a2459e")
 		)
@@ -3562,7 +3562,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C25744" (at 210.82 138.43 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "1cae53c6-582f-4368-91fe-5b3198dfdbfa")
 		)
@@ -3600,7 +3600,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.33k 1%"
+		(property "Value" "1k 1%"
 			(at 175.26 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3643,7 +3643,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C11702" (at 172.72 130.81 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "7c81a5d4-589e-4cf1-946f-933f58c79025")
 		)
@@ -3724,7 +3724,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C1525" (at 121.92 130.81 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "4a5e1c57-5973-4526-af15-f3eecbf30ffd")
 		)
@@ -3805,7 +3805,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C25744" (at 231.14 138.43 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "3b3b8231-41a2-4c88-8ef7-b1f1c9af2279")
 		)
@@ -4034,4 +4034,5 @@
 			)
 		)
 	)
+	(symbol (lib_id "Device:R") (at 172.72 138.43 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "7b621ef6-424a-4243-9220-fe701c26d3e9") (property "Reference" "R25" (at 175.26 137.16 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "330 1%" (at 175.26 139.7 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 172.72 138.43 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 172.72 138.43 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Resistor" (at 172.72 138.43 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C25104" (at 172.72 138.43 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a71d473e-a9fd-4637-ab42-5d3144b4ae19")) (pin "2" (uuid "45947a3b-2049-4b98-bcc4-569e55eee551")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/e4f217f6-7008-4bdb-bd93-0c29a1b47c23" (reference "R25") (unit 1)))))
 )

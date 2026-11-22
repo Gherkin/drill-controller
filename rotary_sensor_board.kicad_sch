@@ -1583,7 +1583,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C1525" (at 199.39 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "04a64c51-d573-4393-9c55-794becd929cf")
 		)
@@ -2006,7 +2006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1u 50V"
 			(at 214.63 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2017,7 +2017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -2049,7 +2049,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C15849" (at 212.09 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "971d7020-c5c6-4a5b-87d5-ad4a9474624c")
 		)

@@ -53,6 +53,8 @@ If no datasheet can be found, say so and label the answer as general knowledge.
 ## Part selection (JLCPCB assembly)
 
 - Tier: Basic, then Preferred, then Extended. Extended parts cost a feeder fee per part. Always state the tier and the LCSC number.
+- Use the same parts as the netdaq project (`~/git/netdaq`) wherever possible, including its package. The two boards are ordered together. The netdaq BOM is `~/git/netdaq/production/bom.csv`. Tier still wins: do not take a netdaq part if it is Extended and a Basic or Preferred part fits.
+- If no Basic or Preferred part has the value, build it from more than one Basic part (series or parallel) before falling back to Extended.
 - Check tier and stock live with jlcsearch: `https://jlcsearch.tscircuit.com/api/search?q=<query>&full=true`. The local jlcparts database misses some parts. It has no Basic or Preferred connectors or electrolytic capacitors at all.
 - Default passive package: 0402, unless voltage, power or density needs more.
 - Avoid adding ICs where passives will do.

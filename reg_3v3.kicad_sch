@@ -2022,7 +2022,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C29823" (at 99.06 119.38 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "85bc0235-30bf-4f95-98df-d0ae65919157")
 		)
@@ -2261,7 +2261,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C25744" (at 170.18 119.38 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "555e2ce3-8068-4964-95a0-f904965200c8")
 		)
@@ -2962,7 +2962,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C1525" (at 220.98 119.38 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "eac297a4-cb9a-469c-89e3-a3bcbe34c91c")
 		)
@@ -3043,7 +3043,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C15195" (at 111.76 119.38 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "612b09e1-2b37-46a8-9ca2-38bcb64aa718")
 		)
@@ -3124,7 +3124,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		) (property "LCSC Part" "C1527" (at 208.28 119.38 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "5b0b18fd-5f61-47ea-9d34-f1df66c91a32")
 		)
