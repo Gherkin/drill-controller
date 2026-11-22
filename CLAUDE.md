@@ -25,6 +25,7 @@ Agents may edit the KiCad files (`*.kicad_sch`, `sym-lib-table`, `fp-lib-table`)
 - Sheet-to-sheet signals: a hierarchical label in the child sheet, a sheet pin on the parent, and a short wire with a same-name local label on the parent.
 - Sensor boards use the sheet-local nets `3V3_SNS` and `GND_SNS` (with PWR_FLAGs), not global `+3V3`/`GND`. Do not change this without reading issue #14.
 - Put the LCSC number in an `LCSC Part` property on the symbol.
+- If a change has a layout requirement (placement, trace length, return path, a part next to a pin), put it in a text note on the schematic next to the parts, starting with "Layout:", and cite the issue. The plan doc alone is not enough: whoever does the layout looks at the schematic.
 - Project symbols and footprints (from easyeda2kicad) live in `symbols - footprints/<LCSC id>/`, and each is added to `sym-lib-table` and `fp-lib-table`.
 
 ### Importing an LCSC part
