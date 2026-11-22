@@ -64,6 +64,14 @@ If no datasheet can be found, say so and label the answer as general knowledge.
 - One GitHub issue per finding, never a multi-point issue. Group a batch with a shared label (for example `schematic v1`) and cross-link related issues by number.
 - Open schematic items are tracked under the `schematic v1` label in Gherkin/drill-controller.
 
+## Working tree
+
+This checkout is used by agents only. The user never leaves uncommitted work here. So every uncommitted or untracked file is a leftover from an agent, never the user's work.
+
+- Run `git status --short` at the start of a task. If anything is listed, clean it up first, before your own change: read the diff, commit it as its own commit if it is real work (for example a plan-doc note for a fix that is already committed), or discard it if it is junk.
+- Do not leave leftovers yourself. Before you end a task, `git status --short` must be empty, apart from the gitignored `drill-controller.net`.
+- Never skip a leftover because you think it is "the user's". It is not.
+
 ## Scratch work
 
 Put generator scripts, extra netlists and ERC reports in the session scratchpad, not in the repo. The one exception is `drill-controller.net` in the repo root (gitignored), which the netlist MCP server reads.
