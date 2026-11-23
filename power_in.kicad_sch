@@ -2110,6 +2110,7 @@
 		)
 		(uuid "158bbd56-6cd6-412c-86ff-f1cd325ad77d")
 	)
+	(text "Layout: J1/J11 -> Q1 -> +24V carries the 5.2 A cold motor stall (plan section 2, #63).\nVIN_RAW, +24V and the GND return from J1 pins 2/3 and J11 pin 2: pours, or traces at least\n3 mm wide on 1 oz outer copper (about 10 °C rise, IPC-2221, general knowledge).\nQ1 AOD409: put about 1 in² (645 mm²) of VIN_RAW copper on the drain tab (pad 2).\nR_DS(on) 40 mΩ max at 25 °C, 53 mΩ typ at 125 °C (D65 p2): 1.1-1.4 W at 5.2 A.\nR_θJA 40-50 °C/W is for 1 in² of 2 oz copper (D65 p1-2 note A); 1 oz runs hotter.\nD3 SMBJ24A: next to Q1 source / C21, close to the input, with a short wide GND return\nto the J1/J11 GND pins (general knowledge)." (exclude_from_sim no) (at 50.8 91.44 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid "3050c580-9026-42af-8f2f-eb028b428565"))
 	(hierarchical_label "VBUS_SENSE"
 		(shape output)
 		(at 142.24 68.58 0)
