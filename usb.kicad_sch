@@ -440,6 +440,172 @@
       )
     )
   )
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(symbol (lib_id "C42400252:HYCW498-USBC16-735B") (at 50.8 101.6 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "6f7b3c10-d4fe-42a7-80bc-82f471700d2b") (property "Reference" "J10" (at 50.8 91.44 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "HYCW498-USBC16-735B" (at 50.8 93.98 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "C42400252:USB-C-SMD_HYCW498-USBC16-735B" (at 50.8 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 50.8 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 50.8 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C42400252" (at 50.8 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "A1B12" (uuid "ee74aade-2c48-4bce-936b-cfefe1c59457")) (pin "A4B9" (uuid "1e15467e-82fd-40d2-90aa-7b3683a74b17")) (pin "B8" (uuid "85501cb6-eeef-46b2-8311-a053fbfe398c")) (pin "A5" (uuid "5376765d-61be-4965-a943-93da3a29c3f4")) (pin "B7" (uuid "3b3a72ea-506e-438c-b342-f8bcbdc08ef1")) (pin "A6" (uuid "36401f18-9805-4d9d-adda-3b1c7d657d13")) (pin "A7" (uuid "79f9acc6-9cca-4018-991b-35abc256772d")) (pin "B6" (uuid "436d2c49-b965-47b5-9714-510cb3ae769d")) (pin "A8" (uuid "d1161b06-5da3-4b18-8a5c-b22a75ec2439")) (pin "B5" (uuid "11e429f7-136f-486c-b2c9-738c6623a406")) (pin "B4A9" (uuid "d70f9f08-3df9-450d-9ade-0550a784db28")) (pin "B1A12" (uuid "f5fe2055-df3c-4565-8bae-43bff1b4b6e9")) (pin "1" (uuid "3e77f55a-2722-4c81-a566-2274a6b8469e")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "J10") (unit 1)))))
 	(wire (pts (xy 39.37 95.25) (xy 36.83 95.25)) (stroke (width 0) (type default)) (uuid "5c0b4a2b-263b-4f78-ba41-77857090eb36"))
@@ -520,5 +686,10 @@
 	(symbol (lib_id "power:+3V3") (at 213.36 69.85 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "3f7d915a-d0e7-4c87-b328-4872441606a5") (property "Reference" "#PWR112" (at 213.36 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "+3V3" (at 213.36 66.04 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 213.36 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 213.36 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 213.36 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "184b0238-6171-4cc9-9680-104c185dcc44")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR112") (unit 1)))))
 	(wire (pts (xy 213.36 80.01) (xy 213.36 82.55)) (stroke (width 0) (type default)) (uuid "25c786ff-fd13-4ca8-beca-04c2bc6792cd"))
 	(symbol (lib_id "power:GND") (at 213.36 82.55 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "2a0a7464-638d-47d7-be80-36375a3706ab") (property "Reference" "#PWR113" (at 213.36 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 213.36 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 213.36 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 213.36 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 213.36 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6423b4c9-5a7d-4714-bf3c-fd973a84089b")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR113") (unit 1)))))
-	(text "USB-C device, USB FS on PA11/PA12. CC1/CC2 5.1k to GND (sink).\nVBUS_USB -> D8 SS14 -> U8 XC6206 3.3V -> +3V3, so the MCU runs from USB alone.\nD8 stops +3V3 back-driving VBUS through U8 when only the 24V PSU is on.\nUSB only: +3V3 back-feeds the TPS5430 output; +24V sits near 2.7V (accepted, issue #1).\nFirmware: VBUS_SENSE low = no PSU -> cap the backlight. U8 is 250 mW max in SOT-23 (D69 p3)." (exclude_from_sim no) (at 30.48 160.02 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b44a27e9-3dbf-488b-9488-f16375293298"))
+	(symbol (lib_id "Device:D_Schottky") (at 190.5 43.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "27f7e8f1-a561-4e0d-9013-3bfc9c687d9e") (property "Reference" "D10" (at 190.5 38.1 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "RB751V-40" (at 190.5 40.64 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Diode_SMD:D_SOD-323" (at 190.5 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 190.5 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Schottky diode" (at 190.5 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C7502691" (at 190.5 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "c6c5d5dc-2e2f-4745-82b0-67bde3a5827d")) (pin "2" (uuid "9f35100a-a6c9-41d6-ba6e-848f3e8c6e3a")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "D10") (unit 1)))))
+	(wire (pts (xy 186.69 43.18) (xy 184.15 43.18)) (stroke (width 0) (type default)) (uuid "5195f495-0101-4a4e-82a3-73af37d8733a"))
+	(label "LDO_IN" (at 184.15 43.18 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "13ad8083-0a26-4327-92ab-2a44f7456f69"))
+	(wire (pts (xy 194.31 43.18) (xy 196.85 43.18)) (stroke (width 0) (type default)) (uuid "6d372bd9-3464-4716-b157-91c3e78968ff"))
+	(symbol (lib_id "power:+3V3") (at 196.85 43.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "98edb9a2-5ce9-4513-b2f1-40af85fbe86b") (property "Reference" "#PWR147" (at 196.85 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "+3V3" (at 196.85 39.37 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 196.85 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 196.85 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 196.85 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a29e8416-b666-4d35-b8da-5426c0e1f338")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR147") (unit 1)))))
+	(text "USB-C device, USB FS on PA11/PA12. CC1/CC2 5.1k to GND (sink).\nVBUS_USB -> D8 SS14 -> U8 XC6206 3.3V -> +3V3, so the MCU runs from USB alone.\nD8 stops +3V3 back-driving VBUS through U8 when only the 24V PSU is on.\nD10 (anode +3V3, cathode LDO_IN) holds U8 VOUT <= VIN + 0.3V (D69 p3 abs max) when +3V3 comes from the buck and USB is off (issue #67).\nUSB only: +3V3 back-feeds the TPS5430 output; +24V sits near 2.7V (accepted, issue #1).\nFirmware: VBUS_SENSE low = no PSU -> cap the backlight. U8 is 250 mW max in SOT-23 (D69 p3)." (exclude_from_sim no) (at 30.48 160.02 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b44a27e9-3dbf-488b-9488-f16375293298"))
 )
