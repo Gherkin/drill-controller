@@ -1938,7 +1938,7 @@
 		(uuid "2a331281-ca77-4d38-829e-2a21c016914a")
 	)
 	(label "SPINDLE_A"
-		(at 243.84 144.78 180)
+		(at 243.84 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1958,7 +1958,7 @@
 		(uuid "2dda2974-4513-48ef-9424-56f7f0457c62")
 	)
 	(label "SPI1_MOSI"
-		(at 243.84 142.24 180)
+		(at 243.84 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2108,7 +2108,7 @@
 		(uuid "60bb9284-ae6b-4d19-8bd2-c82229d45143")
 	)
 	(label "SPI1_SCK"
-		(at 243.84 137.16 180)
+		(at 243.84 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2128,7 +2128,7 @@
 		(uuid "62934983-d0f2-47af-ae74-a801bfa3f941")
 	)
 	(label "SPINDLE_CSn"
-		(at 243.84 134.62 180)
+		(at 243.84 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2148,7 +2148,7 @@
 		(uuid "693d3bc5-5e21-4ee9-ae08-26da95963bc8")
 	)
 	(label "SPINDLE_MISO"
-		(at 243.84 139.7 180)
+		(at 243.84 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2218,7 +2218,7 @@
 		(uuid "809edb40-64ab-44de-967e-64be8cc5e2df")
 	)
 	(label "SPINDLE_I"
-		(at 243.84 149.86 180)
+		(at 243.84 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2318,7 +2318,7 @@
 		(uuid "b51d87f9-3c43-4639-bb8d-cf1ee47e8030")
 	)
 	(label "SPINDLE_B"
-		(at 243.84 147.32 180)
+		(at 243.84 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3959,9 +3959,9 @@
 	(wire (pts (xy 140.97 182.88) (xy 135.89 182.88)) (stroke (width 0) (type default)) (uuid "ccd32e31-240a-4cd6-908a-d9657a6a603b"))
 	(label "ENABLE_IN" (at 135.89 182.88 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "a63117fb-6409-494e-9c98-b8df5023fd9d"))
 	(wire (pts (xy 248.92 152.4) (xy 243.84 152.4)) (stroke (width 0) (type default)) (uuid "7b591366-9983-454b-bc1f-2b3b13ee8d1f"))
-	(symbol (lib_id "power:GND") (at 243.84 152.4 270) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "4022a058-4b66-483d-9dcf-c2e1bff14925") (property "Reference" "#PWR67" (at 243.84 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 238.76 152.4 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 243.84 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 243.84 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 243.84 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "849d8b9b-7079-465f-89e7-389a87bb26ed")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89" (reference "#PWR67") (unit 1)))))
+	(symbol (lib_id "power:GND") (at 243.84 137.16 270) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "4022a058-4b66-483d-9dcf-c2e1bff14925") (property "Reference" "#PWR67" (at 243.84 137.16 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 238.76 137.16 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 243.84 137.16 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 243.84 137.16 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 243.84 137.16 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "849d8b9b-7079-465f-89e7-389a87bb26ed")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89" (reference "#PWR67") (unit 1)))))
 	(wire (pts (xy 248.92 154.94) (xy 243.84 154.94)) (stroke (width 0) (type default)) (uuid "27005ede-7477-45e6-8bfc-a2325c413c06"))
-	(symbol (lib_id "power:GND") (at 243.84 154.94 270) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "2fc01502-4521-419f-9924-8c761f53a834") (property "Reference" "#PWR68" (at 243.84 154.94 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 238.76 154.94 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 243.84 154.94 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 243.84 154.94 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 243.84 154.94 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3e82cf3f-0d93-4f27-aaff-785469ce39b3")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89" (reference "#PWR68") (unit 1)))))
+	(symbol (lib_id "power:GND") (at 243.84 147.32 270) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "2fc01502-4521-419f-9924-8c761f53a834") (property "Reference" "#PWR68" (at 243.84 147.32 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 238.76 147.32 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 243.84 147.32 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 243.84 147.32 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 243.84 147.32 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3e82cf3f-0d93-4f27-aaff-785469ce39b3")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89" (reference "#PWR68") (unit 1)))))
 	(wire (pts (xy 248.92 157.48) (xy 243.84 157.48)) (stroke (width 0) (type default)) (uuid "20e31248-4476-4d2a-8987-dd3b95825af0"))
 	(symbol (lib_id "power:GND") (at 243.84 157.48 270) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "37f7bfcf-3f9c-4d34-a92a-6e93f4089826") (property "Reference" "#PWR69" (at 243.84 157.48 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 238.76 157.48 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 243.84 157.48 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 243.84 157.48 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 243.84 157.48 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a54c543e-cba1-485c-b38d-fa20f9985bcc")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89" (reference "#PWR69") (unit 1)))))
 	(text "M3 mounting holes, 3.2 mm NPTH, no net (#26)" (exclude_from_sim no) (at 58.42 31.75 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "eeeeba6a-8a11-4939-ae28-a9aeae309be1"))

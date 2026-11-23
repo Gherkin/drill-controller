@@ -1400,7 +1400,7 @@
 		(uuid "f9a2041f-b460-4966-b409-94e094acd602")
 	)
 	(label "CSn"
-		(at 149.86 83.82 180)
+		(at 149.86 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1430,7 +1430,7 @@
 		(uuid "2f6765be-1ec0-4e0d-9aee-85bf5ba431ab")
 	)
 	(label "CLK"
-		(at 149.86 86.36 180)
+		(at 149.86 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1450,7 +1450,7 @@
 		(uuid "4666139a-cb57-4b37-ba17-94407a05fb76")
 	)
 	(label "MOSI"
-		(at 149.86 91.44 180)
+		(at 149.86 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1480,7 +1480,7 @@
 		(uuid "73db9047-47fd-4062-91b9-d66b1e28d8c2")
 	)
 	(label "MISO"
-		(at 149.86 88.9 180)
+		(at 149.86 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1500,7 +1500,7 @@
 		(uuid "86c52a24-2d32-46f1-b85e-1316446bfb39")
 	)
 	(label "I"
-		(at 149.86 99.06 180)
+		(at 149.86 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1560,7 +1560,7 @@
 		(uuid "a4ae9b22-dde4-41f5-8260-3d479860280a")
 	)
 	(label "A"
-		(at 149.86 93.98 180)
+		(at 149.86 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1650,7 +1650,7 @@
 		(uuid "f27844d8-4b18-42c1-9926-84ea5c2bfcfa")
 	)
 	(label "B"
-		(at 149.86 96.52 180)
+		(at 149.86 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2207,9 +2207,9 @@
 		)
 	)
 	(wire (pts (xy 154.94 101.6) (xy 149.86 101.6)) (stroke (width 0) (type default)) (uuid "3e8b0f4d-5c6a-4d9e-8fb0-4a5c6d7e8f94"))
-	(label "GND_SNS" (at 149.86 101.6 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "4f9c1a5e-6d7b-4e0f-9ac1-5b6d7e8f9a05"))
+	(label "GND_SNS" (at 149.86 86.36 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "4f9c1a5e-6d7b-4e0f-9ac1-5b6d7e8f9a05"))
 	(wire (pts (xy 154.94 104.14) (xy 149.86 104.14)) (stroke (width 0) (type default)) (uuid "5a0d2b6f-7e8c-4f1a-8bd2-6c7e8f9a0b16"))
-	(label "GND_SNS" (at 149.86 104.14 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "6b1e3c7a-8f9d-4a2b-9ce3-7d8f9a0b1c27"))
+	(label "GND_SNS" (at 149.86 96.52 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "6b1e3c7a-8f9d-4a2b-9ce3-7d8f9a0b1c27"))
 	(wire (pts (xy 154.94 106.68) (xy 149.86 106.68)) (stroke (width 0) (type default)) (uuid "7c2f4d8b-9a0e-4b3c-8df4-8e9a0b1c2d38"))
 	(label "GND_SNS" (at 149.86 106.68 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "8d3a5e9c-0b1f-4c4d-9ea5-9f0b1c2d3e49"))
 	(text "M3 mounting holes, 3.2 mm NPTH, no net (#26)" (exclude_from_sim no) (at 149.86 44.45 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "0cff79dd-69d2-47d7-ac62-18f9504f9c15"))
