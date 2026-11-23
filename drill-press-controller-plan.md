@@ -139,6 +139,7 @@ LQFP-48 pin numbers come from the C529355 symbol. Alternate functions are from D
 - nFAULT is open drain, 5 mA max; pull up to 3.3 V (D56 p3, p4).
 - VREF range is 0–3.6 V (D56 p4). I_TRIP = V_VREF / (R_IPROPI × A_IPROPI) (D56 p13). A_IPROPI = 450 µA/A typ, error ±5.5 % at 2–4 A (D56 p6 table). TI's worked examples use 455 (p13, p21).
 - R_IPROPI = 1.33 kΩ 1 %, made as R5 1 kΩ + R25 330 Ω in series (C11702 + C25104, both Basic 1 %; no Basic 1.33 kΩ exists). Full-scale DAC (3.3 V) gives 5.5 A typ, or 5.85 A at −5.5 % gain. Either way no DAC value can set the limit above the 6 A peak rating. At 5.2 A stall, IPROPI ≈ 3.1 V, inside the ADC range.
+- DAC and ADC full scale follow +3V3 (VDDA); firmware scales DRV_VREF and IPROPI by the measured VDDA (section 4.7, #66).
 - At reset the DAC is off and R4 (100 k) holds VREF at 0 V. The bridge then cannot drive current until firmware sets the limit, so it fails safe.
 - IMODE = GND through R2 0 Ω (C17168, Basic): fixed off-time chopping, automatic retry after overcurrent, and nFAULT reports overcurrent only (D56 Table 6, p13). Fixed off-time supports 100 % duty (D56 p14). Not 20 kΩ (cycle-by-cycle): there nFAULT also goes low on every chop (D56 p14), so TIM1_BKIN would stop all TIM1 outputs, LCD_BL included, at each current limit, and 100 % duty is not possible (issue #30). R2 stays as a 0 Ω part so 20 kΩ or 62 kΩ can be fitted later.
 - C14 (10 nF on IPROPI) is DNP. D56 p13 suggests it only if transients trigger the chopping early.
@@ -189,8 +190,21 @@ Decision: handle it in firmware. No brake resistor, no extra bulk capacitance.
 - Brake current is at most back-EMF / R ≈ 24 V / 4.66 Ω ≈ 5.2 A at full speed, the same as stall, and below the 6 A peak rating (D56 p4).
 - The bus is pumped only when the bridge is driven with a duty below the back-EMF ratio while the low side recirculates (drive/brake PWM at low duty). Then the motor current reverses and flows into +24V on each on-time (general knowledge).
 - **Firmware rule: use drive/coast PWM. Never command negative motor current. Slow down only with coast or full brake.** The current loop in section 5 clamps its reference at ≥ 0.
-- **Firmware rule: if VBUS_SENSE reads above 30 V (2.31 V at the ADC), set the bridge to coast and log a fault.**
+- **Firmware rule: if VBUS_SENSE reads above 30 V (2.31 V at the ADC), set the bridge to coast and log a fault.** The 2.31 V is in volts, converted with the measured VDDA, not a fixed ADC code (section 4.7, #66).
 - Cost: no controlled regenerative deceleration. Stops are either coast (slow) or full brake (fast). That is enough for bit changes (section 6, Active brake).
+
+### 4.7 ADC and DAC reference (issue #66)
+
+Decision: no hardware change. Firmware measures VDDA with VREFINT and scales every ADC reading and DAC output by it.
+
+- U2 VREF+ (pin 20) and VDDA (pin 21) are tied to +3V3. VREF+ is the reference for both the ADCs and the DACs, and VREF+ = VDDA is allowed (D63 p22). The DAC output is VREF+ × DOR / 4096 (D64 p726). The internal VREFBUF (2.048 / 2.5 / 2.9 V, D63 p22) cannot be used, because it drives the VREF+ pin, which is tied to VDDA.
+- So the ADC and DAC full scale is whatever +3V3 is: 3.057–3.261 V from the buck, 3.234–3.366 V from U8 when USB is on (section 4.5, #56). It can change at run time, when USB is plugged in or out. Against an assumed 3.300 V that is −7.4 % to +2.0 %.
+- What a fixed 3.300 V would do (VBUS_SENSE divider ratio 13, section 4.6): the 30 V overvoltage trip would land anywhere from 27.8 V (VDDA 3.057 V) to 30.6 V (VDDA 3.366 V). IPROPI current, the U5 and motor I²t limits (4.4, section 5) and DRV_VREF / ITRIP (4.4, #58) shift by the same −7.4 % to +2.0 %.
+- DAC at full scale with VDDA 3.366 V: ITRIP = 3.366 V / (1.33 kΩ × 450 µA/A) = 5.62 A typ, or 5.95 A at −5.5 % gain (formula and A_IPROPI from 4.4, D56 p6, p13). That is under the 6 A peak rating by about 50 mA only; the DAC code cap is #58.
+- VREFINT is on ADC1_IN18 (D63 p30, D64 p674). Its factory value VREFINT_CAL is a 16-bit word at 0x1FFF 75AA–0x1FFF 75AB, taken at 30 °C ± 5 °C with VDDA = VREF+ = 3.0 V ± 10 mV (D63 p30). Then VDDA = 3.0 V × VREFINT_CAL / VREFINT_DATA (D64 p674). VREFINT is 1.182 / 1.212 / 1.232 V min / typ / max; its spread over temperature is ≤ 7.5 mV (about 0.6 %), and long-term drift ≤ 1000 ppm (D63 p74). So the measured VDDA is good to about ±0.7 %, plus the ADC's own error (not counted here).
+- VREFINT needs ≥ 4 µs sampling time (D63 p74): at 60 MHz ADC clock that is 240 cycles, so use 247.5. The VREFEN bit in ADCx_CCR must be set to convert it (D64 p674). The buffer needs up to 12 µs to start after the ADC is enabled (D63 p74).
+- **Firmware rule (VDDA scaling, #66): at start-up, before the first DAC write that enables the bridge and before any limit is checked, convert VREFINT several times and compute VDDA = 3.0 V × VREFINT_CAL / VREFINT_DATA. Repeat it at least every 10 ms in the ADC1 regular sequence (next to VBUS_SENSE; the injected IPROPI conversion keeps its timing), and low-pass the result. Convert every ADC reading to volts as code × VDDA / 4096 (VBUS_SENSE, IPROPI, MOT_V1/2), and compute every DAC code from the wanted voltage as V × 4096 / VDDA (DRV_VREF, and any internal DAC used as a COMP1 threshold). Never use a fixed 3.3 V. If VDDA is outside 3.0–3.4 V, coast the bridge and log a fault.** The 10 ms rate and the 3.0–3.4 V window are not from a datasheet: 10 ms is fast next to a USB plug event, and the window is the regulator ranges above with some margin.
+- Bring-up: log VDDA on PSU only and on PSU plus USB, and compare with TP10 (+3V3) on a meter.
 
 ## 5. Control architecture
 
