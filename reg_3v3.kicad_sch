@@ -2721,7 +2721,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k 1%"
+		(property "Value" "5.1k 1%"
 			(at 198.12 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2764,7 +2764,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C25900" (at 195.58 119.38 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		) (property "LCSC Part" "C25905" (at 195.58 119.38 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "bda45812-4c1f-40d7-831d-eb4bc69cabd1")
 		)
