@@ -1163,7 +1163,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Layout: put C27 (4.7 µF) and C26 (100 nF) right at U7, not at J5 (#87). Short traces to\nU7 pin 18 (VDD3V3) and pin 19 (VDD5V), shortest return to U7 pin 8 (VSS) on GND_SNS.\nD61 p17: the VDD3V3 cap \"is supposed to be placed close to the supply pin\"; 100 nF close to VDD5V.\nThe supply comes over the cable (#47), so these caps are the only low-impedance source at U7."
+	(text "Layout: put C27 (4.7 µF) and C26 (100 nF) right at U7, not at J5 (#87). Short traces to\nU7 pin 18 (VDD3V3) and pin 19 (VDD5V), shortest return to U7 pin 8 (VSS) on GND_SNS.\nD61 p17, 3.3 V mode (VDD3V3 tied to VDD5V): 100 nF \"close to pin VDD5V\"; VDD3V3 \"must always be\nbuffered by a capacitor\". C27 close to pin 18 is general knowledge (p17 says it for 5 V mode only, #91).\nThe supply comes over the cable (#47), so these caps are the only low-impedance source at U7."
 		(exclude_from_sim no)
 		(at 127 130.81 0)
 		(effects
