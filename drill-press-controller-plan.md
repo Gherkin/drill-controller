@@ -58,8 +58,8 @@ Three PCBs in one KiCad project, panelised with mouse bites:
 | Board | Location | Contents |
 |---|---|---|
 | Main board | In front of the press, facing the user | Power input, TPS5430 buck, STM32G431, DRV8874, UI (TFT via FPC, encoder, buzzer), USB, SWD |
-| Spindle sensor board | Behind the motor, on a bracket | AS5047P, decoupling, connector |
-| Table sensor board | In the base, at the central post | AS5311, decoupling, connector |
+| Spindle sensor board | Behind the motor, on a bracket | AS5047P, decoupling, connector. C25 1 µF and C24 100 nF go at U4 pins 11/12/13, not at J4 (D60 p9); schematic "Layout:" note (#87) |
+| Table sensor board | In the base, at the central post | AS5311, decoupling, connector. C27 4.7 µF and C26 100 nF go at U7 pins 18/19 and 8, not at J5 (D61 p17); schematic "Layout:" note (#87) |
 
 - Inter-board cables are drawn as a "cable" symbol that is excluded from the board, so each board keeps its own connector footprints and nets.
 - Locate the sensor boards by mounting holes, not by board edges. Breaking off the tabs leaves nubs on the edges.
