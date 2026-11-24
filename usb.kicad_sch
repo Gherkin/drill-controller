@@ -5,37 +5,14 @@
 	(uuid "6f27d293-8025-4d9e-830a-659f75d75bd7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R" (pin_numbers (hide yes) ) (pin_names (offset 0) ) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (duplicate_pin_numbers_are_jumpers no) (property "Reference" "R" (at 2.032 0 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27) ) ) ) (property "Value" "R" (at 0 0 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27) ) ) ) (property "Footprint" "" (at -1.778 0 90) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "Datasheet" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "Description" "Resistor" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "ki_keywords" "R res resistor" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "ki_fp_filters" "R_*" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (symbol "R_0_1" (rectangle (start -1.016 -2.54) (end 1.016 2.54) (stroke (width 0.254) (type default) ) (fill (type none) ) ) ) (symbol "R_1_1" (pin passive line (at 0 3.81 270) (length 1.27) (name "" (effects (font (size 1.27 1.27) ) ) ) (number "1" (effects (font (size 1.27 1.27) ) ) ) ) (pin passive line (at 0 -3.81 90) (length 1.27) (name "" (effects (font (size 1.27 1.27) ) ) ) (number "2" (effects (font (size 1.27 1.27) ) ) ) ) ) (embedded_fonts no) )
-		(symbol "Device:C" (pin_numbers (hide yes) ) (pin_names (offset 0.254) ) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (duplicate_pin_numbers_are_jumpers no) (property "Reference" "C" (at 0.635 2.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27) ) (justify left) ) ) (property "Value" "C" (at 0.635 -2.54 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27) ) (justify left) ) ) (property "Footprint" "" (at 0.9652 -3.81 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "Datasheet" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "Description" "Unpolarized capacitor" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "ki_keywords" "cap capacitor" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "ki_fp_filters" "C_*" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (symbol "C_0_1" (polyline (pts (xy -2.032 0.762) (xy 2.032 0.762) ) (stroke (width 0.508) (type default) ) (fill (type none) ) ) (polyline (pts (xy -2.032 -0.762) (xy 2.032 -0.762) ) (stroke (width 0.508) (type default) ) (fill (type none) ) ) ) (symbol "C_1_1" (pin passive line (at 0 3.81 270) (length 2.794) (name "" (effects (font (size 1.27 1.27) ) ) ) (number "1" (effects (font (size 1.27 1.27) ) ) ) ) (pin passive line (at 0 -3.81 90) (length 2.794) (name "" (effects (font (size 1.27 1.27) ) ) ) (number "2" (effects (font (size 1.27 1.27) ) ) ) ) ) (embedded_fonts no) )
-		(symbol "power:GND" (power global) (pin_numbers (hide yes) ) (pin_names (offset 0) (hide yes) ) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (duplicate_pin_numbers_are_jumpers no) (property "Reference" "#PWR" (at 0 -6.35 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "Value" "GND" (at 0 -3.81 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27) ) ) ) (property "Footprint" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "Datasheet" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "Description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "ki_keywords" "global power" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (symbol "GND_0_1" (polyline (pts (xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27) ) (stroke (width 0) (type default) ) (fill (type none) ) ) ) (symbol "GND_1_1" (pin power_in line (at 0 0 270) (length 0) (name "" (effects (font (size 1.27 1.27) ) ) ) (number "1" (effects (font (size 1.27 1.27) ) ) ) ) ) (embedded_fonts no) )
-		(symbol "power:+3V3" (power global) (pin_numbers (hide yes) ) (pin_names (offset 0) (hide yes) ) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (duplicate_pin_numbers_are_jumpers no) (property "Reference" "#PWR" (at 0 -3.81 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "Value" "+3V3" (at 0 3.556 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27) ) ) ) (property "Footprint" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "Datasheet" "" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "Description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (property "ki_keywords" "global power" (at 0 0 0) (show_name no) (do_not_autoplace no) (hide yes) (effects (font (size 1.27 1.27) ) ) ) (symbol "+3V3_0_1" (polyline (pts (xy -0.762 1.27) (xy 0 2.54) ) (stroke (width 0) (type default) ) (fill (type none) ) ) (polyline (pts (xy 0 2.54) (xy 0.762 1.27) ) (stroke (width 0) (type default) ) (fill (type none) ) ) (polyline (pts (xy 0 0) (xy 0 2.54) ) (stroke (width 0) (type default) ) (fill (type none) ) ) ) (symbol "+3V3_1_1" (pin power_in line (at 0 0 90) (length 0) (name "" (effects (font (size 1.27 1.27) ) ) ) (number "1" (effects (font (size 1.27 1.27) ) ) ) ) ) (embedded_fonts no) )
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+		(symbol "C20617921:H5VUD5U"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
+			(property "Reference" "D"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -44,8 +21,18 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Value" "H5VUD5U"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "C20617921:SOD-523_L1.2-W0.8-LS1.6-RD"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -66,7 +53,7 @@
 					)
 				)
 			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -77,7 +64,130 @@
 					)
 				)
 			)
-			(property "ki_keywords" "flag power"
+			(property "LCSC Part" "C20617921"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "H5VUD5U_0_1"
+				(polyline
+					(pts
+						(xy -2.29 2.29) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.25 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.52) (xy -1.27 0) (xy 1.27 1.78) (xy 1.27 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C2480:SS14"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS14"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "C2480:SMA_L4.2-W2.6-LS5.0-RD_1"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS14_C2480.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -88,10 +198,669 @@
 					)
 				)
 			)
-			(symbol "PWR_FLAG_0_0"
+			(property "LCSC Part" "C2480"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SS14_0_1"
+				(polyline
+					(pts
+						(xy -2.03 1.52) (xy -2.03 1.78) (xy -1.52 1.78) (xy -1.52 -2.03) (xy -1.02 -2.03) (xy -1.02 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C42400252:HYCW498-USBC16-735B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "USB"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HYCW498-USBC16-735B"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "C42400252:USB-C-SMD_HYCW498-USBC16-735B"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C42400252"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HYCW498-USBC16-735B_0_1"
+				(rectangle
+					(start -8.89 8.89)
+					(end 8.89 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -7.62 7.62)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "SHELL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -6.35 0)
+					(length 2.54)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -6.35 180)
+					(length 2.54)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 3.81 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 1.27 180)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -3.81 180)
+					(length 2.54)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C5446:XC6206P332MR-G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XC6206P332MR-G"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "C5446:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5446.pdf"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C5446"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XC6206P332MR-G_0_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_out line
-					(at 0 0 90)
-					(length 0)
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
 					(name ""
 						(effects
 							(font
@@ -107,339 +876,27 @@
 						)
 					)
 				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "C42400252:HYCW498-USBC16-735B"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "USB"
-      (id 0)
-      (at 0 11.43 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "HYCW498-USBC16-735B"
-      (id 1)
-      (at 0 -16.51 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "C42400252:USB-C-SMD_HYCW498-USBC16-735B"
-      (id 2)
-      (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C42400252"
-      (id 5)
-      (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "HYCW498-USBC16-735B_0_1"
-      (rectangle
-        (start -8.89 8.89)
-        (end 8.89 -8.89)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (circle
-        (center -7.62 7.62)
-        (radius 0.38)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line
-        (at -11.43 6.35 0)
-        (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "A1B12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at -11.43 3.81 0)
-        (length 2.54)
-        (name "VBUS" (effects (font (size 1.27 1.27))))
-        (number "A4B9" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at -11.43 1.27 0)
-        (length 2.54)
-        (name "SBU2" (effects (font (size 1.27 1.27))))
-        (number "B8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at -11.43 -1.27 0)
-        (length 2.54)
-        (name "CC1" (effects (font (size 1.27 1.27))))
-        (number "A5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at -11.43 -3.81 0)
-        (length 2.54)
-        (name "DN2" (effects (font (size 1.27 1.27))))
-        (number "B7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at -11.43 -6.35 0)
-        (length 2.54)
-        (name "DP1" (effects (font (size 1.27 1.27))))
-        (number "A6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at 11.43 -6.35 180)
-        (length 2.54)
-        (name "DN1" (effects (font (size 1.27 1.27))))
-        (number "A7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at 11.43 -3.81 180)
-        (length 2.54)
-        (name "DP2" (effects (font (size 1.27 1.27))))
-        (number "B6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at 11.43 -1.27 180)
-        (length 2.54)
-        (name "SBU1" (effects (font (size 1.27 1.27))))
-        (number "A8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at 11.43 1.27 180)
-        (length 2.54)
-        (name "CC2" (effects (font (size 1.27 1.27))))
-        (number "B5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at 11.43 3.81 180)
-        (length 2.54)
-        (name "VBUS" (effects (font (size 1.27 1.27))))
-        (number "B4A9" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at 11.43 6.35 180)
-        (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "B1A12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at 0.00 -11.43 90)
-        (length 2.54)
-        (name "SHELL" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-		(symbol "C20617921:H5VUD5U"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "D"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "H5VUD5U"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "C20617921:SOD-523_L1.2-W0.8-LS1.6-RD"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C20617921"
-      (id 5)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "H5VUD5U_0_1"
-      (polyline
-        (pts
-          (xy 1.27 -1.52) (xy -1.27 -0.00) (xy 1.27 1.78) (xy 1.27 -1.52)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy -2.29 2.29) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.25 -2.29)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line
-        (at -5.08 -0.00 0)
-        (length 3.81)
-        (name "C" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at 5.08 -0.00 180)
-        (length 3.81)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-		(symbol "C5446:XC6206P332MR-G"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "U"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "XC6206P332MR-G"
-      (id 1)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "C5446:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-      (id 2)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://www.lcsc.com/datasheet/C5446.pdf"
-      (id 3)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C5446"
-      (id 5)
-      (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "XC6206P332MR-G_0_1"
-      (rectangle
-        (start -5.08 2.54)
-        (end 5.08 -2.54)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (pin power_in line
-        (at -7.62 0 0)
-        (length 2.54)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line
-        (at 7.62 0 180)
-        (length 2.54)
-        (name "VOUT" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line
-        (at 0 -5.08 90)
-        (length 2.54)
-        (name "VSS" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-		(symbol "C2480:SS14"
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "D"
-      (id 0)
-      (at 0 5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Value"
-      "SS14"
-      (id 1)
-      (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) ) )
-    )
-    (property
-      "Footprint"
-      "C2480:SMA_L4.2-W2.6-LS5.0-RD_1"
-      (id 2)
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS14_C2480.html"
-      (id 3)
-      (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (property
-      "LCSC Part"
-      "C2480"
-      (id 5)
-      (at 0 -12.70 0)
-      (effects (font (size 1.27 1.27) ) hide)
-    )
-    (symbol "SS14_0_1"
-      (polyline
-        (pts
-          (xy 1.27 1.52) (xy -1.27 -0.00) (xy 1.27 -1.78) (xy 1.27 1.52)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy -2.03 1.52) (xy -2.03 1.78) (xy -1.52 1.78) (xy -1.52 -2.03) (xy -1.02 -2.03) (xy -1.02 -1.78)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line
-        (at 5.08 -0.00 180)
-        (length 3.81)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line
-        (at -5.08 -0.00 0)
-        (length 3.81)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
 		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
@@ -606,91 +1063,3505 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(symbol (lib_id "C42400252:HYCW498-USBC16-735B") (at 50.8 101.6 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "6f7b3c10-d4fe-42a7-80bc-82f471700d2b") (property "Reference" "J10" (at 50.8 91.44 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "HYCW498-USBC16-735B" (at 50.8 93.98 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "C42400252:USB-C-SMD_HYCW498-USBC16-735B" (at 50.8 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 50.8 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 50.8 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C42400252" (at 50.8 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "A1B12" (uuid "ee74aade-2c48-4bce-936b-cfefe1c59457")) (pin "A4B9" (uuid "1e15467e-82fd-40d2-90aa-7b3683a74b17")) (pin "B8" (uuid "85501cb6-eeef-46b2-8311-a053fbfe398c")) (pin "A5" (uuid "5376765d-61be-4965-a943-93da3a29c3f4")) (pin "B7" (uuid "3b3a72ea-506e-438c-b342-f8bcbdc08ef1")) (pin "A6" (uuid "36401f18-9805-4d9d-adda-3b1c7d657d13")) (pin "A7" (uuid "79f9acc6-9cca-4018-991b-35abc256772d")) (pin "B6" (uuid "436d2c49-b965-47b5-9714-510cb3ae769d")) (pin "A8" (uuid "d1161b06-5da3-4b18-8a5c-b22a75ec2439")) (pin "B5" (uuid "11e429f7-136f-486c-b2c9-738c6623a406")) (pin "B4A9" (uuid "d70f9f08-3df9-450d-9ade-0550a784db28")) (pin "B1A12" (uuid "f5fe2055-df3c-4565-8bae-43bff1b4b6e9")) (pin "1" (uuid "3e77f55a-2722-4c81-a566-2274a6b8469e")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "J10") (unit 1)))))
-	(wire (pts (xy 39.37 95.25) (xy 36.83 95.25)) (stroke (width 0) (type default)) (uuid "5c0b4a2b-263b-4f78-ba41-77857090eb36"))
-	(symbol (lib_id "power:GND") (at 36.83 95.25 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "bb084f6c-a6fd-40d4-a2a2-5bb19e21d953") (property "Reference" "#PWR100" (at 36.83 95.25 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 36.83 99.06 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 36.83 95.25 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 36.83 95.25 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 36.83 95.25 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "388b8dfd-774a-4778-9487-34d5deceb769")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR100") (unit 1)))))
-	(wire (pts (xy 39.37 97.79) (xy 36.83 97.79)) (stroke (width 0) (type default)) (uuid "85752d46-8c2a-4590-81eb-889bf5859940"))
-	(label "VBUS_USB" (at 36.83 97.79 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "6d584771-0159-4bee-83f1-76e0b89313ec"))
-	(no_connect (at 39.37 100.33) (uuid "f4f7ed16-50f6-42cd-95f0-375246708f63"))
-	(wire (pts (xy 39.37 102.87) (xy 36.83 102.87)) (stroke (width 0) (type default)) (uuid "276d2cc4-119b-47fb-8435-4b5df5c87bed"))
-	(label "CC1" (at 36.83 102.87 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "078abec4-9cf3-4d94-b0f2-1a2f828bcccf"))
-	(wire (pts (xy 39.37 105.41) (xy 36.83 105.41)) (stroke (width 0) (type default)) (uuid "34467f99-5691-443e-ad38-7a7fa5c3ae5a"))
-	(hierarchical_label "USB_DM" (shape bidirectional) (at 36.83 105.41 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "e226dfd1-8c13-4489-823c-4908b1ad11d6"))
-	(wire (pts (xy 39.37 107.95) (xy 36.83 107.95)) (stroke (width 0) (type default)) (uuid "834626ed-6b24-4acf-9f24-47cd24d28ebd"))
-	(hierarchical_label "USB_DP" (shape bidirectional) (at 36.83 107.95 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "25c36bad-3600-441e-a292-b9dcf55ddaf3"))
-	(wire (pts (xy 62.23 107.95) (xy 64.77 107.95)) (stroke (width 0) (type default)) (uuid "9c2ad3df-32e2-4293-8fd7-3fb3e1472c68"))
-	(hierarchical_label "USB_DM" (shape bidirectional) (at 64.77 107.95 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "be359558-383a-4fe2-9583-469f2c1ddc09"))
-	(wire (pts (xy 62.23 105.41) (xy 64.77 105.41)) (stroke (width 0) (type default)) (uuid "31b4587f-0cbb-4155-9c53-5da5a9713d47"))
-	(hierarchical_label "USB_DP" (shape bidirectional) (at 64.77 105.41 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "c373b323-1802-4797-a055-fca24da63cb7"))
-	(no_connect (at 62.23 102.87) (uuid "d6acfd45-3b44-41c6-b1fa-7b86ad6879c6"))
-	(wire (pts (xy 62.23 100.33) (xy 64.77 100.33)) (stroke (width 0) (type default)) (uuid "f4f0e13d-ae3c-4c66-82cb-3dc057962e69"))
-	(label "CC2" (at 64.77 100.33 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "a2838b56-3d44-4d15-84f5-e8e0ad5772aa"))
-	(wire (pts (xy 62.23 97.79) (xy 64.77 97.79)) (stroke (width 0) (type default)) (uuid "62f4eb95-cb05-453b-b6fa-5f7d1bfd2001"))
-	(label "VBUS_USB" (at 64.77 97.79 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "21164d56-d142-4d3f-9991-59fab7272578"))
-	(wire (pts (xy 62.23 95.25) (xy 64.77 95.25)) (stroke (width 0) (type default)) (uuid "e4996fb8-a643-486f-9909-25773dc50664"))
-	(symbol (lib_id "power:GND") (at 64.77 95.25 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "030894e7-6537-4415-8dff-1d20ce136526") (property "Reference" "#PWR101" (at 64.77 95.25 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 64.77 99.06 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 64.77 95.25 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 64.77 95.25 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 64.77 95.25 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "406603d5-3d4b-4c4d-b540-c2d7eef300cd")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR101") (unit 1)))))
-	(wire (pts (xy 50.8 113.03) (xy 50.8 115.57)) (stroke (width 0) (type default)) (uuid "a55d8def-442e-44a5-9569-ecae1fdb98a7"))
-	(symbol (lib_id "power:GND") (at 50.8 115.57 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "01a1d38d-6778-420c-a432-090da8ee4725") (property "Reference" "#PWR102" (at 50.8 115.57 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 50.8 119.38 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 50.8 115.57 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 50.8 115.57 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 50.8 115.57 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "f2325df8-c21e-4db1-8179-c34bc3e20274")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR102") (unit 1)))))
-	(symbol (lib_id "Device:R") (at 101.6 76.2 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "0aed956c-9a36-4c89-b71a-7b38685d11f9") (property "Reference" "R23" (at 101.6 66.04 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "5.1k 1%" (at 101.6 68.58 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 101.6 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 101.6 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 101.6 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C25905" (at 101.6 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a55681e2-15da-4a99-babf-c61afbf159cd")) (pin "2" (uuid "deeac42b-267d-43cf-968e-a1dca1bca165")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "R23") (unit 1)))))
-	(wire (pts (xy 101.6 72.39) (xy 101.6 69.85)) (stroke (width 0) (type default)) (uuid "97b8cfec-62e0-48be-b23d-697f9226da4a"))
-	(label "CC1" (at 101.6 69.85 90) (effects (font (size 1.27 1.27)) (justify left)) (uuid "42114c07-536d-4852-8af7-b09868d68e25"))
-	(wire (pts (xy 101.6 80.01) (xy 101.6 82.55)) (stroke (width 0) (type default)) (uuid "e68c44e5-dd0c-4cc5-a6d9-9acda4d6f21d"))
-	(symbol (lib_id "power:GND") (at 101.6 82.55 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "f48d991a-67f3-48fa-a66f-8f3cedc7b4ad") (property "Reference" "#PWR103" (at 101.6 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 101.6 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 101.6 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 101.6 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 101.6 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "829a4bdc-40db-41c8-a315-1623a9b7adb7")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR103") (unit 1)))))
-	(symbol (lib_id "Device:R") (at 114.3 76.2 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "307af21e-fab2-4cda-bf3a-9b797b8eeca6") (property "Reference" "R24" (at 114.3 66.04 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "5.1k 1%" (at 114.3 68.58 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 114.3 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 114.3 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 114.3 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C25905" (at 114.3 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "662d1f94-cbf0-4687-99ff-470e29371fe2")) (pin "2" (uuid "cf4cc083-7e44-4449-923a-a67c1a512c7e")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "R24") (unit 1)))))
-	(wire (pts (xy 114.3 72.39) (xy 114.3 69.85)) (stroke (width 0) (type default)) (uuid "16d52538-eb0c-4959-99c3-a2fd1df501f2"))
-	(label "CC2" (at 114.3 69.85 90) (effects (font (size 1.27 1.27)) (justify left)) (uuid "03da123f-c4a5-4fca-b7ab-8ddb17c196e8"))
-	(wire (pts (xy 114.3 80.01) (xy 114.3 82.55)) (stroke (width 0) (type default)) (uuid "8d4095df-01c4-4584-9c92-ccf50eab76b8"))
-	(symbol (lib_id "power:GND") (at 114.3 82.55 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "b6006b86-f7d6-4718-8ec7-09f7cd1f3089") (property "Reference" "#PWR104" (at 114.3 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 114.3 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 114.3 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 114.3 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 114.3 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "18a6497e-eba3-4034-b31a-957e5eaf39d7")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR104") (unit 1)))))
-	(symbol (lib_id "C20617921:H5VUD5U") (at 101.6 101.6 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "fc2452c1-70d3-4370-92a6-e78736bdadc6") (property "Reference" "D5" (at 101.6 91.44 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "H5VUD5U" (at 101.6 93.98 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "C20617921:SOD-523_L1.2-W0.8-LS1.6-RD" (at 101.6 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 101.6 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 101.6 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C20617921" (at 101.6 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "9b45107f-afb1-4af4-9953-0f11004cf56e")) (pin "2" (uuid "76c1f052-7a64-4521-ada5-0be3fbb23292")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "D5") (unit 1)))))
-	(wire (pts (xy 96.52 101.6) (xy 93.98 101.6)) (stroke (width 0) (type default)) (uuid "ff5d2083-2769-47a8-a8d9-7c5e5293523b"))
-	(hierarchical_label "USB_DP" (shape bidirectional) (at 93.98 101.6 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "e9130963-4edd-4294-94a4-bf31f4d437c6"))
-	(wire (pts (xy 106.68 101.6) (xy 109.22 101.6)) (stroke (width 0) (type default)) (uuid "9e827b80-d046-44dc-bc12-cf225c86a444"))
-	(symbol (lib_id "power:GND") (at 109.22 101.6 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "5dd5ed96-b0ba-4afa-bebf-98b541e32b3e") (property "Reference" "#PWR105" (at 109.22 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 109.22 105.41 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 109.22 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 109.22 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 109.22 101.6 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "730320b5-e81c-46e3-b1f3-59be8949707e")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR105") (unit 1)))))
-	(symbol (lib_id "C20617921:H5VUD5U") (at 101.6 116.84 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "35f70b0f-77fe-469d-80c6-e9bb88df674f") (property "Reference" "D6" (at 101.6 106.68 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "H5VUD5U" (at 101.6 109.22 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "C20617921:SOD-523_L1.2-W0.8-LS1.6-RD" (at 101.6 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 101.6 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 101.6 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C20617921" (at 101.6 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "defdc498-fbef-4b9e-aacc-f799267978e4")) (pin "2" (uuid "b79c8332-7418-49a5-8900-d0a60026864d")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "D6") (unit 1)))))
-	(wire (pts (xy 96.52 116.84) (xy 93.98 116.84)) (stroke (width 0) (type default)) (uuid "64548429-b20c-4ebc-9c4b-d8b3dbafb6ec"))
-	(hierarchical_label "USB_DM" (shape bidirectional) (at 93.98 116.84 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "d955632f-5de8-4db6-91b6-e94bbd49948e"))
-	(wire (pts (xy 106.68 116.84) (xy 109.22 116.84)) (stroke (width 0) (type default)) (uuid "1eecb625-7701-41fb-86ea-4d736142a4b5"))
-	(symbol (lib_id "power:GND") (at 109.22 116.84 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "e7614fd6-4e84-49a5-a766-d2d83e723b80") (property "Reference" "#PWR106" (at 109.22 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 109.22 120.65 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 109.22 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 109.22 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 109.22 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "23a674af-4fbd-4fcc-a62c-49a262525567")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR106") (unit 1)))))
-	(symbol (lib_id "C20617921:H5VUD5U") (at 101.6 132.08 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "aac15b50-14a5-40b0-926d-c3d6fa2721a7") (property "Reference" "D7" (at 101.6 121.92 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "H5VUD5U" (at 101.6 124.46 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "C20617921:SOD-523_L1.2-W0.8-LS1.6-RD" (at 101.6 132.08 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 101.6 132.08 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 101.6 132.08 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C20617921" (at 101.6 132.08 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3271c569-f0b3-4c37-b8ca-7e7e82a162bc")) (pin "2" (uuid "26a80d05-a3b1-4b0a-9d71-d8946bccae20")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "D7") (unit 1)))))
-	(wire (pts (xy 96.52 132.08) (xy 93.98 132.08)) (stroke (width 0) (type default)) (uuid "63f60d99-95aa-474c-8d90-8fedbc24a12d"))
-	(label "VBUS_USB" (at 93.98 132.08 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "35d9711c-3b72-4ede-b2e0-1d0eb7fcfb40"))
-	(wire (pts (xy 106.68 132.08) (xy 109.22 132.08)) (stroke (width 0) (type default)) (uuid "7bd3fe78-d52c-4ada-98ad-b48df86235c2"))
-	(symbol (lib_id "power:GND") (at 109.22 132.08 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "e8aac842-09bf-47f2-ac33-2033564c5fd0") (property "Reference" "#PWR107" (at 109.22 132.08 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 109.22 135.89 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 109.22 132.08 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 109.22 132.08 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 109.22 132.08 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "9e5258c4-6223-4848-89ba-e0659bdf7e3e")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR107") (unit 1)))))
-	(symbol (lib_id "Device:C") (at 139.7 76.2 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "0500b8fd-b597-4ae3-8c12-5e53ffa249ed") (property "Reference" "C32" (at 139.7 66.04 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "1u 50V" (at 139.7 68.58 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 139.7 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 139.7 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 139.7 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C15849" (at 139.7 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e94ecd7b-e2eb-4e0e-a808-5d728bfcdd0c")) (pin "2" (uuid "b1e1e60d-c5ab-4e94-a616-6b796b9772e2")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "C32") (unit 1)))))
-	(wire (pts (xy 139.7 72.39) (xy 139.7 69.85)) (stroke (width 0) (type default)) (uuid "b0127511-4107-4c6f-9bac-370ad5199bc8"))
-	(label "VBUS_USB" (at 139.7 69.85 90) (effects (font (size 1.27 1.27)) (justify left)) (uuid "8e4f8a73-0ce9-42cf-8e87-f4e3cade84cd"))
-	(symbol (lib_id "power:PWR_FLAG") (at 139.7 69.85 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "ef8806d7-3a68-421b-8a79-f4060a9e91f0") (property "Reference" "#FLG08" (at 139.7 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "PWR_FLAG" (at 139.7 66.04 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 139.7 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 139.7 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 139.7 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "fac5c6f1-c355-4711-98a9-9a04e0d24507")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#FLG08") (unit 1)))))
-	(wire (pts (xy 139.7 80.01) (xy 139.7 82.55)) (stroke (width 0) (type default)) (uuid "557472e2-d6e1-4815-90ce-41d679f9f399"))
-	(symbol (lib_id "power:GND") (at 139.7 82.55 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "8df8faeb-76e7-4330-8bca-b11a37c3b331") (property "Reference" "#PWR108" (at 139.7 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 139.7 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 139.7 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 139.7 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 139.7 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3d1808a0-2b92-4dee-b13e-ad055cb373de")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR108") (unit 1)))))
-	(symbol (lib_id "C2480:SS14") (at 154.94 60.96 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "1e29f0b5-10a3-4174-9a32-b279e93cec20") (property "Reference" "D8" (at 154.94 50.8 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "SS14" (at 154.94 53.34 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "C2480:SMA_L4.2-W2.6-LS5.0-RD_1" (at 154.94 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 154.94 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 154.94 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C2480" (at 154.94 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "2" (uuid "edb5108e-f23e-46c6-b971-75aa2a0c5761")) (pin "1" (uuid "a627d981-7c7c-4a18-8460-50804aca170d")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "D8") (unit 1)))))
-	(wire (pts (xy 160.02 60.96) (xy 162.56 60.96)) (stroke (width 0) (type default)) (uuid "d003c7cd-a0ad-4632-ad92-71127b72a75d"))
-	(label "VBUS_USB" (at 162.56 60.96 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "6a21ecca-d9f9-43ee-8bc0-04b4ff801754"))
-	(wire (pts (xy 149.86 60.96) (xy 147.32 60.96)) (stroke (width 0) (type default)) (uuid "0e9c5e7d-4aa5-4ad9-a9bd-45c049ca9af0"))
-	(label "LDO_IN" (at 147.32 60.96 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "533131b7-b954-4fc1-95c2-f6d54eea91f6"))
-	(symbol (lib_id "Device:C") (at 167.64 76.2 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "c29a9591-ed7b-4687-a8b6-6b05191c28c4") (property "Reference" "C33" (at 167.64 66.04 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "1u 50V" (at 167.64 68.58 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 167.64 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 167.64 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 167.64 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C15849" (at 167.64 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "58690906-f787-4dbd-ba5f-5d56d3b615eb")) (pin "2" (uuid "60b17616-2569-434e-b3e8-6c85ac862bf2")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "C33") (unit 1)))))
-	(wire (pts (xy 167.64 72.39) (xy 167.64 69.85)) (stroke (width 0) (type default)) (uuid "63665f5f-9871-408c-94e0-4a4c2f666477"))
-	(label "LDO_IN" (at 167.64 69.85 90) (effects (font (size 1.27 1.27)) (justify left)) (uuid "0415d933-2897-4b34-afb1-75e1997db8ac"))
-	(symbol (lib_id "power:PWR_FLAG") (at 167.64 69.85 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "e686127a-9a52-43d2-8820-bd85812e57aa") (property "Reference" "#FLG09" (at 167.64 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "PWR_FLAG" (at 167.64 66.04 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 167.64 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 167.64 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 167.64 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e08b3288-f4bd-4e79-a4b8-72dc736b4df4")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#FLG09") (unit 1)))))
-	(wire (pts (xy 167.64 80.01) (xy 167.64 82.55)) (stroke (width 0) (type default)) (uuid "6c03d78e-baee-46aa-8f16-36de9461a4ce"))
-	(symbol (lib_id "power:GND") (at 167.64 82.55 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "8108383f-94dc-41b7-bb31-f8050a5526f0") (property "Reference" "#PWR109" (at 167.64 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 167.64 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 167.64 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 167.64 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 167.64 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "84d7bc14-1bdf-4762-9e7f-5cf35b7484ea")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR109") (unit 1)))))
-	(symbol (lib_id "C5446:XC6206P332MR-G") (at 190.5 60.96 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "2e4579c0-f28b-4556-8ff5-13637f6836bb") (property "Reference" "U8" (at 190.5 50.8 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "XC6206P332MR-G" (at 190.5 53.34 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "C5446:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR" (at 190.5 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 190.5 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 190.5 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C5446" (at 190.5 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "3" (uuid "9d4011af-fc7a-4d99-9be6-05b156fdda18")) (pin "2" (uuid "379aa8ca-25e8-4dd6-8bc6-fb0d2ef4febe")) (pin "1" (uuid "4c33b2d2-25d9-456d-83b3-7c8f6e7f945b")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "U8") (unit 1)))))
-	(wire (pts (xy 182.88 60.96) (xy 180.34 60.96)) (stroke (width 0) (type default)) (uuid "2294e14c-bec0-4270-883b-e671966de8d6"))
-	(label "LDO_IN" (at 180.34 60.96 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "cf932e04-6ba5-428c-b562-1baa0aa18599"))
-	(wire (pts (xy 198.12 60.96) (xy 200.66 60.96)) (stroke (width 0) (type default)) (uuid "b3167c65-5f23-4959-8885-a54697ea9fcb"))
-	(symbol (lib_id "power:+3V3") (at 200.66 60.96 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "8311d7df-533e-4526-9824-a7e448804c11") (property "Reference" "#PWR110" (at 200.66 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "+3V3" (at 200.66 57.15 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 200.66 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 200.66 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 200.66 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d1a2d3d9-be4b-4ac6-818c-33e06c04f25d")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR110") (unit 1)))))
-	(wire (pts (xy 190.5 66.04) (xy 190.5 68.58)) (stroke (width 0) (type default)) (uuid "8e9f0fd4-1f11-435e-bae3-99c261054f5d"))
-	(symbol (lib_id "power:GND") (at 190.5 68.58 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "95d4729a-0346-4126-a52a-afb3b08d641c") (property "Reference" "#PWR111" (at 190.5 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 190.5 72.39 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 190.5 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 190.5 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 190.5 68.58 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "acd0e672-ff45-4204-bafa-c2cb592faf96")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR111") (unit 1)))))
-	(symbol (lib_id "Device:C") (at 213.36 76.2 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "be6c2d9a-828d-49a2-a36a-85002d31a95c") (property "Reference" "C34" (at 213.36 66.04 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "1u 50V" (at 213.36 68.58 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 213.36 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 213.36 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 213.36 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C15849" (at 213.36 76.2 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5396940a-bec1-43ba-a286-d6b9423b22ff")) (pin "2" (uuid "0bf51f63-7a98-4803-a343-6297d9133502")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "C34") (unit 1)))))
-	(wire (pts (xy 213.36 72.39) (xy 213.36 69.85)) (stroke (width 0) (type default)) (uuid "a9346bf6-dbb4-4a07-8bed-fa55fe51b18a"))
-	(symbol (lib_id "power:+3V3") (at 213.36 69.85 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "3f7d915a-d0e7-4c87-b328-4872441606a5") (property "Reference" "#PWR112" (at 213.36 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "+3V3" (at 213.36 66.04 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 213.36 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 213.36 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 213.36 69.85 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "184b0238-6171-4cc9-9680-104c185dcc44")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR112") (unit 1)))))
-	(wire (pts (xy 213.36 80.01) (xy 213.36 82.55)) (stroke (width 0) (type default)) (uuid "25c786ff-fd13-4ca8-beca-04c2bc6792cd"))
-	(symbol (lib_id "power:GND") (at 213.36 82.55 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "2a0a7464-638d-47d7-be80-36375a3706ab") (property "Reference" "#PWR113" (at 213.36 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 213.36 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 213.36 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 213.36 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 213.36 82.55 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6423b4c9-5a7d-4714-bf3c-fd973a84089b")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR113") (unit 1)))))
-	(symbol (lib_id "Device:D_Schottky") (at 190.5 43.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "27f7e8f1-a561-4e0d-9013-3bfc9c687d9e") (property "Reference" "D10" (at 190.5 38.1 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "RB751V-40" (at 190.5 40.64 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Diode_SMD:D_SOD-323" (at 190.5 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 190.5 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Schottky diode" (at 190.5 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C7502691" (at 190.5 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "c6c5d5dc-2e2f-4745-82b0-67bde3a5827d")) (pin "2" (uuid "9f35100a-a6c9-41d6-ba6e-848f3e8c6e3a")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "D10") (unit 1)))))
-	(wire (pts (xy 186.69 43.18) (xy 184.15 43.18)) (stroke (width 0) (type default)) (uuid "5195f495-0101-4a4e-82a3-73af37d8733a"))
-	(label "LDO_IN" (at 184.15 43.18 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "13ad8083-0a26-4327-92ab-2a44f7456f69"))
-	(wire (pts (xy 194.31 43.18) (xy 196.85 43.18)) (stroke (width 0) (type default)) (uuid "6d372bd9-3464-4716-b157-91c3e78968ff"))
-	(symbol (lib_id "power:+3V3") (at 196.85 43.18 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "98edb9a2-5ce9-4513-b2f1-40af85fbe86b") (property "Reference" "#PWR147" (at 196.85 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "+3V3" (at 196.85 39.37 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 196.85 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 196.85 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 196.85 43.18 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a29e8416-b666-4d35-b8da-5426c0e1f338")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea" (reference "#PWR147") (unit 1)))))
-	(text "USB-C device, USB FS on PA11/PA12. CC1/CC2 5.1k to GND (sink).\nVBUS_USB -> D8 SS14 -> U8 XC6206 3.3V -> +3V3, so the MCU runs from USB alone.\nD8 stops +3V3 back-driving VBUS through U8 when only the 24V PSU is on.\nD10 (anode +3V3, cathode LDO_IN) holds U8 VOUT <= VIN + 0.3V (D69 p3 abs max) when +3V3 comes from the buck and USB is off (issue #67).\nUSB only: +3V3 back-feeds the TPS5430 output; +24V sits near 2.7V (accepted, issue #1).\nFirmware (plan 4.5 USB limits, #56, #78): cap the backlight PWM at 20 % duty and hold BUZZER (PB15) low whenever U8 may carry the load:\nVBUS_SENSE shows no PSU, or a USB host has enumerated the board (also with the PSU on). U8 is 200 mA, 250 mW in SOT-23 (D69 p1, p3).\nBudget (#81, #90): 1.72 V max across U8; 102 mA without backlight, 182 mA at 100 % (313 mW, over), 118 mA at 20 % (202 mW)." (exclude_from_sim no) (at 30.48 160.02 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b44a27e9-3dbf-488b-9488-f16375293298"))
-	(text "Layout (#86): D5 (USB_DP), D6 (USB_DM), D7 (VBUS_USB) right\nat the J10 pins, before any other part on the line (C32, D8, U2).\nShort, direct GND via at each diode anode (pin 2).\nRoute USB_DP/USB_DM as a pair J10 -> U2 PA12/PA11;\ntrace runs over the D5/D6 pads, no stubs.\nJ10 shell (pad 1) to the GND plane with short connections.\nGeneral knowledge: D68 (H5VUD5U) gives ratings and pads only." (exclude_from_sim no) (at 30.48 123.19 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid "5d1e8c47-2a9b-4f63-8e05-7c3b9a6d2f18"))
+	(text "Layout (#86): D5 (USB_DP), D6 (USB_DM), D7 (VBUS_USB) right\nat the J10 pins, before any other part on the line (C32, D8, U2).\nShort, direct GND via at each diode anode (pin 2).\nRoute USB_DP/USB_DM as a pair J10 -> U2 PA12/PA11;\ntrace runs over the D5/D6 pads, no stubs.\nJ10 shell (pad 1) to the GND plane with short connections.\nGeneral knowledge: D68 (H5VUD5U) gives ratings and pads only."
+		(exclude_from_sim no)
+		(at 30.48 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5d1e8c47-2a9b-4f63-8e05-7c3b9a6d2f18")
+	)
+	(text "USB-C device, USB FS on PA11/PA12. CC1/CC2 5.1k to GND (sink).\nVBUS_USB -> D8 SS14 -> U8 XC6206 3.3V -> +3V3, so the MCU runs from USB alone.\nD8 stops +3V3 back-driving VBUS through U8 when only the 24V PSU is on.\nD10 (anode +3V3, cathode LDO_IN) holds U8 VOUT <= VIN + 0.3V (D69 p3 abs max) when +3V3 comes from the buck and USB is off (issue #67).\nUSB only: +3V3 back-feeds the TPS5430 output; +24V sits near 2.7V (accepted, issue #1).\nFirmware (plan 4.5 USB limits, #56, #78): cap the backlight PWM at 20 % duty and hold BUZZER (PB15) low whenever U8 may carry the load:\nVBUS_SENSE shows no PSU, or a USB host has enumerated the board (also with the PSU on). U8 is 200 mA, 250 mW in SOT-23 (D69 p1, p3).\nBudget (#81): 1.72 V max across U8; 97 mA without backlight, 177 mA at 100 % (303 mW, over), 113 mA at 20 % (193 mW)."
+		(exclude_from_sim no)
+		(at 30.48 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b44a27e9-3dbf-488b-9488-f16375293298")
+	)
+	(no_connect
+		(at 62.23 102.87)
+		(uuid "d6acfd45-3b44-41c6-b1fa-7b86ad6879c6")
+	)
+	(no_connect
+		(at 39.37 100.33)
+		(uuid "f4f7ed16-50f6-42cd-95f0-375246708f63")
+	)
+	(wire
+		(pts
+			(xy 149.86 60.96) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9c5e7d-4aa5-4ad9-a9bd-45c049ca9af0")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d52538-eb0c-4959-99c3-a2fd1df501f2")
+	)
+	(wire
+		(pts
+			(xy 106.68 116.84) (xy 109.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eecb625-7701-41fb-86ea-4d736142a4b5")
+	)
+	(wire
+		(pts
+			(xy 182.88 60.96) (xy 180.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2294e14c-bec0-4270-883b-e671966de8d6")
+	)
+	(wire
+		(pts
+			(xy 213.36 80.01) (xy 213.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c786ff-fd13-4ca8-beca-04c2bc6792cd")
+	)
+	(wire
+		(pts
+			(xy 39.37 102.87) (xy 36.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276d2cc4-119b-47fb-8435-4b5df5c87bed")
+	)
+	(wire
+		(pts
+			(xy 62.23 105.41) (xy 64.77 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b4587f-0cbb-4155-9c53-5da5a9713d47")
+	)
+	(wire
+		(pts
+			(xy 39.37 105.41) (xy 36.83 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34467f99-5691-443e-ad38-7a7fa5c3ae5a")
+	)
+	(wire
+		(pts
+			(xy 186.69 43.18) (xy 184.15 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5195f495-0101-4a4e-82a3-73af37d8733a")
+	)
+	(wire
+		(pts
+			(xy 139.7 80.01) (xy 139.7 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557472e2-d6e1-4815-90ce-41d679f9f399")
+	)
+	(wire
+		(pts
+			(xy 39.37 95.25) (xy 36.83 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0b4a2b-263b-4f78-ba41-77857090eb36")
+	)
+	(wire
+		(pts
+			(xy 62.23 97.79) (xy 64.77 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f4eb95-cb05-453b-b6fa-5f7d1bfd2001")
+	)
+	(wire
+		(pts
+			(xy 167.64 72.39) (xy 167.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63665f5f-9871-408c-94e0-4a4c2f666477")
+	)
+	(wire
+		(pts
+			(xy 96.52 132.08) (xy 93.98 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f60d99-95aa-474c-8d90-8fedbc24a12d")
+	)
+	(wire
+		(pts
+			(xy 96.52 116.84) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64548429-b20c-4ebc-9c4b-d8b3dbafb6ec")
+	)
+	(wire
+		(pts
+			(xy 167.64 80.01) (xy 167.64 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c03d78e-baee-46aa-8f16-36de9461a4ce")
+	)
+	(wire
+		(pts
+			(xy 194.31 43.18) (xy 196.85 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d372bd9-3464-4716-b157-91c3e78968ff")
+	)
+	(wire
+		(pts
+			(xy 106.68 132.08) (xy 109.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd3fe78-d52c-4ada-98ad-b48df86235c2")
+	)
+	(wire
+		(pts
+			(xy 39.37 107.95) (xy 36.83 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834626ed-6b24-4acf-9f24-47cd24d28ebd")
+	)
+	(wire
+		(pts
+			(xy 39.37 97.79) (xy 36.83 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85752d46-8c2a-4590-81eb-889bf5859940")
+	)
+	(wire
+		(pts
+			(xy 114.3 80.01) (xy 114.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4095df-01c4-4584-9c92-ccf50eab76b8")
+	)
+	(wire
+		(pts
+			(xy 190.5 66.04) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e9f0fd4-1f11-435e-bae3-99c261054f5d")
+	)
+	(wire
+		(pts
+			(xy 101.6 72.39) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b8cfec-62e0-48be-b23d-697f9226da4a")
+	)
+	(wire
+		(pts
+			(xy 62.23 107.95) (xy 64.77 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c2ad3df-32e2-4293-8fd7-3fb3e1472c68")
+	)
+	(wire
+		(pts
+			(xy 106.68 101.6) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e827b80-d046-44dc-bc12-cf225c86a444")
+	)
+	(wire
+		(pts
+			(xy 50.8 113.03) (xy 50.8 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55d8def-442e-44a5-9569-ecae1fdb98a7")
+	)
+	(wire
+		(pts
+			(xy 213.36 72.39) (xy 213.36 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9346bf6-dbb4-4a07-8bed-fa55fe51b18a")
+	)
+	(wire
+		(pts
+			(xy 139.7 72.39) (xy 139.7 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0127511-4107-4c6f-9bac-370ad5199bc8")
+	)
+	(wire
+		(pts
+			(xy 198.12 60.96) (xy 200.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3167c65-5f23-4959-8885-a54697ea9fcb")
+	)
+	(wire
+		(pts
+			(xy 160.02 60.96) (xy 162.56 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d003c7cd-a0ad-4632-ad92-71127b72a75d")
+	)
+	(wire
+		(pts
+			(xy 62.23 95.25) (xy 64.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4996fb8-a643-486f-9909-25773dc50664")
+	)
+	(wire
+		(pts
+			(xy 101.6 80.01) (xy 101.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e68c44e5-dd0c-4cc5-a6d9-9acda4d6f21d")
+	)
+	(wire
+		(pts
+			(xy 62.23 100.33) (xy 64.77 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f0e13d-ae3c-4c66-82cb-3dc057962e69")
+	)
+	(wire
+		(pts
+			(xy 96.52 101.6) (xy 93.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5d2083-2769-47a8-a8d9-7c5e5293523b")
+	)
+	(label "CC2"
+		(at 114.3 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03da123f-c4a5-4fca-b7ab-8ddb17c196e8")
+	)
+	(label "LDO_IN"
+		(at 167.64 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0415d933-2897-4b34-afb1-75e1997db8ac")
+	)
+	(label "CC1"
+		(at 36.83 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "078abec4-9cf3-4d94-b0f2-1a2f828bcccf")
+	)
+	(label "LDO_IN"
+		(at 184.15 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13ad8083-0a26-4327-92ab-2a44f7456f69")
+	)
+	(label "VBUS_USB"
+		(at 64.77 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21164d56-d142-4d3f-9991-59fab7272578")
+	)
+	(label "VBUS_USB"
+		(at 93.98 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35d9711c-3b72-4ede-b2e0-1d0eb7fcfb40")
+	)
+	(label "CC1"
+		(at 101.6 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42114c07-536d-4852-8af7-b09868d68e25")
+	)
+	(label "LDO_IN"
+		(at 147.32 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "533131b7-b954-4fc1-95c2-f6d54eea91f6")
+	)
+	(label "VBUS_USB"
+		(at 162.56 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a21ecca-d9f9-43ee-8bc0-04b4ff801754")
+	)
+	(label "VBUS_USB"
+		(at 36.83 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d584771-0159-4bee-83f1-76e0b89313ec")
+	)
+	(label "VBUS_USB"
+		(at 139.7 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e4f8a73-0ce9-42cf-8e87-f4e3cade84cd")
+	)
+	(label "CC2"
+		(at 64.77 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2838b56-3d44-4d15-84f5-e8e0ad5772aa")
+	)
+	(label "LDO_IN"
+		(at 180.34 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf932e04-6ba5-428c-b562-1baa0aa18599")
+	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 36.83 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25c36bad-3600-441e-a292-b9dcf55ddaf3")
+	)
+	(hierarchical_label "USB_DM"
+		(shape bidirectional)
+		(at 64.77 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be359558-383a-4fe2-9583-469f2c1ddc09")
+	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 64.77 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c373b323-1802-4797-a055-fca24da63cb7")
+	)
+	(hierarchical_label "USB_DM"
+		(shape bidirectional)
+		(at 93.98 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d955632f-5de8-4db6-91b6-e94bbd49948e")
+	)
+	(hierarchical_label "USB_DM"
+		(shape bidirectional)
+		(at 36.83 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e226dfd1-8c13-4489-823c-4908b1ad11d6")
+	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 93.98 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9130963-4edd-4294-94a4-bf31f4d437c6")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01a1d38d-6778-420c-a432-090da8ee4725")
+		(property "Reference" "#PWR102"
+			(at 50.8 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2325df8-c21e-4db1-8179-c34bc3e20274")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "030894e7-6537-4415-8dff-1d20ce136526")
+		(property "Reference" "#PWR101"
+			(at 64.77 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "406603d5-3d4b-4c4d-b540-c2d7eef300cd")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0500b8fd-b597-4ae3-8c12-5e53ffa249ed")
+		(property "Reference" "C32"
+			(at 139.7 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u 50V"
+			(at 139.7 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 139.7 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15849"
+			(at 139.7 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e94ecd7b-e2eb-4e0e-a808-5d728bfcdd0c")
+		)
+		(pin "2"
+			(uuid "b1e1e60d-c5ab-4e94-a616-6b796b9772e2")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0aed956c-9a36-4c89-b71a-7b38685d11f9")
+		(property "Reference" "R23"
+			(at 101.6 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k 1%"
+			(at 101.6 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a55681e2-15da-4a99-babf-c61afbf159cd")
+		)
+		(pin "2"
+			(uuid "deeac42b-267d-43cf-968e-a1dca1bca165")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C2480:SS14")
+		(at 154.94 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e29f0b5-10a3-4174-9a32-b279e93cec20")
+		(property "Reference" "D8"
+			(at 154.94 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 154.94 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C2480:SMA_L4.2-W2.6-LS5.0-RD_1"
+			(at 154.94 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2480"
+			(at 154.94 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "edb5108e-f23e-46c6-b971-75aa2a0c5761")
+		)
+		(pin "1"
+			(uuid "a627d981-7c7c-4a18-8460-50804aca170d")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 190.5 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27f7e8f1-a561-4e0d-9013-3bfc9c687d9e")
+		(property "Reference" "D10"
+			(at 190.5 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB751V-40"
+			(at 190.5 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C7502691"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6c5d5dc-2e2f-4745-82b0-67bde3a5827d")
+		)
+		(pin "2"
+			(uuid "9f35100a-a6c9-41d6-ba6e-848f3e8c6e3a")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a0a7464-638d-47d7-be80-36375a3706ab")
+		(property "Reference" "#PWR113"
+			(at 213.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6423b4c9-5a7d-4714-bf3c-fd973a84089b")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C5446:XC6206P332MR-G")
+		(at 190.5 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e4579c0-f28b-4556-8ff5-13637f6836bb")
+		(property "Reference" "U8"
+			(at 190.5 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XC6206P332MR-G"
+			(at 190.5 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C5446:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+			(at 190.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5446"
+			(at 190.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9d4011af-fc7a-4d99-9be6-05b156fdda18")
+		)
+		(pin "2"
+			(uuid "379aa8ca-25e8-4dd6-8bc6-fb0d2ef4febe")
+		)
+		(pin "1"
+			(uuid "4c33b2d2-25d9-456d-83b3-7c8f6e7f945b")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "307af21e-fab2-4cda-bf3a-9b797b8eeca6")
+		(property "Reference" "R24"
+			(at 114.3 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k 1%"
+			(at 114.3 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 114.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 114.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "662d1f94-cbf0-4687-99ff-470e29371fe2")
+		)
+		(pin "2"
+			(uuid "cf4cc083-7e44-4449-923a-a67c1a512c7e")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C20617921:H5VUD5U")
+		(at 101.6 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35f70b0f-77fe-469d-80c6-e9bb88df674f")
+		(property "Reference" "D6"
+			(at 101.6 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H5VUD5U"
+			(at 101.6 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C20617921:SOD-523_L1.2-W0.8-LS1.6-RD"
+			(at 101.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C20617921"
+			(at 101.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "defdc498-fbef-4b9e-aacc-f799267978e4")
+		)
+		(pin "2"
+			(uuid "b79c8332-7418-49a5-8900-d0a60026864d")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 213.36 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f7d915a-d0e7-4c87-b328-4872441606a5")
+		(property "Reference" "#PWR112"
+			(at 213.36 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 213.36 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "184b0238-6171-4cc9-9680-104c185dcc44")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5dd5ed96-b0ba-4afa-bebf-98b541e32b3e")
+		(property "Reference" "#PWR105"
+			(at 109.22 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "730320b5-e81c-46e3-b1f3-59be8949707e")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C42400252:HYCW498-USBC16-735B")
+		(at 50.8 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f7b3c10-d4fe-42a7-80bc-82f471700d2b")
+		(property "Reference" "J10"
+			(at 50.8 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HYCW498-USBC16-735B"
+			(at 50.8 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C42400252:USB-C-SMD_HYCW498-USBC16-735B"
+			(at 50.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C42400252"
+			(at 50.8 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A1B12"
+			(uuid "ee74aade-2c48-4bce-936b-cfefe1c59457")
+		)
+		(pin "A4B9"
+			(uuid "1e15467e-82fd-40d2-90aa-7b3683a74b17")
+		)
+		(pin "B8"
+			(uuid "85501cb6-eeef-46b2-8311-a053fbfe398c")
+		)
+		(pin "A5"
+			(uuid "5376765d-61be-4965-a943-93da3a29c3f4")
+		)
+		(pin "B7"
+			(uuid "3b3a72ea-506e-438c-b342-f8bcbdc08ef1")
+		)
+		(pin "A6"
+			(uuid "36401f18-9805-4d9d-adda-3b1c7d657d13")
+		)
+		(pin "A7"
+			(uuid "79f9acc6-9cca-4018-991b-35abc256772d")
+		)
+		(pin "B6"
+			(uuid "436d2c49-b965-47b5-9714-510cb3ae769d")
+		)
+		(pin "A8"
+			(uuid "d1161b06-5da3-4b18-8a5c-b22a75ec2439")
+		)
+		(pin "B5"
+			(uuid "11e429f7-136f-486c-b2c9-738c6623a406")
+		)
+		(pin "B4A9"
+			(uuid "d70f9f08-3df9-450d-9ade-0550a784db28")
+		)
+		(pin "B1A12"
+			(uuid "f5fe2055-df3c-4565-8bae-43bff1b4b6e9")
+		)
+		(pin "1"
+			(uuid "3e77f55a-2722-4c81-a566-2274a6b8469e")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8108383f-94dc-41b7-bb31-f8050a5526f0")
+		(property "Reference" "#PWR109"
+			(at 167.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84d7bc14-1bdf-4762-9e7f-5cf35b7484ea")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 200.66 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8311d7df-533e-4526-9824-a7e448804c11")
+		(property "Reference" "#PWR110"
+			(at 200.66 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 200.66 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1a2d3d9-be4b-4ac6-818c-33e06c04f25d")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8df8faeb-76e7-4330-8bca-b11a37c3b331")
+		(property "Reference" "#PWR108"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d1808a0-2b92-4dee-b13e-ad055cb373de")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95d4729a-0346-4126-a52a-afb3b08d641c")
+		(property "Reference" "#PWR111"
+			(at 190.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "acd0e672-ff45-4204-bafa-c2cb592faf96")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 196.85 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98edb9a2-5ce9-4513-b2f1-40af85fbe86b")
+		(property "Reference" "#PWR147"
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 196.85 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a29e8416-b666-4d35-b8da-5426c0e1f338")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C20617921:H5VUD5U")
+		(at 101.6 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aac15b50-14a5-40b0-926d-c3d6fa2721a7")
+		(property "Reference" "D7"
+			(at 101.6 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H5VUD5U"
+			(at 101.6 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C20617921:SOD-523_L1.2-W0.8-LS1.6-RD"
+			(at 101.6 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C20617921"
+			(at 101.6 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3271c569-f0b3-4c37-b8ca-7e7e82a162bc")
+		)
+		(pin "2"
+			(uuid "26a80d05-a3b1-4b0a-9d71-d8946bccae20")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6006b86-f7d6-4718-8ec7-09f7cd1f3089")
+		(property "Reference" "#PWR104"
+			(at 114.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18a6497e-eba3-4034-b31a-957e5eaf39d7")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb084f6c-a6fd-40d4-a2a2-5bb19e21d953")
+		(property "Reference" "#PWR100"
+			(at 36.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "388b8dfd-774a-4778-9487-34d5deceb769")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 213.36 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be6c2d9a-828d-49a2-a36a-85002d31a95c")
+		(property "Reference" "C34"
+			(at 213.36 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u 50V"
+			(at 213.36 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 213.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15849"
+			(at 213.36 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5396940a-bec1-43ba-a286-d6b9423b22ff")
+		)
+		(pin "2"
+			(uuid "0bf51f63-7a98-4803-a343-6297d9133502")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c29a9591-ed7b-4687-a8b6-6b05191c28c4")
+		(property "Reference" "C33"
+			(at 167.64 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u 50V"
+			(at 167.64 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 167.64 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15849"
+			(at 167.64 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58690906-f787-4dbd-ba5f-5d56d3b615eb")
+		)
+		(pin "2"
+			(uuid "60b17616-2569-434e-b3e8-6c85ac862bf2")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 167.64 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e686127a-9a52-43d2-8820-bd85812e57aa")
+		(property "Reference" "#FLG09"
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 167.64 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e08b3288-f4bd-4e79-a4b8-72dc736b4df4")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7614fd6-4e84-49a5-a766-d2d83e723b80")
+		(property "Reference" "#PWR106"
+			(at 109.22 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23a674af-4fbd-4fcc-a62c-49a262525567")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8aac842-09bf-47f2-ac33-2033564c5fd0")
+		(property "Reference" "#PWR107"
+			(at 109.22 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e5258c4-6223-4848-89ba-e0659bdf7e3e")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 139.7 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef8806d7-3a68-421b-8a79-f4060a9e91f0")
+		(property "Reference" "#FLG08"
+			(at 139.7 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 139.7 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fac5c6f1-c355-4711-98a9-9a04e0d24507")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f48d991a-67f3-48fa-a66f-8f3cedc7b4ad")
+		(property "Reference" "#PWR103"
+			(at 101.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "829a4bdc-40db-41c8-a315-1623a9b7adb7")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "#PWR103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C20617921:H5VUD5U")
+		(at 101.6 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc2452c1-70d3-4370-92a6-e78736bdadc6")
+		(property "Reference" "D5"
+			(at 101.6 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H5VUD5U"
+			(at 101.6 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C20617921:SOD-523_L1.2-W0.8-LS1.6-RD"
+			(at 101.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C20617921"
+			(at 101.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b45107f-afb1-4af4-9953-0f11004cf56e")
+		)
+		(pin "2"
+			(uuid "76c1f052-7a64-4521-ada5-0be3fbb23292")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/07a30f05-0c12-47d2-8523-8f2b02fa20ea"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

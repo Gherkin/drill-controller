@@ -1922,6 +1922,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Layout: J1/J11 -> Q1 -> +24V carries the 5.2 A cold motor stall (plan section 2, #63).\nVIN_RAW, +24V and the GND return from J1 pins 2/3 and J11 pin 2: pours, or traces at least\n3 mm wide on 1 oz outer copper (about 10 °C rise, IPC-2221, general knowledge).\nQ1 AOD409: put about 1 in² (645 mm²) of VIN_RAW copper on the drain tab (pad 2).\nR_DS(on) 40 mΩ max at 25 °C, 53 mΩ typ at 125 °C (D65 p2): 1.1-1.4 W at 5.2 A.\nR_θJA 40-50 °C/W is for 1 in² of 2 oz copper (D65 p1-2 note A); 1 oz runs hotter.\nD3 SMBJ24A: next to Q1 source / C21, close to the input, with a short wide GND return\nto the J1/J11 GND pins (general knowledge)."
+		(exclude_from_sim no)
+		(at 50.8 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3050c580-9026-42af-8f2f-eb028b428565")
+	)
 	(junction
 		(at 91.44 60.96)
 		(diameter 0)
@@ -2032,6 +2043,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 63.5) (xy 58.42 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dbb4adf-1a52-47e8-ba35-4f084b0dbae5")
+	)
+	(wire
+		(pts
 			(xy 76.2 68.58) (xy 76.2 71.12)
 		)
 		(stroke
@@ -2092,6 +2113,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 77.47) (xy 60.96 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e9a633-d6c0-44eb-9047-de589ddc3d32")
+	)
+	(wire
+		(pts
 			(xy 86.36 60.96) (xy 91.44 60.96)
 		)
 		(stroke
@@ -2110,7 +2141,16 @@
 		)
 		(uuid "158bbd56-6cd6-412c-86ff-f1cd325ad77d")
 	)
-	(text "Layout: J1/J11 -> Q1 -> +24V carries the 5.2 A cold motor stall (plan section 2, #63).\nVIN_RAW, +24V and the GND return from J1 pins 2/3 and J11 pin 2: pours, or traces at least\n3 mm wide on 1 oz outer copper (about 10 °C rise, IPC-2221, general knowledge).\nQ1 AOD409: put about 1 in² (645 mm²) of VIN_RAW copper on the drain tab (pad 2).\nR_DS(on) 40 mΩ max at 25 °C, 53 mΩ typ at 125 °C (D65 p2): 1.1-1.4 W at 5.2 A.\nR_θJA 40-50 °C/W is for 1 in² of 2 oz copper (D65 p1-2 note A); 1 oz runs hotter.\nD3 SMBJ24A: next to Q1 source / C21, close to the input, with a short wide GND return\nto the J1/J11 GND pins (general knowledge)." (exclude_from_sim no) (at 50.8 91.44 0) (effects (font (size 1.27 1.27)) (justify left top)) (uuid "3050c580-9026-42af-8f2f-eb028b428565"))
+	(label "VIN_RAW"
+		(at 60.96 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a83106d-018b-4d16-a94b-a24602454d3f")
+	)
 	(hierarchical_label "VBUS_SENSE"
 		(shape output)
 		(at 142.24 68.58 0)
@@ -2433,7 +2473,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C28233" (at 119.38 64.77 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C28233"
+			(at 119.38 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5ff23c0-eec6-41cb-a36f-27f4573f11bd")
 		)
@@ -2514,7 +2565,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C25744" (at 129.54 72.39 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C25744"
+			(at 129.54 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8bd1ccc0-3ec1-437a-be4d-1d7f747844e9")
 		)
@@ -2525,6 +2587,83 @@
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/c44523d0-20cd-4fd6-893c-f580052c2ff3"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3534d8ab-becb-4bff-bd6e-f495082ea79f")
+		(property "Reference" "#PWR119"
+			(at 58.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94c44fe3-cf0e-4b81-aecd-12f2f1ab4e90")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/c44523d0-20cd-4fd6-893c-f580052c2ff3"
+					(reference "#PWR119")
 					(unit 1)
 				)
 			)
@@ -2694,6 +2833,99 @@
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/c44523d0-20cd-4fd6-893c-f580052c2ff3"
 					(reference "#PWR56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C381115:DC-005-5A-2.5")
+		(at 53.34 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f543e15-9589-4562-ae5c-b9a6868d4487")
+		(property "Reference" "J1"
+			(at 53.34 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC-005-5A-2.5"
+			(at 53.34 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C381115:DC-IN-TH_DC-005-5A-2.5"
+			(at 53.34 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_XKB-Enterprise-DC-005-5A-2-5_C381115.html"
+			(at 53.34 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC jack 5.5x2.5 mm, centre positive, 57 V 5 A (D78 p1)"
+			(at 53.34 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C381115"
+			(at 53.34 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7ceb9bf-6b48-43e5-a9b8-380ea0d1ee23")
+		)
+		(pin "2"
+			(uuid "63e1c948-d76c-40cf-a475-00a77fe2314f")
+		)
+		(pin "3"
+			(uuid "9be9491d-b1ae-4c55-968d-7c082ef2dade")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/c44523d0-20cd-4fd6-893c-f580052c2ff3"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3318,7 +3550,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C1525" (at 137.16 72.39 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C1525"
+			(at 137.16 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bfb0c237-1862-4e88-ad57-c0f07ce6cdb6")
 		)
@@ -3582,297 +3825,6 @@
 		)
 	)
 	(symbol
-		(lib_id "C381115:DC-005-5A-2.5")
-		(at 53.34 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3f543e15-9589-4562-ae5c-b9a6868d4487")
-		(property "Reference" "J1"
-			(at 53.34 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DC-005-5A-2.5"
-			(at 53.34 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "C381115:DC-IN-TH_DC-005-5A-2.5"
-			(at 53.34 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_XKB-Enterprise-DC-005-5A-2-5_C381115.html"
-			(at 53.34 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DC jack 5.5x2.5 mm, centre positive, 57 V 5 A (D78 p1)"
-			(at 53.34 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C381115"
-			(at 53.34 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7ceb9bf-6b48-43e5-a9b8-380ea0d1ee23")
-		)
-		(pin "2"
-			(uuid "63e1c948-d76c-40cf-a475-00a77fe2314f")
-		)
-		(pin "3"
-			(uuid "9be9491d-b1ae-4c55-968d-7c082ef2dade")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/c44523d0-20cd-4fd6-893c-f580052c2ff3"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "C557665:XY128V-A-5.08-2P")
-		(at 53.34 78.74 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc5ac14a-653a-4312-85e5-390fd3a7f786")
-		(property "Reference" "J11"
-			(at 53.34 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XY128V-A-5.08-2P"
-			(at 53.34 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "C557665:CONN-TH_XY128V-A-5.08-2P"
-			(at 53.34 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_XY128V-A-5-08-2P_C557665.html"
-			(at 53.34 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "24 V in from panel jack: 1 = +, 2 = GND. 300 V 15 A (D76 p1)"
-			(at 53.34 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C557665"
-			(at 53.34 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90c7dac5-6c30-4ebb-a43b-a94c443324b3")
-		)
-		(pin "2"
-			(uuid "0c57637c-09dc-4003-8261-30b30ac9eb4d")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/c44523d0-20cd-4fd6-893c-f580052c2ff3"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3534d8ab-becb-4bff-bd6e-f495082ea79f")
-		(property "Reference" "#PWR119"
-			(at 58.42 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94c44fe3-cf0e-4b81-aecd-12f2f1ab4e90")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/c44523d0-20cd-4fd6-893c-f580052c2ff3"
-					(reference "#PWR119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 58.42 63.5) (xy 58.42 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dbb4adf-1a52-47e8-ba35-4f084b0dbae5")
-	)
-	(wire
-		(pts
-			(xy 58.42 77.47) (xy 60.96 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2e9a633-d6c0-44eb-9047-de589ddc3d32")
-	)
-	(label "VIN_RAW"
-		(at 60.96 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a83106d-018b-4d16-a94b-a24602454d3f")
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 129.54 64.77 0)
 		(unit 1)
@@ -3937,7 +3889,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C25750" (at 129.54 64.77 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C25750"
+			(at 129.54 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2551bca4-b309-48e8-9b88-ea967c2ddf3f")
 		)
@@ -3948,6 +3911,97 @@
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/c44523d0-20cd-4fd6-893c-f580052c2ff3"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C557665:XY128V-A-5.08-2P")
+		(at 53.34 78.74 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc5ac14a-653a-4312-85e5-390fd3a7f786")
+		(property "Reference" "J11"
+			(at 53.34 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XY128V-A-5.08-2P"
+			(at 53.34 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C557665:CONN-TH_XY128V-A-5.08-2P"
+			(at 53.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_XY128V-A-5-08-2P_C557665.html"
+			(at 53.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "24 V in from panel jack: 1 = +, 2 = GND. 300 V 15 A (D76 p1)"
+			(at 53.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C557665"
+			(at 53.34 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90c7dac5-6c30-4ebb-a43b-a94c443324b3")
+		)
+		(pin "2"
+			(uuid "0c57637c-09dc-4003-8261-30b30ac9eb4d")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/c44523d0-20cd-4fd6-893c-f580052c2ff3"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -4095,7 +4149,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C25744" (at 76.2 74.93 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C25744"
+			(at 76.2 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6777b70-0c7a-4a42-a3a4-aec071e73d1e")
 		)

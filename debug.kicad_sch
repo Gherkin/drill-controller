@@ -676,8 +676,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 5.08)
-						(xy 0.8636 5.08)
+						(xy 1.27 5.08) (xy 0.8636 5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -689,8 +688,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54)
-						(xy 0.8636 2.54)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -702,8 +700,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0)
-						(xy 0.8636 0)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -715,8 +712,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54)
-						(xy 0.8636 -2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -728,8 +724,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -5.08)
-						(xy 0.8636 -5.08)
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -741,8 +736,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -7.62)
-						(xy 0.8636 -7.62)
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -1077,11 +1071,7 @@
 			(symbol "TestPoint_Alt_0_1"
 				(polyline
 					(pts
-						(xy 0 2.54)
-						(xy -0.762 3.302)
-						(xy 0 4.064)
-						(xy 0.762 3.302)
-						(xy 0 2.54)
+						(xy 0 2.54) (xy -0.762 3.302) (xy 0 4.064) (xy 0.762 3.302) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1206,8 +1196,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762)
-						(xy 2.032 0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1219,8 +1208,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762)
-						(xy 2.032 -0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1604,6 +1592,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1686,12 +1813,7 @@
 			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy 0 0)
-						(xy 0 -1.27)
-						(xy 1.27 -1.27)
-						(xy 0 -2.54)
-						(xy -1.27 -1.27)
-						(xy 0 -1.27)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -1826,12 +1948,7 @@
 			(symbol "PWR_FLAG_0_1"
 				(polyline
 					(pts
-						(xy 0 0)
-						(xy 0 1.27)
-						(xy -1.016 1.905)
-						(xy 0 2.54)
-						(xy 1.016 1.905)
-						(xy 0 1.27)
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1844,148 +1961,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
+	)
+	(text "Debug UART Connector"
+		(exclude_from_sim no)
+		(at 146.558 23.114 0)
+		(effects
+			(font
+				(size 8 8)
+				(thickness 1.5875)
 			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27)
-						(xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54)
-						(xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0)
-						(xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
 		)
+		(uuid "226d434e-5130-406e-81d4-ffddb558ac6b")
+	)
+	(text "UART_TX pull-up (#72): holds U9 A1 high while\nPA2 floats in reset and flash. Without it the\n5 M pull-down in U9 (D24 p21) drives the cable\nRX low, which the host sees as a UART break."
+		(exclude_from_sim no)
+		(at 40.64 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7272a001-3b1e-4c2a-9f10-5c1d00000008")
 	)
 	(text "Debug SWD Connector"
 		(exclude_from_sim no)
@@ -1998,16 +1995,25 @@
 		)
 		(uuid "c69e1e8a-cda9-417d-80ae-8d4745b5759d")
 	)
-	(text "Debug UART Connector"
+	(text_box "Design Note:\nConnector is 1.27mm pitch shrouded/keyed pin header.\nMatches the ARM Cortex Debug Connector (10-pin), same as netdaq.\nSWD only: TDO (pin 6) and TDI (pin 8) are not connected,\nbecause PB3/PA15 are SPINDLE_B/SPINDLE_A."
 		(exclude_from_sim no)
-		(at 146.558 23.114 0)
+		(at 200.66 130.81 0)
+		(size 52.07 16.2161)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
-				(size 8 8)
-				(thickness 1.5875)
+				(size 1.27 1.27)
 			)
+			(justify left top)
 		)
-		(uuid "226d434e-5130-406e-81d4-ffddb558ac6b")
+		(uuid "42f6f96c-8fd2-4eec-861a-e65799810310")
 	)
 	(text_box "Design Note:\nTX/RX naming is from MCU perspective"
 		(exclude_from_sim no)
@@ -2049,37 +2055,47 @@
 		)
 		(uuid "a0217c9a-5f3c-4764-bf3d-ad73cf7fb228")
 	)
-	(text_box "Design Note:\nConnector is 1.27mm pitch shrouded/keyed pin header.\nMatches the ARM Cortex Debug Connector (10-pin), same as netdaq.\nSWD only: TDO (pin 6) and TDI (pin 8) are not connected,\nbecause PB3/PA15 are SPINDLE_B/SPINDLE_A."
-		(exclude_from_sim no)
-		(at 200.66 130.81 0)
-		(size 52.07 16.2161)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "42f6f96c-8fd2-4eec-861a-e65799810310")
-	)
 	(junction
-		(at 127 43.18)
+		(at 171.45 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b04dd63d-78cb-41f6-8792-df6afe45a92b")
+		(uuid "18d49963-f120-4edb-a3e9-3c858a855566")
 	)
 	(junction
-		(at 182.88 59.69)
+		(at 114.3 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a85aca2a-978a-427d-b222-76fa1675171c")
+		(uuid "2f350574-1666-40d7-91f3-663de060a635")
+	)
+	(junction
+		(at 53.34 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4231529c-af3a-4cea-96a3-84ee310b64aa")
+	)
+	(junction
+		(at 137.16 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45c9645e-8fb8-4333-b766-03feea46da4d")
+	)
+	(junction
+		(at 91.44 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a88a59b-a667-4eb9-8480-b4ce6aaa8e69")
+	)
+	(junction
+		(at 73.66 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7272a001-3b1e-4c2a-9f10-5c1d00000007")
+	)
+	(junction
+		(at 114.3 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "837143ad-6877-478b-9d65-3862e99c3692")
 	)
 	(junction
 		(at 123.19 50.8)
@@ -2094,16 +2110,10 @@
 		(uuid "91ca7994-be9f-47e2-92fd-ae1684b01c91")
 	)
 	(junction
-		(at 114.3 144.78)
+		(at 58.42 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2f350574-1666-40d7-91f3-663de060a635")
-	)
-	(junction
-		(at 137.16 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45c9645e-8fb8-4333-b766-03feea46da4d")
+		(uuid "9beb5910-e4db-46d0-8946-972dc43a47e6")
 	)
 	(junction
 		(at 171.45 57.15)
@@ -2112,10 +2122,22 @@
 		(uuid "a7e8b238-02b0-417f-8522-01fc60203a1d")
 	)
 	(junction
-		(at 158.75 137.16)
+		(at 182.88 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eeea7d40-235e-4075-8e00-dddb74d3433a")
+		(uuid "a85aca2a-978a-427d-b222-76fa1675171c")
+	)
+	(junction
+		(at 127 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b04dd63d-78cb-41f6-8792-df6afe45a92b")
+	)
+	(junction
+		(at 171.45 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b88e011b-d8b0-4d92-b05d-615f2f6a377d")
 	)
 	(junction
 		(at 53.34 62.23)
@@ -2124,478 +2146,26 @@
 		(uuid "ed9ceaf6-4330-46c5-885e-70e9f8d4f8c9")
 	)
 	(junction
-		(at 171.45 48.26)
+		(at 158.75 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18d49963-f120-4edb-a3e9-3c858a855566")
+		(uuid "eeea7d40-235e-4075-8e00-dddb74d3433a")
 	)
-	(junction
-		(at 114.3 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "837143ad-6877-478b-9d65-3862e99c3692")
-	)
-	(junction
-		(at 91.44 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a88a59b-a667-4eb9-8480-b4ce6aaa8e69")
-	)
-	(junction
-		(at 58.42 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9beb5910-e4db-46d0-8946-972dc43a47e6")
-	)
-	(junction
-		(at 53.34 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4231529c-af3a-4cea-96a3-84ee310b64aa")
-	)
-	(junction
-		(at 171.45 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b88e011b-d8b0-4d92-b05d-615f2f6a377d")
+	(no_connect
+		(at 129.54 139.7)
+		(uuid "9deb002e-e4ce-462e-a3fb-bdf96845e7a1")
 	)
 	(no_connect
 		(at 116.84 142.24)
 		(uuid "be38756c-8d6f-4394-b5d5-21cba1ae69cc")
 	)
-	(wire
-		(pts
-			(xy 182.88 57.15)
-			(xy 208.28 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec340895-f524-43e5-b14a-2b7555ae1f9c")
+	(no_connect
+		(at 129.54 142.24)
+		(uuid "e2348a01-36c0-42ea-a78b-7f1f5710aebd")
 	)
 	(wire
 		(pts
-			(xy 129.54 144.78)
-			(xy 176.53 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08013ecb-c479-4648-9d71-d30b30392f0b")
-	)
-	(wire
-		(pts
-			(xy 162.56 64.77)
-			(xy 208.28 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e43a1067-268d-4fe8-8382-4be21ca9fbdd")
-	)
-	(wire
-		(pts
-			(xy 160.02 64.77)
-			(xy 160.02 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "598ec27e-02ae-4c72-b1ed-725ef5f5cfa2")
-	)
-	(wire
-		(pts
-			(xy 199.39 54.61)
-			(xy 199.39 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2b11165-cc17-4fbb-bd15-2447ad8b8ec9")
-	)
-	(wire
-		(pts
-			(xy 114.3 144.78)
-			(xy 116.84 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "656019cf-cd98-4d56-8eca-2396626a2bb4")
-	)
-	(wire
-		(pts
-			(xy 182.88 67.31)
-			(xy 208.28 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "772bcffe-1c8b-4b5c-bdcf-d3f1e55ea7ae")
-	)
-	(wire
-		(pts
-			(xy 114.3 72.39)
-			(xy 116.84 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96682629-41a0-4f08-84c7-2d92f953c49a")
-	)
-	(wire
-		(pts
-			(xy 127 50.8)
-			(xy 123.19 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87d7046c-6018-4844-9a82-8bccc76ce04d")
-	)
-	(wire
-		(pts
-			(xy 149.86 62.23)
-			(xy 162.56 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f30daf3-051a-44e7-a72b-54460243bf6c")
-	)
-	(wire
-		(pts
-			(xy 123.19 50.8)
-			(xy 116.84 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bd77a10-7714-48c5-b019-ae7b42bdef57")
-	)
-	(wire
-		(pts
-			(xy 114.3 139.7)
-			(xy 114.3 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2147f1b3-2d54-403f-b348-01a5b03b0d17")
-	)
-	(wire
-		(pts
-			(xy 129.54 137.16)
-			(xy 158.75 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76cf17c4-0755-435a-8242-27ec624c1ee3")
-	)
-	(wire
-		(pts
-			(xy 114.3 132.08)
-			(xy 114.3 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d5d327b-971e-4666-ba29-312d552cd125")
-	)
-	(wire
-		(pts
-			(xy 162.56 62.23)
-			(xy 162.56 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e4d2b47-7e7c-4356-adca-b7e10b273948")
-	)
-	(wire
-		(pts
-			(xy 182.88 59.69)
-			(xy 208.28 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b42ca3b-8919-47e6-b4b0-1924e480a94c")
-	)
-	(wire
-		(pts
-			(xy 114.3 144.78)
-			(xy 114.3 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "100fe849-afcd-4977-bc7c-9d626c59aa2d")
-	)
-	(wire
-		(pts
-			(xy 44.45 62.23)
-			(xy 53.34 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4318dedf-9054-454e-aab2-5a7d8150bb28")
-	)
-	(wire
-		(pts
-			(xy 114.3 139.7)
-			(xy 116.84 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e35626c1-8b53-4e9b-9217-5789bc82adc6")
-	)
-	(wire
-		(pts
-			(xy 58.42 49.53)
-			(xy 58.42 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5aee06d1-aaed-442b-8034-5c511ef55a61")
-	)
-	(wire
-		(pts
-			(xy 114.3 137.16)
-			(xy 114.3 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d1db9e-188f-4378-8cbc-b46124536af6")
-	)
-	(wire
-		(pts
-			(xy 166.37 132.08)
-			(xy 166.37 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b744a552-0218-4fb2-bec0-d547ba22a26a")
-	)
-	(wire
-		(pts
-			(xy 85.09 50.8)
-			(xy 91.44 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92386dcd-2791-4a0b-9ff8-116d9879d548")
-	)
-	(wire
-		(pts
-			(xy 165.1 67.31)
-			(xy 165.1 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e859edd2-f307-4c49-a696-e7c59a0519a4")
-	)
-	(wire
-		(pts
-			(xy 44.45 64.77)
-			(xy 53.34 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f2a8aa8-2c50-4c49-bc19-a1ce33bebbe6")
-	)
-	(wire
-		(pts
-			(xy 171.45 59.69)
-			(xy 171.45 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65052f67-dec9-4e44-a80b-6ffbe885ed16")
-	)
-	(wire
-		(pts
-			(xy 166.37 134.62)
-			(xy 172.72 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e817c28d-3f5a-4546-a7c0-aa64ff409728")
-	)
-	(wire
-		(pts
-			(xy 171.45 43.18)
-			(xy 168.91 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d0fdfdf-db47-4600-b37c-d45922df9123")
-	)
-	(wire
-		(pts
-			(xy 171.45 43.18)
-			(xy 176.53 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba68de7b-83e2-4fe1-8d34-c117a36fe53b")
-	)
-	(polyline
-		(pts
-			(xy 12.7 91.44)
-			(xy 284.48 91.44)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "fffd4790-c3a1-4b54-909e-17010d685339")
-	)
-	(wire
-		(pts
-			(xy 171.45 48.26)
-			(xy 171.45 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebf756fd-8087-4a19-ac18-eca28bb16f18")
-	)
-	(wire
-		(pts
-			(xy 53.34 62.23)
-			(xy 93.98 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89a50653-9fa8-48aa-882a-895e51556253")
-	)
-	(wire
-		(pts
-			(xy 189.23 41.91)
-			(xy 189.23 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45583ea4-3ec2-408e-ae78-c8fe4643ee58")
-	)
-	(wire
-		(pts
-			(xy 127 50.8)
-			(xy 127 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d466dbd-dd26-4895-b6ca-5c2ca7d6b6dc")
-	)
-	(wire
-		(pts
-			(xy 116.84 50.8)
-			(xy 116.84 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f466f7e-cf56-42c2-baed-6e1f6808f1a0")
-	)
-	(wire
-		(pts
-			(xy 199.39 41.91)
-			(xy 189.23 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6f1ab67-ac2c-41d6-9c9f-94d70f7c83d5")
-	)
-	(wire
-		(pts
-			(xy 199.39 54.61)
-			(xy 208.28 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d235f99-a3e9-4c43-b5ee-eb2c8e38c46e")
-	)
-	(wire
-		(pts
-			(xy 158.75 137.16)
-			(xy 158.75 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a60f68-21eb-4b93-b541-7a99ec9b5245")
-	)
-	(wire
-		(pts
-			(xy 91.44 72.39)
-			(xy 93.98 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e6d8fe3-30ae-452f-9255-0be97da90a9c")
-	)
-	(wire
-		(pts
-			(xy 127 43.18)
-			(xy 137.16 43.18)
+			(xy 127 43.18) (xy 137.16 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2605,129 +2175,27 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 64.77)
-			(xy 58.42 64.77)
+			(xy 129.54 144.78) (xy 176.53 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a239712f-4f2a-475b-b708-379941b33870")
+		(uuid "08013ecb-c479-4648-9d71-d30b30392f0b")
 	)
 	(wire
 		(pts
-			(xy 166.37 121.92)
-			(xy 166.37 124.46)
+			(xy 114.3 144.78) (xy 114.3 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2df87e7-0048-493e-a19d-26909513a452")
+		(uuid "100fe849-afcd-4977-bc7c-9d626c59aa2d")
 	)
 	(wire
 		(pts
-			(xy 114.3 64.77)
-			(xy 160.02 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a7bf26-ada4-4446-b80e-0fd872e0d9a5")
-	)
-	(wire
-		(pts
-			(xy 114.3 62.23)
-			(xy 142.24 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4ad7b18-09a3-40e5-88c8-846accb9a5e0")
-	)
-	(wire
-		(pts
-			(xy 93.98 52.07)
-			(xy 91.44 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1a95fd6-03b5-4a27-a113-6b17540f2e55")
-	)
-	(wire
-		(pts
-			(xy 137.16 43.18)
-			(xy 143.51 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22462324-8222-4a1e-abb8-355de8ab7b9c")
-	)
-	(wire
-		(pts
-			(xy 116.84 134.62)
-			(xy 114.3 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1758bf66-ea22-4b11-9fc3-db89085c8eac")
-	)
-	(wire
-		(pts
-			(xy 58.42 64.77)
-			(xy 66.04 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a22931e-aa92-4269-a585-d859904aa976")
-	)
-	(wire
-		(pts
-			(xy 158.75 137.16)
-			(xy 172.72 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "897c7031-998f-4fb8-b1c4-e484af211267")
-	)
-	(wire
-		(pts
-			(xy 116.84 137.16)
-			(xy 114.3 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0f19b60-87ed-44f3-827e-87de47bc4eeb")
-	)
-	(wire
-		(pts
-			(xy 158.75 154.94)
-			(xy 158.75 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffb1f695-42dd-40cb-bd38-d9290c41e85b")
-	)
-	(wire
-		(pts
-			(xy 116.84 72.39)
-			(xy 116.84 74.93)
+			(xy 116.84 72.39) (xy 116.84 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2737,96 +2205,47 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 52.07)
-			(xy 116.84 52.07)
+			(xy 114.3 137.16) (xy 114.3 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "568feb71-3331-4eea-ac85-1d878d54ac00")
+		(uuid "13d1db9e-188f-4378-8cbc-b46124536af6")
 	)
 	(wire
 		(pts
-			(xy 168.91 48.26)
-			(xy 171.45 48.26)
+			(xy 116.84 134.62) (xy 114.3 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6f3580c-7d9c-419f-9e67-247ed453a8ef")
+		(uuid "1758bf66-ea22-4b11-9fc3-db89085c8eac")
 	)
 	(wire
 		(pts
-			(xy 129.54 134.62)
-			(xy 166.37 134.62)
+			(xy 127 50.8) (xy 127 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf759d5e-6da2-439b-a80d-09478cfe7336")
+		(uuid "1d466dbd-dd26-4895-b6ca-5c2ca7d6b6dc")
 	)
 	(wire
 		(pts
-			(xy 182.88 59.69)
-			(xy 171.45 59.69)
+			(xy 162.56 62.23) (xy 162.56 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "228870c5-4b03-4de2-9831-ec5c5272e48b")
+		(uuid "1e4d2b47-7e7c-4356-adca-b7e10b273948")
 	)
 	(wire
 		(pts
-			(xy 91.44 49.53)
-			(xy 91.44 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b97731-196e-457b-8dd3-62b7f1d35482")
-	)
-	(wire
-		(pts
-			(xy 179.07 74.93)
-			(xy 179.07 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59150b83-f6e4-468d-8a75-debfc7cb8ae7")
-	)
-	(wire
-		(pts
-			(xy 156.21 57.15)
-			(xy 156.21 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae0d5fb-4a3e-4bca-b6b2-6fb76cf513bb")
-	)
-	(wire
-		(pts
-			(xy 171.45 57.15)
-			(xy 171.45 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0cfdb85-221f-4b34-8878-7a19dfa2bad1")
-	)
-	(wire
-		(pts
-			(xy 73.66 64.77)
-			(xy 93.98 64.77)
+			(xy 73.66 64.77) (xy 93.98 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2836,19 +2255,67 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 62.23)
-			(xy 208.28 62.23)
+			(xy 149.86 62.23) (xy 162.56 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c96d6e0-96d0-422b-87a1-371ba6832200")
+		(uuid "1f30daf3-051a-44e7-a72b-54460243bf6c")
 	)
 	(wire
 		(pts
-			(xy 58.42 39.37)
-			(xy 58.42 41.91)
+			(xy 114.3 139.7) (xy 114.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2147f1b3-2d54-403f-b348-01a5b03b0d17")
+	)
+	(wire
+		(pts
+			(xy 137.16 43.18) (xy 143.51 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22462324-8222-4a1e-abb8-355de8ab7b9c")
+	)
+	(wire
+		(pts
+			(xy 182.88 59.69) (xy 171.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228870c5-4b03-4de2-9831-ec5c5272e48b")
+	)
+	(wire
+		(pts
+			(xy 199.39 54.61) (xy 208.28 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d235f99-a3e9-4c43-b5ee-eb2c8e38c46e")
+	)
+	(wire
+		(pts
+			(xy 116.84 50.8) (xy 116.84 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f466f7e-cf56-42c2-baed-6e1f6808f1a0")
+	)
+	(wire
+		(pts
+			(xy 58.42 39.37) (xy 58.42 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2858,19 +2325,167 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 50.8)
-			(xy 91.44 52.07)
+			(xy 44.45 62.23) (xy 53.34 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "907aae6c-c67d-4ade-8d77-53bca3132bd2")
+		(uuid "4318dedf-9054-454e-aab2-5a7d8150bb28")
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31)
-			(xy 165.1 67.31)
+			(xy 189.23 41.91) (xy 189.23 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45583ea4-3ec2-408e-ae78-c8fe4643ee58")
+	)
+	(wire
+		(pts
+			(xy 158.75 137.16) (xy 158.75 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a60f68-21eb-4b93-b541-7a99ec9b5245")
+	)
+	(wire
+		(pts
+			(xy 114.3 52.07) (xy 116.84 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568feb71-3331-4eea-ac85-1d878d54ac00")
+	)
+	(wire
+		(pts
+			(xy 179.07 74.93) (xy 179.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59150b83-f6e4-468d-8a75-debfc7cb8ae7")
+	)
+	(wire
+		(pts
+			(xy 160.02 64.77) (xy 160.02 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598ec27e-02ae-4c72-b1ed-725ef5f5cfa2")
+	)
+	(wire
+		(pts
+			(xy 58.42 49.53) (xy 58.42 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aee06d1-aaed-442b-8034-5c511ef55a61")
+	)
+	(wire
+		(pts
+			(xy 114.3 132.08) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d5d327b-971e-4666-ba29-312d552cd125")
+	)
+	(wire
+		(pts
+			(xy 171.45 59.69) (xy 171.45 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65052f67-dec9-4e44-a80b-6ffbe885ed16")
+	)
+	(wire
+		(pts
+			(xy 114.3 144.78) (xy 116.84 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656019cf-cd98-4d56-8eca-2396626a2bb4")
+	)
+	(wire
+		(pts
+			(xy 182.88 59.69) (xy 208.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b42ca3b-8919-47e6-b4b0-1924e480a94c")
+	)
+	(wire
+		(pts
+			(xy 123.19 50.8) (xy 116.84 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd77a10-7714-48c5-b019-ae7b42bdef57")
+	)
+	(wire
+		(pts
+			(xy 44.45 64.77) (xy 53.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2a8aa8-2c50-4c49-bc19-a1ce33bebbe6")
+	)
+	(wire
+		(pts
+			(xy 73.66 58.42) (xy 73.66 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7272a001-3b1e-4c2a-9f10-5c1d00000006")
+	)
+	(wire
+		(pts
+			(xy 129.54 137.16) (xy 158.75 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cf17c4-0755-435a-8242-27ec624c1ee3")
+	)
+	(wire
+		(pts
+			(xy 182.88 67.31) (xy 208.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772bcffe-1c8b-4b5c-bdcf-d3f1e55ea7ae")
+	)
+	(wire
+		(pts
+			(xy 160.02 67.31) (xy 165.1 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2880,8 +2495,157 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 71.12)
-			(xy 91.44 72.39)
+			(xy 127 50.8) (xy 123.19 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d7046c-6018-4844-9a82-8bccc76ce04d")
+	)
+	(wire
+		(pts
+			(xy 158.75 137.16) (xy 172.72 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897c7031-998f-4fb8-b1c4-e484af211267")
+	)
+	(wire
+		(pts
+			(xy 53.34 62.23) (xy 93.98 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a50653-9fa8-48aa-882a-895e51556253")
+	)
+	(wire
+		(pts
+			(xy 58.42 64.77) (xy 66.04 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a22931e-aa92-4269-a585-d859904aa976")
+	)
+	(wire
+		(pts
+			(xy 165.1 62.23) (xy 208.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c96d6e0-96d0-422b-87a1-371ba6832200")
+	)
+	(wire
+		(pts
+			(xy 91.44 72.39) (xy 93.98 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6d8fe3-30ae-452f-9255-0be97da90a9c")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 91.44 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907aae6c-c67d-4ade-8d77-53bca3132bd2")
+	)
+	(wire
+		(pts
+			(xy 85.09 50.8) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92386dcd-2791-4a0b-9ff8-116d9879d548")
+	)
+	(wire
+		(pts
+			(xy 114.3 64.77) (xy 160.02 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a7bf26-ada4-4446-b80e-0fd872e0d9a5")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 116.84 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96682629-41a0-4f08-84c7-2d92f953c49a")
+	)
+	(wire
+		(pts
+			(xy 171.45 43.18) (xy 168.91 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0fdfdf-db47-4600-b37c-d45922df9123")
+	)
+	(wire
+		(pts
+			(xy 53.34 64.77) (xy 58.42 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a239712f-4f2a-475b-b708-379941b33870")
+	)
+	(wire
+		(pts
+			(xy 114.3 62.23) (xy 142.24 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ad7b18-09a3-40e5-88c8-846accb9a5e0")
+	)
+	(wire
+		(pts
+			(xy 168.91 48.26) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f3580c-7d9c-419f-9e67-247ed453a8ef")
+	)
+	(wire
+		(pts
+			(xy 166.37 132.08) (xy 166.37 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b744a552-0218-4fb2-bec0-d547ba22a26a")
+	)
+	(wire
+		(pts
+			(xy 91.44 71.12) (xy 91.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2889,77 +2653,185 @@
 		)
 		(uuid "ba2a9c08-3a50-4d3d-a348-fc4734b633d7")
 	)
-	(label "+3.3V_UART_CONN"
-		(at 127 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 171.45 43.18) (xy 176.53 43.18)
 		)
-		(uuid "48d72e19-5485-4a23-9bb4-9b87f58abf3c")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba68de7b-83e2-4fe1-8d34-c117a36fe53b")
 	)
-	(label "EXT_UART_TX"
-		(at 182.88 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 129.54 134.62) (xy 166.37 134.62)
 		)
-		(uuid "9595ce20-8949-4730-8e3b-ea53c9f1105a")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf759d5e-6da2-439b-a80d-09478cfe7336")
 	)
-	(label "NC_UART_CTS#"
-		(at 182.88 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 13 0 255 1)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 171.45 57.15) (xy 171.45 48.26)
 		)
-		(uuid "34a44958-ee5f-4cb9-acd4-30ddbd508a0f")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0cfdb85-221f-4b34-8878-7a19dfa2bad1")
 	)
-	(label "UART_RX_SHFT"
-		(at 77.47 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 199.39 54.61) (xy 199.39 41.91)
 		)
-		(uuid "ac8ac4cd-611c-4142-9b40-fe2ad891daf9")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b11165-cc17-4fbb-bd15-2447ad8b8ec9")
 	)
-	(label "EXT_UART_VCC"
-		(at 182.88 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 91.44 49.53) (xy 91.44 50.8)
 		)
-		(uuid "dcd4c1e2-fee8-405f-a88c-1410aad65538")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b97731-196e-457b-8dd3-62b7f1d35482")
 	)
-	(label "SWDIO"
-		(at 130.81 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 116.84 137.16) (xy 114.3 137.16)
 		)
-		(uuid "9f05fe51-ed8e-43bd-8742-defea419cb56")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f19b60-87ed-44f3-827e-87de47bc4eeb")
 	)
-	(label "NC_UART_RTS#"
-		(at 182.88 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 11 0 255 1)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 93.98 52.07) (xy 91.44 52.07)
 		)
-		(uuid "b966fb7a-eb4e-4a65-b084-fdbed8798910")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a95fd6-03b5-4a27-a113-6b17540f2e55")
+	)
+	(wire
+		(pts
+			(xy 166.37 121.92) (xy 166.37 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2df87e7-0048-493e-a19d-26909513a452")
+	)
+	(wire
+		(pts
+			(xy 114.3 139.7) (xy 116.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35626c1-8b53-4e9b-9217-5789bc82adc6")
+	)
+	(wire
+		(pts
+			(xy 162.56 64.77) (xy 208.28 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43a1067-268d-4fe8-8382-4be21ca9fbdd")
+	)
+	(wire
+		(pts
+			(xy 166.37 134.62) (xy 172.72 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e817c28d-3f5a-4546-a7c0-aa64ff409728")
+	)
+	(wire
+		(pts
+			(xy 165.1 67.31) (xy 165.1 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e859edd2-f307-4c49-a696-e7c59a0519a4")
+	)
+	(wire
+		(pts
+			(xy 171.45 48.26) (xy 171.45 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf756fd-8087-4a19-ac18-eca28bb16f18")
+	)
+	(wire
+		(pts
+			(xy 182.88 57.15) (xy 208.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec340895-f524-43e5-b14a-2b7555ae1f9c")
+	)
+	(wire
+		(pts
+			(xy 199.39 41.91) (xy 189.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f1ab67-ac2c-41d6-9c9f-94d70f7c83d5")
+	)
+	(wire
+		(pts
+			(xy 156.21 57.15) (xy 156.21 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae0d5fb-4a3e-4bca-b6b2-6fb76cf513bb")
+	)
+	(wire
+		(pts
+			(xy 158.75 154.94) (xy 158.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb1f695-42dd-40cb-bd38-d9290c41e85b")
+	)
+	(polyline
+		(pts
+			(xy 12.7 91.44) (xy 284.48 91.44)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "fffd4790-c3a1-4b54-909e-17010d685339")
 	)
 	(label "SWCLK"
 		(at 130.81 137.16 0)
@@ -2981,6 +2853,17 @@
 		)
 		(uuid "28d7f0cb-e4a1-476e-8781-c47462406bdb")
 	)
+	(label "NC_UART_CTS#"
+		(at 182.88 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 13 0 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "34a44958-ee5f-4cb9-acd4-30ddbd508a0f")
+	)
 	(label "EXT_UART_TX_SHFT"
 		(at 124.46 62.23 0)
 		(effects
@@ -2991,27 +2874,66 @@
 		)
 		(uuid "45aee96e-f76e-4a7b-b876-3024ef5632f5")
 	)
-	(hierarchical_label "NRST"
-		(shape bidirectional)
-		(at 176.53 144.78 0)
+	(label "+3.3V_UART_CONN"
+		(at 127 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "4d5902c5-7bd1-439f-9daa-e4402a048a3e")
+		(uuid "48d72e19-5485-4a23-9bb4-9b87f58abf3c")
 	)
-	(hierarchical_label "UART_TX"
-		(shape input)
-		(at 44.45 62.23 180)
+	(label "EXT_UART_TX"
+		(at 182.88 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "47adbc08-9f13-490b-98cc-00a2567fef68")
+		(uuid "9595ce20-8949-4730-8e3b-ea53c9f1105a")
+	)
+	(label "SWDIO"
+		(at 130.81 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f05fe51-ed8e-43bd-8742-defea419cb56")
+	)
+	(label "UART_RX_SHFT"
+		(at 77.47 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac8ac4cd-611c-4142-9b40-fe2ad891daf9")
+	)
+	(label "NC_UART_RTS#"
+		(at 182.88 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 11 0 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b966fb7a-eb4e-4a65-b084-fdbed8798910")
+	)
+	(label "EXT_UART_VCC"
+		(at 182.88 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcd4c1e2-fee8-405f-a88c-1410aad65538")
 	)
 	(hierarchical_label "UART_RX"
 		(shape output)
@@ -3024,16 +2946,27 @@
 		)
 		(uuid "01a52a05-149e-4e2a-b0d0-48b5685a5acc")
 	)
-	(hierarchical_label "SWDIO"
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 44.45 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47adbc08-9f13-490b-98cc-00a2567fef68")
+	)
+	(hierarchical_label "NRST"
 		(shape bidirectional)
-		(at 172.72 134.62 0)
+		(at 176.53 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d5c7a398-b67c-4f2f-8791-b6fdfa243ead")
+		(uuid "4d5902c5-7bd1-439f-9daa-e4402a048a3e")
 	)
 	(hierarchical_label "SWCLK"
 		(shape output)
@@ -3046,17 +2979,20 @@
 		)
 		(uuid "b560c113-f8e8-42a4-9fe8-27c8fe2d1b5f")
 	)
-	(no_connect
-		(at 129.54 139.7)
-		(uuid "9deb002e-e4ce-462e-a3fb-bdf96845e7a1")
-	)
-	(no_connect
-		(at 129.54 142.24)
-		(uuid "e2348a01-36c0-42ea-a78b-7f1f5710aebd")
+	(hierarchical_label "SWDIO"
+		(shape bidirectional)
+		(at 172.72 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5c7a398-b67c-4f2f-8791-b6fdfa243ead")
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 64.77 270)
+		(at 166.37 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3064,29 +3000,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dc0a8085-154f-4d73-8904-85b9f8b97d08")
-		(property "Reference" "R32"
-			(at 69.85 67.31 90)
+		(fields_autoplaced yes)
+		(uuid "16327acd-73fc-44e0-964c-dfa5e19a0c14")
+		(property "Reference" "R30"
+			(at 168.91 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "200"
-			(at 69.85 69.85 90)
+		(property "Value" "10k 1%"
+			(at 168.91 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 69.85 62.992 90)
+			(at 164.592 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3096,8 +3035,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2000TCE_C25087.pdf"
-			(at 69.85 64.77 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 166.37 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3108,7 +3047,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 69.85 64.77 0)
+			(at 166.37 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3119,7 +3058,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 69.85 64.77 0)
+			(at 166.37 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3130,7 +3069,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 69.85 64.77 0)
+			(at 166.37 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3141,7 +3080,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 69.85 64.77 0)
+			(at 166.37 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3152,7 +3091,29 @@
 			)
 		)
 		(property "LCSC Basic/Pref" "basic"
-			(at 69.85 64.77 0)
+			(at 166.37 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 166.37 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 166.37 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3163,29 +3124,7 @@
 			)
 		)
 		(property "LCSC missing" "n"
-			(at 69.85 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25087"
-			(at 69.85 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25087"
-			(at 69.85 64.77 0)
+			(at 166.37 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3196,7 +3135,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 69.85 64.77 0)
+			(at 166.37 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3206,19 +3145,8 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 69.85 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF2000TCE"
-			(at 69.85 64.77 90)
+		(property "MPN" "0402WGF1002TCE"
+			(at 166.37 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3229,7 +3157,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 69.85 64.77 90)
+			(at 166.37 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3240,7 +3168,7 @@
 			)
 		)
 		(property "Power" "62.5mW"
-			(at 69.85 64.77 90)
+			(at 166.37 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3250,45 +3178,46 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "8234e055-f1d7-4f8c-950f-1b525056eb61")
+		(property "Voltage" "50V"
+			(at 166.37 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "b24f873c-f30b-4466-b48d-b899cc45865a")
+			(uuid "3320fae8-5639-4a3f-a606-1b8f3c1b5318")
+		)
+		(pin "1"
+			(uuid "ce1e4d50-7ad1-433c-b8cc-e7390c6c7246")
 		)
 		(instances
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "R32")
+					(reference "R30")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 53.34 64.77 270)
+		(lib_id "power:GND")
+		(at 137.16 50.8 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "d2db201c-fca3-444c-862c-50f15e48df55")
-		(property "Reference" "TP4"
-			(at 58.674 63.754 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 58.42 66.0399 90)
+		(uuid "1e925460-93a7-4924-9224-5a585d04f9cc")
+		(property "Reference" "#PWR131"
+			(at 137.16 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3296,11 +3225,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 53.34 69.85 0)
+		(property "Value" "GND"
+			(at 133.858 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3311,7 +3249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 69.85 0)
+			(at 137.16 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3321,85 +3259,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 53.34 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 53.34 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 53.34 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 53.34 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Basic/Pref" ""
-			(at 53.34 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC missing" ""
-			(at 53.34 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 53.34 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 53.34 64.77 90)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3410,12 +3271,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8028cd20-0d44-4f22-8f61-38a4243dd76c")
+			(uuid "7513ec4b-d63a-45be-ad72-8bbfa3175c0f")
 		)
 		(instances
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "TP4")
+					(reference "#PWR131")
 					(unit 1)
 				)
 			)
@@ -3500,19 +3361,118 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 123.19 58.42 0)
+		(lib_id "power:PWR_FLAG")
+		(at 171.45 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fc2ea3d-252d-4444-8680-969d0ffe04cb")
+		(property "Reference" "#FLG10"
+			(at 169.545 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 167.64 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 171.45 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba7e2e30-f540-479a-9f2e-5877b1c28b36")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "#FLG10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 213.36 59.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
-		(uuid "a665dbae-c605-44f3-b278-2625ff1400f2")
-		(property "Reference" "#PWR122"
-			(at 123.19 64.77 0)
+		(uuid "3b5a34fd-4668-4216-a091-86df63ae2307")
+		(property "Reference" "J12"
+			(at 212.725 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.54-1x6PStraight pin"
+			(at 212.725 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3522,18 +3482,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 119.888 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 58.42 0)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588886995741380608-C37208.pdf?response-content-disposition=attachment%3B%20filename%3DC37208.pdf%3B%20filename%2A%3DUTF-8%27%27C37208.pdf&x-oss-date=20260906T084243Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nmCP2Hmu4U5LDZenP1hXE3b71627HJsjz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qfc8iVAu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWmquXMk646HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIe5tCOKKWD5sagAGJMjaavyWM%2B6hustbu3XpePrqNEjn9g4A5me7DvQdvRUNwT8odczZ7uD1AWGaB631pG%2Bw7lGlugJwprF6lBk%2FN6n83SQHOmYPHzf6S8wxIkwVjBJWjhuq7eT6nily4aL5carHr2Yst6tJkbjUCDY8orksi%2F%2B4EhyQuVpL1utJ99SAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZSCG3w15Sr2xUDaqbc2V4tbP%2F20260906%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=aec57a8d3a65d3162a3bb5d69394bfa7b88ab9768540c3e5e9eb0103962c1b32"
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3543,174 +3493,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 123.19 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d2f1e32-1744-4205-a036-3459ddb5e5ad")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "#PWR122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 166.37 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "431d38c5-7634-4980-b345-7f2f1e6c1902")
-		(property "Reference" "#PWR123"
-			(at 166.37 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 166.37 117.856 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 166.37 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2032e510-cbaa-4a9a-9692-474a7ee0c230")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "#PWR123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 137.16 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cf30fccb-e9da-416f-ae3e-44360098b064")
-		(property "Reference" "C41"
-			(at 138.176 44.196 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u 50V"
-			(at 138.176 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 138.1252 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf"
-			(at 137.16 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 137.16 46.99 0)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3721,7 +3505,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 137.16 46.99 0)
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3732,7 +3516,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 137.16 46.99 0)
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3743,7 +3527,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 137.16 46.99 0)
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3753,8 +3537,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
-			(at 137.16 46.99 0)
+		(property "LCSC Basic/Pref" "extended"
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3764,8 +3548,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15849"
-			(at 137.16 46.99 0)
+		(property "LCSC missing" "y"
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3775,8 +3559,8 @@
 				)
 			)
 		)
-		(property "LCSC Basic/Pref" "basic"
-			(at 137.16 46.99 0)
+		(property "Tolerance" ""
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3786,8 +3570,8 @@
 				)
 			)
 		)
-		(property "LCSC missing" "n"
-			(at 137.16 46.99 0)
+		(property "Voltage" ""
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3797,8 +3581,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "10%"
-			(at 137.16 46.99 0)
+		(property "LCSC" "C37208"
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3808,8 +3592,8 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 137.16 46.99 0)
+		(property "LCSC Part" "C37208"
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,8 +3603,8 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A105KB8NNNC"
-			(at 137.16 46.99 0)
+		(property "MPN" "2.54-1x6PStraight pin"
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3830,8 +3614,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 137.16 46.99 0)
+		(property "Manufacturer" "BOOMELE(Boom Precision Elec)"
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3841,240 +3625,28 @@
 				)
 			)
 		)
-		(property "TC" "X5R"
-			(at 137.16 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "5"
+			(uuid "2a8d1273-0d7f-4d2a-8fd8-6202d331d8e8")
 		)
-		(pin "2"
-			(uuid "1ff7d390-c21b-4ce2-a0c5-8afade34f157")
+		(pin "4"
+			(uuid "57d33cca-2a73-44f5-a6cb-5a90bba3dabc")
 		)
 		(pin "1"
-			(uuid "f3c2dbd1-89c3-4172-b428-e9f8e417d92a")
+			(uuid "b48fc66e-450d-4daf-ae97-ce88de939db9")
+		)
+		(pin "3"
+			(uuid "1d30aef6-c0dd-473e-aa07-455297ea3672")
+		)
+		(pin "2"
+			(uuid "f429759f-09a8-40a0-b094-4baaf7d095c5")
+		)
+		(pin "6"
+			(uuid "6540f7f7-df06-4f0a-b6dd-48bd46d72f62")
 		)
 		(instances
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 85.09 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "faca56bf-3f14-40b7-8195-5b9b3c717d2b")
-		(property "Reference" "C38"
-			(at 86.106 51.816 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n 16V"
-			(at 86.106 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 86.0552 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1525.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=QFkNAwdVRAVYBQZVT1QPVFxQQVlaU1YCTwJeV1cHRAMxVlNfQ1ZYX1dVRlVZUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C1525"
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Basic/Pref" "basic"
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC missing" "n"
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05B104KO5NNNC"
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TC" "X7R"
-			(at 85.09 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b4818185-fe94-47bf-a017-3d6f6da03b84")
-		)
-		(pin "1"
-			(uuid "88f222ae-b541-4318-8548-3f8bb69c4bf8")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "C38")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -4153,6 +3725,379 @@
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
 					(reference "#PWR124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 91.44 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4127b3ac-b137-4e79-bf97-cf6c91525246")
+		(property "Reference" "#PWR130"
+			(at 91.44 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 91.44 67.056 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 91.44 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf5ee0ae-054e-4046-9b52-a815d66be1e5")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "#PWR130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C5186957:TXU0202DCUR")
+		(at 104.14 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "414a1829-5896-4a42-917c-10cdc91af698")
+		(property "Reference" "U9"
+			(at 104.14 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXU0202DCUR"
+			(at 104.14 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "C5186957:VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BR"
+			(at 104.14 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589835182690623488"
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5186957"
+			(at 104.14 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Basic/Pref" "extended"
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC missing" "n"
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5186957"
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TXU0202DCUR"
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TEXAS INSTRUMENTS"
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9b4a553a-78d0-4160-87fa-65f651c929d5")
+		)
+		(pin "4"
+			(uuid "4bb59e8f-5db3-41d6-b5c2-da96f8eb7489")
+		)
+		(pin "6"
+			(uuid "a8cfc754-c3f9-48cf-bb11-5ccf71867ed3")
+		)
+		(pin "7"
+			(uuid "0b075125-db3c-41f0-99c8-4b85431b79e7")
+		)
+		(pin "5"
+			(uuid "d1af607b-e5c0-4876-93d1-934f494e8a0c")
+		)
+		(pin "8"
+			(uuid "c5f18a5e-7bf2-40cb-8f5c-186633934034")
+		)
+		(pin "2"
+			(uuid "6f4888b9-8d92-47e4-997a-2c2c16832475")
+		)
+		(pin "1"
+			(uuid "22e324a5-a167-46cf-a9b6-9ed6c6951595")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 166.37 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "431d38c5-7634-4980-b345-7f2f1e6c1902")
+		(property "Reference" "#PWR123"
+			(at 166.37 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 166.37 117.856 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 166.37 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2032e510-cbaa-4a9a-9692-474a7ee0c230")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "#PWR123")
 					(unit 1)
 				)
 			)
@@ -4316,7 +4261,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 58.42 0)
+		(at 176.53 50.8 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4324,9 +4270,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9fab6d49-ef54-41ce-8f7a-c7abf6dec859")
-		(property "Reference" "#PWR125"
-			(at 85.09 64.77 0)
+		(uuid "5ca41606-db17-475a-89a8-8081cb186732")
+		(property "Reference" "#PWR135"
+			(at 176.53 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4337,7 +4283,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.392 60.96 0)
+			(at 173.228 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4347,7 +4293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 58.42 0)
+			(at 176.53 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4358,7 +4304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 58.42 0)
+			(at 176.53 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4369,7 +4315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 58.42 0)
+			(at 176.53 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4380,20 +4326,176 @@
 			)
 		)
 		(pin "1"
-			(uuid "0420f584-ffd7-4d1e-b59d-3caa667591ab")
+			(uuid "4d6385c9-98ec-4f63-9267-17ca03e4da7a")
 		)
 		(instances
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "#PWR125")
+					(reference "#PWR135")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 58.42 39.37 0)
+		(lib_id "Connector:TestPoint")
+		(at 182.88 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "724d6214-3058-49eb-918d-aafae21b7038")
+		(property "Reference" "TP2"
+			(at 178.054 58.674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 177.8 58.4201 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 182.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 182.88 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 182.88 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 182.88 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Basic/Pref" ""
+			(at 182.88 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC missing" ""
+			(at 182.88 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 182.88 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 182.88 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1fd468d-67fa-4c59-bfd3-9c48e599bc93")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4401,9 +4503,101 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c0dec859-e2f3-40e2-a7db-089a1ba4e782")
-		(property "Reference" "#PWR126"
-			(at 58.42 43.18 0)
+		(uuid "7272a001-3b1e-4c2a-9f10-5c1d00000001")
+		(property "Reference" "R41"
+			(at 76.2 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 76.2 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 73.66 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "UART_TX pull-up, holds U9 A1 high while PA2 floats in reset (#72)"
+			(at 73.66 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 73.66 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7272a001-3b1e-4c2a-9f10-5c1d00000002")
+		)
+		(pin "2"
+			(uuid "7272a001-3b1e-4c2a-9f10-5c1d00000003")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 73.66 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7272a001-3b1e-4c2a-9f10-5c1d00000004")
+		(property "Reference" "#PWR149"
+			(at 73.66 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4414,7 +4608,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 58.42 35.306 0)
+			(at 73.66 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4424,7 +4618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 39.37 0)
+			(at 73.66 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4435,7 +4629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 39.37 0)
+			(at 73.66 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4445,8 +4639,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 58.42 39.37 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 73.66 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4457,12 +4651,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ca01797-0650-4de6-b107-28377a0f6131")
+			(uuid "7272a001-3b1e-4c2a-9f10-5c1d00000005")
 		)
 		(instances
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "#PWR126")
+					(reference "#PWR149")
 					(unit 1)
 				)
 			)
@@ -4470,7 +4664,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 74.93 0)
+		(at 156.21 58.42 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4478,10 +4673,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea66bb8c-2e51-4bf6-9ed9-436dbe8122eb")
-		(property "Reference" "#PWR127"
-			(at 116.84 81.28 0)
+		(uuid "74853b83-bda2-4137-a893-3f0bfc97ab38")
+		(property "Reference" "#PWR128"
+			(at 156.21 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4492,7 +4686,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 80.01 0)
+			(at 152.908 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4502,7 +4696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 74.93 0)
+			(at 156.21 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,7 +4707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 74.93 0)
+			(at 156.21 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +4718,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 74.93 0)
+			(at 156.21 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4535,12 +4729,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "30b8333b-3f14-450a-8cb3-68c4bc61170b")
+			(uuid "d0adc118-bc9e-4e92-8b0c-e5b95a64c493")
 		)
 		(instances
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "#PWR127")
+					(reference "#PWR128")
 					(unit 1)
 				)
 			)
@@ -4703,8 +4897,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 156.21 58.42 0)
+		(lib_id "Device:C")
+		(at 123.19 54.61 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4713,9 +4907,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "74853b83-bda2-4137-a893-3f0bfc97ab38")
-		(property "Reference" "#PWR128"
-			(at 156.21 64.77 0)
+		(uuid "7f1dc7e8-5f64-4ca8-9ced-34ed2561c93d")
+		(property "Reference" "C39"
+			(at 122.174 51.816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 16V"
+			(at 122.174 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 122.2248 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4725,18 +4941,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 152.908 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 58.42 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1525.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=QFkNAwdVRAVYBQZVT1QPVFxQQVlaU1YCTwJeV1cHRAMxVlNfQ1ZYX1dVRlVZUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+			(at 123.19 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4746,8 +4952,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 156.21 58.42 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4757,8 +4963,288 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 58.42 0)
+		(property "Sim.Type" ""
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Basic/Pref" "basic"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC missing" "n"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TC" "X7R"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bc499131-bac7-43b0-87e4-2e6d7b10810f")
+		)
+		(pin "1"
+			(uuid "06ae1937-b95a-4491-84c1-ecd5d07a21df")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLV770:TLV77033PDBVR")
+		(at 156.21 45.72 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84c7b91d-19c3-49ef-b7ee-12d5a14e6210")
+		(property "Reference" "U10"
+			(at 156.21 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLV77033PDBVR"
+			(at 156.21 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "TLV770:SOT-23-5_DBV_TEX"
+			(at 132.588 20.828 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv770"
+			(at 132.588 20.828 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C36996065"
+			(at 156.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Basic/Pref" "extended"
+			(at 156.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C36996065"
+			(at 156.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 156.21 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC missing" "n"
+			(at 132.588 20.828 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TLV77033PDBVR"
+			(at 132.588 20.828 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 132.588 20.828 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,12 +5255,235 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0adc118-bc9e-4e92-8b0c-e5b95a64c493")
+			(uuid "7105bbc5-c2ee-4bc8-9d68-2649da1d8417")
+		)
+		(pin "3"
+			(uuid "62827b7e-d2af-4ea6-bec4-04c632957194")
+		)
+		(pin "2"
+			(uuid "d90c1aac-263d-46d4-a5df-9855c7568666")
+		)
+		(pin "5"
+			(uuid "9af9f472-a5e1-4651-b514-9b5b0a9236bc")
+		)
+		(pin "4"
+			(uuid "fa0f660c-6fc2-4079-8f9b-e6c55a6c128c")
 		)
 		(instances
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "#PWR128")
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86a6797c-40f7-42f1-9315-707cd345032f")
+		(property "Reference" "R33"
+			(at 146.05 57.404 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 146.05 59.944 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 146.05 60.452 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2000TCE_C25087.pdf"
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Basic/Pref" "basic"
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC missing" "n"
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25087"
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 146.05 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF2000TCE"
+			(at 146.05 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 146.05 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 146.05 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35185b4e-6947-4854-9dcc-a085cf6ddfc2")
+		)
+		(pin "2"
+			(uuid "44cb56fc-b4e8-4486-9cf3-d64709dcb97e")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -4937,8 +5646,881 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 158.75 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91dbb93a-3b66-4e9a-9894-b86a3acc5e1f")
+		(property "Reference" "R29"
+			(at 161.29 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k 1%"
+			(at 161.29 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 156.972 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Basic/Pref" "basic"
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC missing" "n"
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 158.75 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4efb0a42-1e65-40cf-aabc-2bf3c3f53ef1")
+		)
+		(pin "1"
+			(uuid "1278e3b3-9d0c-45e0-8bf5-d5d028e7acde")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9fab6d49-ef54-41ce-8f7a-c7abf6dec859")
+		(property "Reference" "#PWR125"
+			(at 85.09 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.392 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0420f584-ffd7-4d1e-b59d-3caa667591ab")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "#PWR125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5c229d9-e5ce-41d9-a1ce-e56843f02794")
+		(property "Reference" "C40"
+			(at 177.546 44.196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u 50V"
+			(at 177.546 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 177.4952 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf"
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15849"
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Basic/Pref" "basic"
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC missing" "n"
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TC" "X5R"
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f0777281-8a0e-47ed-bb2d-45bb338b605c")
+		)
+		(pin "1"
+			(uuid "fc31ae40-810f-4258-9642-cac6388a4ff4")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 58.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a665dbae-c605-44f3-b278-2625ff1400f2")
+		(property "Reference" "#PWR122"
+			(at 123.19 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.888 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d2f1e32-1744-4205-a036-3459ddb5e5ad")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "#PWR122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa59f940-71fd-40da-98cb-1aecfc2b973c")
+		(property "Reference" "R31"
+			(at 60.96 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k 1%"
+			(at 60.96 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 56.642 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Basic/Pref" "basic"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC missing" "n"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 58.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "89f67fea-95d1-4b8e-886a-582a1fe3bb2b")
+		)
+		(pin "1"
+			(uuid "90d48bb4-e53a-4537-8972-3a429394f194")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 91.44 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b435aefd-8850-4740-82f1-b2e7be4d3f2a")
+		(property "Reference" "#PWR132"
+			(at 91.44 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 91.44 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 91.44 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e668446e-c84f-4926-8b81-8e95e99aba8c")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "#PWR132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 182.88 59.69 90)
+		(at 182.88 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4946,9 +6528,9 @@
 		(on_board yes)
 		(in_pos_files no)
 		(dnp no)
-		(uuid "724d6214-3058-49eb-918d-aafae21b7038")
-		(property "Reference" "TP2"
-			(at 178.054 58.674 90)
+		(uuid "b6ed2e18-ad4d-4ab8-abe4-046e9fbbc101")
+		(property "Reference" "TP1"
+			(at 178.054 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4959,7 +6541,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 177.8 58.4201 90)
+			(at 177.8 55.8801 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4971,7 +6553,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 182.88 54.61 0)
+			(at 182.88 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4982,7 +6564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 54.61 0)
+			(at 182.88 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4993,7 +6575,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 182.88 59.69 0)
+			(at 182.88 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5004,7 +6586,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 182.88 59.69 90)
+			(at 182.88 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5015,7 +6597,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 182.88 59.69 90)
+			(at 182.88 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5026,7 +6608,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 182.88 59.69 90)
+			(at 182.88 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5037,7 +6619,7 @@
 			)
 		)
 		(property "LCSC Basic/Pref" ""
-			(at 182.88 59.69 90)
+			(at 182.88 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5048,7 +6630,7 @@
 			)
 		)
 		(property "LCSC missing" ""
-			(at 182.88 59.69 90)
+			(at 182.88 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5059,7 +6641,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 182.88 59.69 90)
+			(at 182.88 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5070,7 +6652,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 182.88 59.69 90)
+			(at 182.88 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5081,12 +6663,167 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1fd468d-67fa-4c59-bfd3-9c48e599bc93")
+			(uuid "39d22591-6c8b-4879-b30f-7c5a3464377c")
 		)
 		(instances
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "TP2")
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcd82ec7-b7fc-4f11-9d07-452ec3b39fd2")
+		(property "Reference" "#PWR134"
+			(at 179.07 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0db1ff4-56fc-4fb8-8a8b-257f4959e3a5")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "#PWR134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 58.42 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0dec859-e2f3-40e2-a7db-089a1ba4e782")
+		(property "Reference" "#PWR126"
+			(at 58.42 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 58.42 35.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 58.42 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ca01797-0650-4de6-b107-28377a0f6131")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "#PWR126")
 					(unit 1)
 				)
 			)
@@ -5474,8 +7211,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 166.37 128.27 0)
+		(lib_id "power:+3V3")
+		(at 114.3 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5483,32 +7220,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16327acd-73fc-44e0-964c-dfa5e19a0c14")
-		(property "Reference" "R30"
-			(at 168.91 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k 1%"
-			(at 168.91 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 164.592 128.27 90)
+		(uuid "cbd3cb36-023e-449c-bd0f-f5ae73b23219")
+		(property "Reference" "#PWR133"
+			(at 114.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5518,643 +7232,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 166.37 128.27 0)
-			(hide yes)
+		(property "Value" "+3V3"
+			(at 114.3 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 166.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 166.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 166.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Basic/Pref" "basic"
-			(at 166.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 166.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 166.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC missing" "n"
-			(at 166.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 166.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 166.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 166.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "62.5mW"
-			(at 166.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 166.37 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3320fae8-5639-4a3f-a606-1b8f3c1b5318")
-		)
-		(pin "1"
-			(uuid "ce1e4d50-7ad1-433c-b8cc-e7390c6c7246")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 213.36 59.69 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "3b5a34fd-4668-4216-a091-86df63ae2307")
-		(property "Reference" "J12"
-			(at 212.725 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.54-1x6PStraight pin"
-			(at 212.725 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588886995741380608-C37208.pdf?response-content-disposition=attachment%3B%20filename%3DC37208.pdf%3B%20filename%2A%3DUTF-8%27%27C37208.pdf&x-oss-date=20260906T084243Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5nmCP2Hmu4U5LDZenP1hXE3b71627HJsjz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qfc8iVAu557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWmquXMk646HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIe5tCOKKWD5sagAGJMjaavyWM%2B6hustbu3XpePrqNEjn9g4A5me7DvQdvRUNwT8odczZ7uD1AWGaB631pG%2Bw7lGlugJwprF6lBk%2FN6n83SQHOmYPHzf6S8wxIkwVjBJWjhuq7eT6nily4aL5carHr2Yst6tJkbjUCDY8orksi%2F%2B4EhyQuVpL1utJ99SAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NZSCG3w15Sr2xUDaqbc2V4tbP%2F20260906%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=aec57a8d3a65d3162a3bb5d69394bfa7b88ab9768540c3e5e9eb0103962c1b32"
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Basic/Pref" "extended"
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC missing" "y"
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C37208"
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C37208"
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "2.54-1x6PStraight pin"
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BOOMELE(Boom Precision Elec)"
-			(at 213.36 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "2a8d1273-0d7f-4d2a-8fd8-6202d331d8e8")
-		)
-		(pin "4"
-			(uuid "57d33cca-2a73-44f5-a6cb-5a90bba3dabc")
-		)
-		(pin "1"
-			(uuid "b48fc66e-450d-4daf-ae97-ce88de939db9")
-		)
-		(pin "3"
-			(uuid "1d30aef6-c0dd-473e-aa07-455297ea3672")
-		)
-		(pin "2"
-			(uuid "f429759f-09a8-40a0-b094-4baaf7d095c5")
-		)
-		(pin "6"
-			(uuid "6540f7f7-df06-4f0a-b6dd-48bd46d72f62")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "C5186957:TXU0202DCUR")
-		(at 104.14 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "414a1829-5896-4a42-917c-10cdc91af698")
-		(property "Reference" "U9"
-			(at 104.14 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TXU0202DCUR"
-			(at 104.14 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "C5186957:VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BR"
-			(at 104.14 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589835182690623488"
-			(at 104.14 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5186957"
-			(at 104.14 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 104.14 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 104.14 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 104.14 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Basic/Pref" "extended"
-			(at 104.14 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC missing" "n"
-			(at 104.14 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5186957"
-			(at 104.14 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 104.14 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 104.14 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TXU0202DCUR"
-			(at 104.14 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TEXAS INSTRUMENTS"
-			(at 104.14 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "9b4a553a-78d0-4160-87fa-65f651c929d5")
-		)
-		(pin "4"
-			(uuid "4bb59e8f-5db3-41d6-b5c2-da96f8eb7489")
-		)
-		(pin "6"
-			(uuid "a8cfc754-c3f9-48cf-bb11-5ccf71867ed3")
-		)
-		(pin "7"
-			(uuid "0b075125-db3c-41f0-99c8-4b85431b79e7")
-		)
-		(pin "5"
-			(uuid "d1af607b-e5c0-4876-93d1-934f494e8a0c")
-		)
-		(pin "8"
-			(uuid "c5f18a5e-7bf2-40cb-8f5c-186633934034")
-		)
-		(pin "2"
-			(uuid "6f4888b9-8d92-47e4-997a-2c2c16832475")
-		)
-		(pin "1"
-			(uuid "22e324a5-a167-46cf-a9b6-9ed6c6951595")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 171.45 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fc2ea3d-252d-4444-8680-969d0ffe04cb")
-		(property "Reference" "#FLG10"
-			(at 169.545 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 167.64 57.1499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 57.15 0)
+			(at 114.3 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6165,7 +7254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 57.15 0)
+			(at 114.3 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6175,8 +7264,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 171.45 57.15 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 114.3 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6187,12 +7276,670 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba7e2e30-f540-479a-9f2e-5877b1c28b36")
+			(uuid "6fa5eefb-72b1-4ee7-903a-b658b898675d")
 		)
 		(instances
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "#FLG10")
+					(reference "#PWR133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf30fccb-e9da-416f-ae3e-44360098b064")
+		(property "Reference" "C41"
+			(at 138.176 44.196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u 50V"
+			(at 138.176 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 138.1252 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf"
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15849"
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Basic/Pref" "basic"
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC missing" "n"
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TC" "X5R"
+			(at 137.16 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1ff7d390-c21b-4ce2-a0c5-8afade34f157")
+		)
+		(pin "1"
+			(uuid "f3c2dbd1-89c3-4172-b428-e9f8e417d92a")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 64.77 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "d2db201c-fca3-444c-862c-50f15e48df55")
+		(property "Reference" "TP4"
+			(at 58.674 63.754 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 58.42 66.0399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 53.34 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 53.34 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 53.34 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 53.34 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Basic/Pref" ""
+			(at 53.34 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC missing" ""
+			(at 53.34 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 53.34 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 53.34 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8028cd20-0d44-4f22-8f61-38a4243dd76c")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 64.77 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc0a8085-154f-4d73-8904-85b9f8b97d08")
+		(property "Reference" "R32"
+			(at 69.85 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 69.85 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 69.85 62.992 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2000TCE_C25087.pdf"
+			(at 69.85 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 69.85 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 69.85 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 69.85 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Basic/Pref" "basic"
+			(at 69.85 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC missing" "n"
+			(at 69.85 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25087"
+			(at 69.85 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25087"
+			(at 69.85 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 69.85 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 69.85 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF2000TCE"
+			(at 69.85 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 69.85 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 69.85 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8234e055-f1d7-4f8c-950f-1b525056eb61")
+		)
+		(pin "2"
+			(uuid "b24f873c-f30b-4466-b48d-b899cc45865a")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea66bb8c-2e51-4bf6-9ed9-436dbe8122eb")
+		(property "Reference" "#PWR127"
+			(at 116.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30b8333b-3f14-450a-8cb3-68c4bc61170b")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
+					(reference "#PWR127")
 					(unit 1)
 				)
 			)
@@ -6277,759 +8024,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 158.75 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91dbb93a-3b66-4e9a-9894-b86a3acc5e1f")
-		(property "Reference" "R29"
-			(at 161.29 149.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k 1%"
-			(at 161.29 152.3999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 156.972 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Basic/Pref" "basic"
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC missing" "n"
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "62.5mW"
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 158.75 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4efb0a42-1e65-40cf-aabc-2bf3c3f53ef1")
-		)
-		(pin "1"
-			(uuid "1278e3b3-9d0c-45e0-8bf5-d5d028e7acde")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 91.44 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4127b3ac-b137-4e79-bf97-cf6c91525246")
-		(property "Reference" "#PWR130"
-			(at 91.44 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 91.44 67.056 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 91.44 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf5ee0ae-054e-4046-9b52-a815d66be1e5")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "#PWR130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TLV770:TLV77033PDBVR")
-		(at 156.21 45.72 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "84c7b91d-19c3-49ef-b7ee-12d5a14e6210")
-		(property "Reference" "U10"
-			(at 156.21 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV77033PDBVR"
-			(at 156.21 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "TLV770:SOT-23-5_DBV_TEX"
-			(at 132.588 20.828 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv770"
-			(at 132.588 20.828 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C36996065"
-			(at 156.21 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Basic/Pref" "extended"
-			(at 156.21 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C36996065"
-			(at 156.21 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 156.21 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC missing" "n"
-			(at 132.588 20.828 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TLV77033PDBVR"
-			(at 132.588 20.828 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 132.588 20.828 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7105bbc5-c2ee-4bc8-9d68-2649da1d8417")
-		)
-		(pin "3"
-			(uuid "62827b7e-d2af-4ea6-bec4-04c632957194")
-		)
-		(pin "2"
-			(uuid "d90c1aac-263d-46d4-a5df-9855c7568666")
-		)
-		(pin "5"
-			(uuid "9af9f472-a5e1-4651-b514-9b5b0a9236bc")
-		)
-		(pin "4"
-			(uuid "fa0f660c-6fc2-4079-8f9b-e6c55a6c128c")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa59f940-71fd-40da-98cb-1aecfc2b973c")
-		(property "Reference" "R31"
-			(at 60.96 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k 1%"
-			(at 60.96 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 56.642 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Basic/Pref" "basic"
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC missing" "n"
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "62.5mW"
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 58.42 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "89f67fea-95d1-4b8e-886a-582a1fe3bb2b")
-		)
-		(pin "1"
-			(uuid "90d48bb4-e53a-4537-8972-3a429394f194")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.16 50.8 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e925460-93a7-4924-9224-5a585d04f9cc")
-		(property "Reference" "#PWR131"
-			(at 137.16 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 133.858 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7513ec4b-d63a-45be-ad72-8bbfa3175c0f")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "#PWR131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 176.53 46.99 0)
+		(at 85.09 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7037,822 +8033,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a5c229d9-e5ce-41d9-a1ce-e56843f02794")
-		(property "Reference" "C40"
-			(at 177.546 44.196 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u 50V"
-			(at 177.546 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 177.4952 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf"
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15849"
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C15849"
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Basic/Pref" "basic"
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC missing" "n"
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL10A105KB8NNNC"
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TC" "X5R"
-			(at 176.53 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f0777281-8a0e-47ed-bb2d-45bb338b605c")
-		)
-		(pin "1"
-			(uuid "fc31ae40-810f-4258-9642-cac6388a4ff4")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 146.05 62.23 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86a6797c-40f7-42f1-9315-707cd345032f")
-		(property "Reference" "R33"
-			(at 146.05 57.404 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200"
-			(at 146.05 59.944 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 146.05 60.452 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2000TCE_C25087.pdf"
-			(at 146.05 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 146.05 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 146.05 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 146.05 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 146.05 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Basic/Pref" "basic"
-			(at 146.05 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC missing" "n"
-			(at 146.05 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25087"
-			(at 146.05 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25087"
-			(at 146.05 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 146.05 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 146.05 62.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF2000TCE"
-			(at 146.05 62.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 146.05 62.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "62.5mW"
-			(at 146.05 62.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35185b4e-6947-4854-9dcc-a085cf6ddfc2")
-		)
-		(pin "2"
-			(uuid "44cb56fc-b4e8-4486-9cf3-d64709dcb97e")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 91.44 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b435aefd-8850-4740-82f1-b2e7be4d3f2a")
-		(property "Reference" "#PWR132"
-			(at 91.44 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 91.44 45.466 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 91.44 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e668446e-c84f-4926-8b81-8e95e99aba8c")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "#PWR132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 114.3 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cbd3cb36-023e-449c-bd0f-f5ae73b23219")
-		(property "Reference" "#PWR133"
-			(at 114.3 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 114.3 128.016 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 114.3 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6fa5eefb-72b1-4ee7-903a-b658b898675d")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "#PWR133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 179.07 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcd82ec7-b7fc-4f11-9d07-452ec3b39fd2")
-		(property "Reference" "#PWR134"
-			(at 179.07 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e0db1ff4-56fc-4fb8-8a8b-257f4959e3a5")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "#PWR134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 182.88 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "b6ed2e18-ad4d-4ab8-abe4-046e9fbbc101")
-		(property "Reference" "TP1"
-			(at 178.054 56.134 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 177.8 55.8801 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 182.88 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 182.88 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 182.88 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 182.88 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 182.88 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Basic/Pref" ""
-			(at 182.88 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC missing" ""
-			(at 182.88 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 182.88 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 182.88 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39d22591-6c8b-4879-b30f-7c5a3464377c")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 123.19 54.61 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7f1dc7e8-5f64-4ca8-9ced-34ed2561c93d")
-		(property "Reference" "C39"
-			(at 122.174 51.816 0)
+		(uuid "faca56bf-3f14-40b7-8195-5b9b3c717d2b")
+		(property "Reference" "C38"
+			(at 86.106 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7863,7 +8046,7 @@
 			)
 		)
 		(property "Value" "100n 16V"
-			(at 122.174 57.15 0)
+			(at 86.106 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7874,7 +8057,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 122.2248 58.42 0)
+			(at 86.0552 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7885,7 +8068,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C1525.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=QFkNAwdVRAVYBQZVT1QPVFxQQVlaU1YCTwJeV1cHRAMxVlNfQ1ZYX1dVRlVZUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7896,7 +8079,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7907,7 +8090,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7918,7 +8101,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7929,7 +8112,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7940,7 +8123,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7951,7 +8134,7 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7962,7 +8145,7 @@
 			)
 		)
 		(property "LCSC Basic/Pref" "basic"
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7973,7 +8156,7 @@
 			)
 		)
 		(property "LCSC missing" "n"
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7984,7 +8167,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7995,7 +8178,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8006,7 +8189,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8017,7 +8200,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8028,7 +8211,7 @@
 			)
 		)
 		(property "TC" "X7R"
-			(at 123.19 54.61 0)
+			(at 85.09 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8039,101 +8222,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "bc499131-bac7-43b0-87e4-2e6d7b10810f")
+			(uuid "b4818185-fe94-47bf-a017-3d6f6da03b84")
 		)
 		(pin "1"
-			(uuid "06ae1937-b95a-4491-84c1-ecd5d07a21df")
+			(uuid "88f222ae-b541-4318-8548-3f8bb69c4bf8")
 		)
 		(instances
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "C39")
+					(reference "C38")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 50.8 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ca41606-db17-475a-89a8-8081cb186732")
-		(property "Reference" "#PWR135"
-			(at 176.53 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.228 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d6385c9-98ec-4f63-9267-17ca03e4da7a")
-		)
-		(instances
-			(project "drill-controller"
-				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84"
-					(reference "#PWR135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol (lib_id "Device:R") (at 73.66 54.61 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "7272a001-3b1e-4c2a-9f10-5c1d00000001") (property "Reference" "R41" (at 76.2 53.34 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "100k" (at 76.2 55.88 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 73.66 54.61 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 73.66 54.61 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "UART_TX pull-up, holds U9 A1 high while PA2 floats in reset (#72)" (at 73.66 54.61 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C25741" (at 73.66 54.61 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "7272a001-3b1e-4c2a-9f10-5c1d00000002")) (pin "2" (uuid "7272a001-3b1e-4c2a-9f10-5c1d00000003")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84" (reference "R41") (unit 1)))))
-	(symbol (lib_id "power:+3V3") (at 73.66 50.8 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "7272a001-3b1e-4c2a-9f10-5c1d00000004") (property "Reference" "#PWR149" (at 73.66 54.61 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "+3V3" (at 73.66 47.244 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 73.66 50.8 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 73.66 50.8 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Power symbol creates a global label with name \"+3V3\"" (at 73.66 50.8 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "7272a001-3b1e-4c2a-9f10-5c1d00000005")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/088f771b-6715-406c-b77a-08036da47b84" (reference "#PWR149") (unit 1)))))
-	(wire (pts (xy 73.66 58.42) (xy 73.66 62.23)) (stroke (width 0) (type default)) (uuid "7272a001-3b1e-4c2a-9f10-5c1d00000006"))
-	(junction (at 73.66 62.23) (diameter 0) (color 0 0 0 0) (uuid "7272a001-3b1e-4c2a-9f10-5c1d00000007"))
-	(text "UART_TX pull-up (#72): holds U9 A1 high while\nPA2 floats in reset and flash. Without it the\n5 M pull-down in U9 (D24 p21) drives the cable\nRX low, which the host sees as a UART break." (exclude_from_sim no) (at 40.64 80.01 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "7272a001-3b1e-4c2a-9f10-5c1d00000008"))
 )

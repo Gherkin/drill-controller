@@ -5,6 +5,266 @@
 	(uuid "0dee602b-b2b0-4bf5-b516-9a9ab587ad31")
 	(paper "A4")
 	(lib_symbols
+		(symbol "C20917:AO3400A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "C20917:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_AOS_AO3400A_AO3400A_C20917.html"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C20917"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AO3400A_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.29) (xy -0.51 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.29) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.78) (xy 2.54 1.78) (xy 2.54 2.54) (xy 5.08 2.54) (xy 5.08 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.52 -0.51) (xy 1.52 0.51) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.51) (xy 0 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.29) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.78) (xy 0 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0.51) (xy 4.32 -0.76) (xy 5.84 -0.76) (xy 5.08 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.1 0.51) (xy 5.59 0.51) (xy 4.57 0.51) (xy 4.06 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "C529355:STM32G431CBT6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -965,7 +1225,129 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "C20917:AO3400A" (in_bom yes) (on_board yes) (property "Reference" "Q" (id 0) (at 0 10.16 0) (effects (font (size 1.27 1.27) ) ) ) (property "Value" "AO3400A" (id 1) (at 0 -10.16 0) (effects (font (size 1.27 1.27) ) ) ) (property "Footprint" "C20917:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR" (id 2) (at 0 -12.70 0) (effects (font (size 1.27 1.27) ) hide) ) (property "Datasheet" "https://lcsc.com/product-detail/MOSFET_AOS_AO3400A_AO3400A_C20917.html" (id 3) (at 0 -15.24 0) (effects (font (size 1.27 1.27) ) hide) ) (property "LCSC Part" "C20917" (id 5) (at 0 -17.78 0) (effects (font (size 1.27 1.27) ) hide) ) (symbol "AO3400A_0_1" (polyline (pts (xy 0.00 1.78) (xy 2.54 1.78) (xy 2.54 2.54) (xy 5.08 2.54) (xy 5.08 0.51) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 0.00 -0.00) (xy 2.54 -0.00) (xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -0.76) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 2.54 -1.78) (xy 0.00 -1.78) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy -0.51 2.29) (xy -0.51 -2.29) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 0.00 2.29) (xy 0.00 1.27) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 0.00 -0.51) (xy 0.00 0.51) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 0.00 -2.29) (xy 0.00 -1.27) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy -2.54 -0.00) (xy -0.51 -0.00) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 6.10 0.51) (xy 5.59 0.51) (xy 4.57 0.51) (xy 4.06 0.51) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type none)) ) (polyline (pts (xy 0.00 -0.00) (xy 1.52 -0.51) (xy 1.52 0.51) (xy 0.00 -0.00) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type background)) ) (polyline (pts (xy 5.08 0.51) (xy 4.32 -0.76) (xy 5.84 -0.76) (xy 5.08 0.51) ) (stroke (width 0) (type default) (color 0 0 0 0)) (fill (type background)) ) (pin passive line (at 2.54 5.08 270) (length 2.54) (name "D" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))) ) (pin passive line (at -5.08 -0.00 0) (length 2.54) (name "G" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))) ) (pin passive line (at 2.54 -5.08 90) (length 2.54) (name "S" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))) ) ) )
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1111,129 +1493,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1639,11 +1898,61 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Layout: each cap goes at its own U2 supply pin pair (D63 p68 Fig. 16).\nSmallest value closest to the pin. Own GND via at each cap.\nC1 100n: VDD 24 / VSS 23\nC2 100n: VDD 36 / VSS 35\nC3 100n: VDD 48 / VSS 47 (also covers VBAT 1)\nC4 4u7: bulk, next to C3 at VDD 48 / VBAT 1\nC5 10n + C6 1u: VDDA 21 / VSSA 19\nC7 100n + C8 1u: VREF+ 20 / VSSA 19"
+		(exclude_from_sim no)
+		(at 190.5 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "043d1d16-fbc8-4227-abbe-a48e8c185185")
+	)
+	(text "SPI1 pull-downs (#60): hold SCK/MOSI low\nwhile PA5/PA7 float in reset and boot.\nLow = idle level of SPI mode 1 (D60 p11)."
+		(exclude_from_sim no)
+		(at 38.1 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6060a001-3b1e-4c2a-9f10-5c1d00000011")
+	)
+	(text "SPI2 pull-up (#71): holds HEIGHT_CLK high\nwhile PB13 floats in reset and boot.\nHigh = SSI idle level: CLK high at CSn fall\n(D61 p13), SPI2 CPOL=1 (D64 p1837)."
+		(exclude_from_sim no)
+		(at 96.52 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7171a001-3b1e-4c2a-9f10-5c1d00000009")
+	)
+	(text "Layout: R36/R37 next to U2 PA5/PA7,\nbefore SPI1_SCK/MOSI split to J6 and J8.\nSource series termination (#42).\nFit 0R if not needed."
+		(exclude_from_sim no)
+		(at 25.4 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7b4c9e0-5b88-45fb-9034-ead1bef97631")
+	)
 	(junction
 		(at 139.7 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02360a2b-b1dc-4231-89e2-78df2037f14a")
+	)
+	(junction
+		(at 180.34 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b2ae233-1549-47c9-a875-a84dd8dbd91f")
 	)
 	(junction
 		(at 111.76 76.2)
@@ -1697,6 +2006,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 83.82) (xy 185.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1378f6d6-6d7b-44f4-874c-24f260a2d07e")
+	)
+	(wire
+		(pts
 			(xy 111.76 76.2) (xy 111.76 73.66)
 		)
 		(stroke
@@ -1734,6 +2053,26 @@
 			(type default)
 		)
 		(uuid "1b34e249-ce81-425d-92d1-f4ea8ad1d6b1")
+	)
+	(wire
+		(pts
+			(xy 170.18 83.82) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db8e5b4-ff67-4f1b-b4af-9679c3d8606e")
+	)
+	(wire
+		(pts
+			(xy 180.34 99.06) (xy 189.23 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237298dc-afa2-42a1-87e7-b69580ce6f76")
 	)
 	(wire
 		(pts
@@ -1807,6 +2146,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 78.74) (xy 198.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f30044a-38dd-4487-9549-2b0d94025df1")
+	)
+	(wire
+		(pts
 			(xy 114.3 116.84) (xy 88.9 116.84)
 		)
 		(stroke
@@ -1837,6 +2186,46 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 148.59) (xy 50.8 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6060a001-3b1e-4c2a-9f10-5c1d00000007")
+	)
+	(wire
+		(pts
+			(xy 50.8 146.05) (xy 43.18 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6060a001-3b1e-4c2a-9f10-5c1d00000008")
+	)
+	(wire
+		(pts
+			(xy 76.2 148.59) (xy 76.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6060a001-3b1e-4c2a-9f10-5c1d0000000a")
+	)
+	(wire
+		(pts
+			(xy 76.2 146.05) (xy 68.58 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6060a001-3b1e-4c2a-9f10-5c1d0000000b")
+	)
+	(wire
+		(pts
 			(xy 114.3 132.08) (xy 109.22 132.08)
 		)
 		(stroke
@@ -1864,6 +2253,26 @@
 			(type default)
 		)
 		(uuid "693f3a41-33fb-44e4-a661-beaa8abb4638")
+	)
+	(wire
+		(pts
+			(xy 101.6 156.21) (xy 101.6 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7171a001-3b1e-4c2a-9f10-5c1d00000006")
+	)
+	(wire
+		(pts
+			(xy 101.6 158.75) (xy 109.22 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7171a001-3b1e-4c2a-9f10-5c1d00000007")
 	)
 	(wire
 		(pts
@@ -2234,6 +2643,56 @@
 			(type default)
 		)
 		(uuid "fd8d427e-914a-4fb5-a632-11874363f741")
+	)
+	(label "ENABLE_IN"
+		(at 185.42 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f7afa9f-cf37-45b6-839c-f68522e33e6c")
+	)
+	(label "DRV_nSLEEP"
+		(at 198.12 76.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51e005bf-9e6c-414c-970f-d15acb89fcc7")
+	)
+	(label "SPI1_SCK"
+		(at 43.18 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6060a001-3b1e-4c2a-9f10-5c1d00000009")
+	)
+	(label "SPI1_MOSI"
+		(at 68.58 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6060a001-3b1e-4c2a-9f10-5c1d0000000c")
+	)
+	(label "HEIGHT_CLK"
+		(at 109.22 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7171a001-3b1e-4c2a-9f10-5c1d00000008")
 	)
 	(hierarchical_label "UART_TX"
 		(shape output)
@@ -2642,7 +3101,6 @@
 		)
 		(uuid "ff04db94-f0aa-4cb8-8e80-31bacdaf49ad")
 	)
-	(text "Layout: each cap goes at its own U2 supply pin pair (D63 p68 Fig. 16).\nSmallest value closest to the pin. Own GND via at each cap.\nC1 100n: VDD 24 / VSS 23\nC2 100n: VDD 36 / VSS 35\nC3 100n: VDD 48 / VSS 47 (also covers VBAT 1)\nC4 4u7: bulk, next to C3 at VDD 48 / VBAT 1\nC5 10n + C6 1u: VDDA 21 / VSSA 19\nC7 100n + C8 1u: VREF+ 20 / VSSA 19" (exclude_from_sim no) (at 190.5 50.8 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "043d1d16-fbc8-4227-abbe-a48e8c185185"))
 	(symbol
 		(lib_id "Device:C")
 		(at 210.82 60.96 0)
@@ -2708,7 +3166,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C1525" (at 210.82 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C1525"
+			(at 210.82 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb3e2abc-d250-4c05-b19a-34d95322b5cd")
 		)
@@ -2787,7 +3256,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C25744" (at 193.04 99.06 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C25744"
+			(at 193.04 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2fac316c-6181-4a7a-a612-ae2d991d637f")
 		)
@@ -3099,7 +3579,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C15849" (at 261.62 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C15849"
+			(at 261.62 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae4ab77c-13a4-4bf3-9e8d-f74ca11da6ea")
 		)
@@ -3411,7 +3902,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C1779" (at 220.98 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C1779"
+			(at 220.98 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b4ef7210-d279-4b06-bb90-277581c4ad06")
 		)
@@ -3582,6 +4084,423 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 180.34 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "5ff44920-8b65-4fe8-b9cd-969257429101")
+		(property "Reference" "TP8"
+			(at 182.88 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 182.88 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 185.42 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BOOT0 test pad, for the ST system bootloader"
+			(at 180.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4107e24-c071-4151-89ea-a8b6d583f39a")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.8 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6060a001-3b1e-4c2a-9f10-5c1d00000001")
+		(property "Reference" "R38"
+			(at 53.34 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 53.34 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 50.8 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SPI1_SCK pull-down, holds AS5047P CLK low while PA5 floats in reset (#60)"
+			(at 50.8 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 50.8 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6060a001-3b1e-4c2a-9f10-5c1d00000002")
+		)
+		(pin "2"
+			(uuid "6060a001-3b1e-4c2a-9f10-5c1d00000003")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6060a001-3b1e-4c2a-9f10-5c1d00000004")
+		(property "Reference" "R39"
+			(at 78.74 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 78.74 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 76.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SPI1_MOSI pull-down, holds AS5047P MOSI low while PA7 floats in reset (#60)"
+			(at 76.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 76.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6060a001-3b1e-4c2a-9f10-5c1d00000005")
+		)
+		(pin "2"
+			(uuid "6060a001-3b1e-4c2a-9f10-5c1d00000006")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6060a001-3b1e-4c2a-9f10-5c1d0000000d")
+		(property "Reference" "#PWR145"
+			(at 50.8 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6060a001-3b1e-4c2a-9f10-5c1d0000000e")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
+					(reference "#PWR145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6060a001-3b1e-4c2a-9f10-5c1d0000000f")
+		(property "Reference" "#PWR146"
+			(at 76.2 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6060a001-3b1e-4c2a-9f10-5c1d00000010")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
+					(reference "#PWR146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 64.77 0)
 		(unit 1)
@@ -3653,6 +4572,101 @@
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
 					(reference "#PWR16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C20917:AO3400A")
+		(at 195.58 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65576532-c272-4fab-a276-a70ebf9fa9b3")
+		(property "Reference" "Q4"
+			(at 200.66 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 200.66 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "C20917:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_AOS_AO3400A_AO3400A_C20917.html"
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pulls DRV_nSLEEP low when ENABLE_IN is high (stop)"
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C20917"
+			(at 195.58 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7758004c-acbc-4bf9-8c7b-7e42a522a700")
+		)
+		(pin "1"
+			(uuid "aa360922-8f40-4922-bba8-00c8430de3bc")
+		)
+		(pin "2"
+			(uuid "9128bb40-79a2-43aa-aa14-47fb18be4276")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -3736,6 +4750,175 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 101.6 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7171a001-3b1e-4c2a-9f10-5c1d00000001")
+		(property "Reference" "R40"
+			(at 104.14 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 104.14 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "HEIGHT_CLK pull-up, holds AS5311 CLK high while PB13 floats in reset (#71)"
+			(at 101.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 101.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7171a001-3b1e-4c2a-9f10-5c1d00000002")
+		)
+		(pin "2"
+			(uuid "7171a001-3b1e-4c2a-9f10-5c1d00000003")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 101.6 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7171a001-3b1e-4c2a-9f10-5c1d00000004")
+		(property "Reference" "#PWR148"
+			(at 101.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 101.6 145.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 101.6 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7171a001-3b1e-4c2a-9f10-5c1d00000005")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
+					(reference "#PWR148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 200.66 60.96 0)
 		(unit 1)
@@ -3800,7 +4983,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C1525" (at 200.66 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C1525"
+			(at 200.66 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ea736335-d3be-4668-9adf-850eaa8e027f")
 		)
@@ -3881,7 +5075,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C1525" (at 251.46 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C1525"
+			(at 251.46 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "38fba8c9-34cd-46f7-b843-3976b200b98b")
 		)
@@ -4129,6 +5334,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 85.09 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e6e6841-81e5-4320-bfd3-58ee1212b40c")
+		(property "Reference" "R36"
+			(at 85.09 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 85.09 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 85.09 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SPI1_SCK source series resistor (#42)"
+			(at 85.09 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25105"
+			(at 85.09 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3762f7f-6e5c-471f-99e5-ac0e1e75acf8")
+		)
+		(pin "2"
+			(uuid "29457801-d064-466a-b3aa-defc4b7b2684")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 190.5 60.96 0)
 		(unit 1)
@@ -4193,7 +5488,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C1525" (at 190.5 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C1525"
+			(at 190.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "98831b0a-bc12-4a7d-9151-a4f94ca2742d")
 		)
@@ -4274,7 +5580,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C15849" (at 241.3 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C15849"
+			(at 241.3 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9afc381f-128c-4d0c-a734-374dfac1e93b")
 		)
@@ -4522,6 +5839,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 166.37 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b894e14f-76fd-4c04-8390-170005515734")
+		(property "Reference" "R28"
+			(at 166.37 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k 1%"
+			(at 166.37 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 166.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20c3edf8-1914-497e-b874-e7e41d5fe319")
+		)
+		(pin "2"
+			(uuid "f67a0ec0-6cec-42ce-8473-33b12b71c813")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 241.3 64.77 0)
 		(unit 1)
@@ -4676,6 +6083,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 198.12 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8786a32-b428-4931-bfcc-36d0ce1a61f9")
+		(property "Reference" "#PWR120"
+			(at 198.12 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75e070d3-4039-424e-bc25-3ea8b2d9de39")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
+					(reference "#PWR120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 231.14 60.96 0)
 		(unit 1)
@@ -4740,7 +6224,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C15195" (at 231.14 60.96 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C15195"
+			(at 231.14 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "473b0fc0-e5e3-4599-8659-38354b913263")
 		)
@@ -4898,7 +6393,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C1525" (at 111.76 54.61 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		)
+		(property "LCSC Part" "C1525"
+			(at 111.76 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "28790392-0084-4b39-b371-da4fcf81d39e")
 		)
@@ -4909,6 +6415,96 @@
 			(project "drill-controller"
 				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc0e62a8-5a38-49cb-9537-743b5d7f7e2b")
+		(property "Reference" "R37"
+			(at 85.09 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 85.09 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 85.09 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SPI1_MOSI source series resistor (#42)"
+			(at 85.09 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25105"
+			(at 85.09 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd230903-7afc-41be-aaa0-d2baca2e19c7")
+		)
+		(pin "2"
+			(uuid "cd1e3ae5-3567-43ea-b6e4-977a4b91f1a9")
+		)
+		(instances
+			(project "drill-controller"
+				(path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -5299,35 +6895,4 @@
 			)
 		)
 	)
-	(symbol (lib_id "Device:R") (at 166.37 83.82 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "b894e14f-76fd-4c04-8390-170005515734") (property "Reference" "R28" (at 166.37 81.28 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "1k 1%" (at 166.37 86.36 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Resistor" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C11702" (at 166.37 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "20c3edf8-1914-497e-b874-e7e41d5fe319")) (pin "2" (uuid "f67a0ec0-6cec-42ce-8473-33b12b71c813")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "R28") (unit 1)))))
-	(wire (pts (xy 170.18 83.82) (xy 175.26 83.82)) (stroke (width 0) (type default)) (uuid "1db8e5b4-ff67-4f1b-b4af-9679c3d8606e"))
-	(symbol (lib_id "Device:R") (at 85.09 111.76 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "8e6e6841-81e5-4320-bfd3-58ee1212b40c") (property "Reference" "R36" (at 85.09 109.22 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "33" (at 85.09 114.3 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 85.09 111.76 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 85.09 111.76 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "SPI1_SCK source series resistor (#42)" (at 85.09 111.76 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C25105" (at 85.09 111.76 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "a3762f7f-6e5c-471f-99e5-ac0e1e75acf8")) (pin "2" (uuid "29457801-d064-466a-b3aa-defc4b7b2684")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "R36") (unit 1)))))
-	(symbol (lib_id "Device:R") (at 85.09 116.84 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "dc0e62a8-5a38-49cb-9537-743b5d7f7e2b") (property "Reference" "R37" (at 85.09 119.38 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "33" (at 85.09 121.92 90) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 85.09 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 85.09 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "SPI1_MOSI source series resistor (#42)" (at 85.09 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C25105" (at 85.09 116.84 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "fd230903-7afc-41be-aaa0-d2baca2e19c7")) (pin "2" (uuid "cd1e3ae5-3567-43ea-b6e4-977a4b91f1a9")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "R37") (unit 1)))))
-	(text "Layout: R36/R37 next to U2 PA5/PA7,\nbefore SPI1_SCK/MOSI split to J6 and J8.\nSource series termination (#42).\nFit 0R if not needed." (exclude_from_sim no) (at 25.4 127 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "f7b4c9e0-5b88-45fb-9034-ead1bef97631"))
-	(symbol (lib_id "C20917:AO3400A") (at 195.58 83.82 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "65576532-c272-4fab-a276-a70ebf9fa9b3") (property "Reference" "Q4" (at 200.66 82.55 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "AO3400A" (at 200.66 85.09 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "C20917:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR" (at 195.58 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "https://lcsc.com/product-detail/MOSFET_AOS_AO3400A_AO3400A_C20917.html" (at 195.58 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Pulls DRV_nSLEEP low when ENABLE_IN is high (stop)" (at 195.58 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C20917" (at 195.58 83.82 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "3" (uuid "7758004c-acbc-4bf9-8c7b-7e42a522a700")) (pin "1" (uuid "aa360922-8f40-4922-bba8-00c8430de3bc")) (pin "2" (uuid "9128bb40-79a2-43aa-aa14-47fb18be4276")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "Q4") (unit 1)))))
-	(wire (pts (xy 190.5 83.82) (xy 185.42 83.82)) (stroke (width 0) (type default)) (uuid "1378f6d6-6d7b-44f4-874c-24f260a2d07e"))
-	(label "ENABLE_IN" (at 185.42 83.82 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "3f7afa9f-cf37-45b6-839c-f68522e33e6c"))
-	(wire (pts (xy 198.12 78.74) (xy 198.12 76.2)) (stroke (width 0) (type default)) (uuid "4f30044a-38dd-4487-9549-2b0d94025df1"))
-	(label "DRV_nSLEEP" (at 198.12 76.2 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left)) (uuid "51e005bf-9e6c-414c-970f-d15acb89fcc7"))
-	(symbol (lib_id "power:GND") (at 198.12 88.9 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "c8786a32-b428-4931-bfcc-36d0ce1a61f9") (property "Reference" "#PWR120" (at 198.12 95.25 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 198.12 93.98 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 198.12 88.9 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 198.12 88.9 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 198.12 88.9 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "75e070d3-4039-424e-bc25-3ea8b2d9de39")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "#PWR120") (unit 1)))))
-	(wire (pts (xy 180.34 99.06) (xy 189.23 99.06)) (stroke (width 0) (type default)) (uuid "237298dc-afa2-42a1-87e7-b69580ce6f76"))
-	(junction (at 180.34 99.06) (diameter 0) (color 0 0 0 0) (uuid "1b2ae233-1549-47c9-a875-a84dd8dbd91f"))
-	(symbol (lib_id "Connector:TestPoint") (at 180.34 99.06 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board yes) (in_pos_files no) (dnp no) (uuid "5ff44920-8b65-4fe8-b9cd-969257429101") (property "Reference" "TP8" (at 182.88 95.25 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "TestPoint" (at 182.88 97.79 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" (at 185.42 99.06 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 185.42 99.06 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "BOOT0 test pad, for the ST system bootloader" (at 180.34 99.06 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b4107e24-c071-4151-89ea-a8b6d583f39a")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "TP8") (unit 1)))))
-	(symbol (lib_id "Device:R") (at 50.8 152.4 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "6060a001-3b1e-4c2a-9f10-5c1d00000001") (property "Reference" "R38" (at 53.34 151.13 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "100k" (at 53.34 153.67 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 50.8 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 50.8 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "SPI1_SCK pull-down, holds AS5047P CLK low while PA5 floats in reset (#60)" (at 50.8 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C25741" (at 50.8 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6060a001-3b1e-4c2a-9f10-5c1d00000002")) (pin "2" (uuid "6060a001-3b1e-4c2a-9f10-5c1d00000003")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "R38") (unit 1)))))
-	(symbol (lib_id "Device:R") (at 76.2 152.4 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "6060a001-3b1e-4c2a-9f10-5c1d00000004") (property "Reference" "R39" (at 78.74 151.13 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "100k" (at 78.74 153.67 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 76.2 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 76.2 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "SPI1_MOSI pull-down, holds AS5047P MOSI low while PA7 floats in reset (#60)" (at 76.2 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C25741" (at 76.2 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6060a001-3b1e-4c2a-9f10-5c1d00000005")) (pin "2" (uuid "6060a001-3b1e-4c2a-9f10-5c1d00000006")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "R39") (unit 1)))))
-	(wire (pts (xy 50.8 148.59) (xy 50.8 146.05)) (stroke (width 0) (type default)) (uuid "6060a001-3b1e-4c2a-9f10-5c1d00000007"))
-	(wire (pts (xy 50.8 146.05) (xy 43.18 146.05)) (stroke (width 0) (type default)) (uuid "6060a001-3b1e-4c2a-9f10-5c1d00000008"))
-	(label "SPI1_SCK" (at 43.18 146.05 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "6060a001-3b1e-4c2a-9f10-5c1d00000009"))
-	(wire (pts (xy 76.2 148.59) (xy 76.2 146.05)) (stroke (width 0) (type default)) (uuid "6060a001-3b1e-4c2a-9f10-5c1d0000000a"))
-	(wire (pts (xy 76.2 146.05) (xy 68.58 146.05)) (stroke (width 0) (type default)) (uuid "6060a001-3b1e-4c2a-9f10-5c1d0000000b"))
-	(label "SPI1_MOSI" (at 68.58 146.05 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right)) (uuid "6060a001-3b1e-4c2a-9f10-5c1d0000000c"))
-	(symbol (lib_id "power:GND") (at 50.8 156.21 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "6060a001-3b1e-4c2a-9f10-5c1d0000000d") (property "Reference" "#PWR145" (at 50.8 162.56 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 50.8 161.29 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 50.8 156.21 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 50.8 156.21 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 50.8 156.21 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6060a001-3b1e-4c2a-9f10-5c1d0000000e")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "#PWR145") (unit 1)))))
-	(symbol (lib_id "power:GND") (at 76.2 156.21 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "6060a001-3b1e-4c2a-9f10-5c1d0000000f") (property "Reference" "#PWR146" (at 76.2 162.56 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "GND" (at 76.2 161.29 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 76.2 156.21 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 76.2 156.21 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "" (at 76.2 156.21 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "6060a001-3b1e-4c2a-9f10-5c1d00000010")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "#PWR146") (unit 1)))))
-	(text "SPI1 pull-downs (#60): hold SCK/MOSI low\nwhile PA5/PA7 float in reset and boot.\nLow = idle level of SPI mode 1 (D60 p11)." (exclude_from_sim no) (at 38.1 165.1 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "6060a001-3b1e-4c2a-9f10-5c1d00000011"))
-	(symbol (lib_id "Device:R") (at 101.6 152.4 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "7171a001-3b1e-4c2a-9f10-5c1d00000001") (property "Reference" "R40" (at 104.14 151.13 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "100k" (at 104.14 153.67 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 101.6 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 101.6 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "HEIGHT_CLK pull-up, holds AS5311 CLK high while PB13 floats in reset (#71)" (at 101.6 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "LCSC Part" "C25741" (at 101.6 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "7171a001-3b1e-4c2a-9f10-5c1d00000002")) (pin "2" (uuid "7171a001-3b1e-4c2a-9f10-5c1d00000003")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "R40") (unit 1)))))
-	(symbol (lib_id "power:+3V3") (at 101.6 148.59 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "7171a001-3b1e-4c2a-9f10-5c1d00000004") (property "Reference" "#PWR148" (at 101.6 152.4 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Value" "+3V3" (at 101.6 145.034 0) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 101.6 148.59 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 101.6 148.59 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (property "Description" "Power symbol creates a global label with name \"+3V3\"" (at 101.6 148.59 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "7171a001-3b1e-4c2a-9f10-5c1d00000005")) (instances (project "drill-controller" (path "/55a4395b-a2e2-4af8-a759-341f3670125d/9922c6c6-8b76-4c69-9e15-8a10620b3f89/cc8cd583-fe71-4564-b93f-82ccd6262f31" (reference "#PWR148") (unit 1)))))
-	(wire (pts (xy 101.6 156.21) (xy 101.6 158.75)) (stroke (width 0) (type default)) (uuid "7171a001-3b1e-4c2a-9f10-5c1d00000006"))
-	(wire (pts (xy 101.6 158.75) (xy 109.22 158.75)) (stroke (width 0) (type default)) (uuid "7171a001-3b1e-4c2a-9f10-5c1d00000007"))
-	(label "HEIGHT_CLK" (at 109.22 158.75 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left)) (uuid "7171a001-3b1e-4c2a-9f10-5c1d00000008"))
-	(text "SPI2 pull-up (#71): holds HEIGHT_CLK high\nwhile PB13 floats in reset and boot.\nHigh = SSI idle level: CLK high at CSn fall\n(D61 p13), SPI2 CPOL=1 (D64 p1837)." (exclude_from_sim no) (at 96.52 165.1 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "7171a001-3b1e-4c2a-9f10-5c1d00000009"))
 )
