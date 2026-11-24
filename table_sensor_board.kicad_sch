@@ -2008,7 +2008,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "4u7 25V"
 			(at 191.77 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2019,7 +2019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 189.23 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2051,7 +2051,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		) (property "LCSC Part" "C23630" (at 189.23 110.49 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
+		) (property "LCSC Part" "C1779" (at 189.23 110.49 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))
 		(pin "1"
 			(uuid "e4b60fc6-d01e-4bb4-abb2-6c6fe79dce20")
 		)
